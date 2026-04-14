@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "scrapedAt": "2026-04-14T05:49:57Z",
+  "scrapedAt": "2026-04-14T08:03:13Z",
   "files": {
     "items.json": {
-      "hash": "sha256:80ee3f593f73c6881a7a87b5d752351cfc91356d2df99ff3d602deb3a99ec69a",
+      "hash": "sha256:419650cd61a13bfbaa49a86edf9f425a95c220ba5855c317630d1840d01d49d1",
       "entries": 15387
     },
     "monsters.json": {
