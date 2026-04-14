@@ -1,0 +1,2530 @@
+{
+  "Fire Blast": {
+    "name": "Fire Blast",
+    "spellbook": "Standard",
+    "level": 59,
+    "experience": 34.5,
+    "type": "Combat",
+    "runes": {
+      "Air rune": 4,
+      "Fire rune": 5,
+      "Death rune": 1
+    },
+    "members": false
+  },
+  "Fire Bolt": {
+    "name": "Fire Bolt",
+    "spellbook": "Standard",
+    "level": 35,
+    "experience": 22.5,
+    "type": "Combat",
+    "runes": {
+      "Air rune": 3,
+      "Fire rune": 4,
+      "Chaos rune": 1
+    },
+    "members": false
+  },
+  "Fire Wave": {
+    "name": "Fire Wave",
+    "spellbook": "Standard",
+    "level": 75,
+    "experience": 42.5,
+    "type": "Combat",
+    "runes": {
+      "Air rune": 5,
+      "Fire rune": 7,
+      "Blood rune": 1
+    },
+    "members": false
+  },
+  "Ice Barrage": {
+    "name": "Ice Barrage",
+    "spellbook": "Ancient",
+    "level": 94,
+    "experience": 52.0,
+    "type": "Combat",
+    "runes": {
+      "Water rune": 6,
+      "Blood rune": 2,
+      "Death rune": 4
+    },
+    "members": false
+  },
+  "Ice Blitz": {
+    "name": "Ice Blitz",
+    "spellbook": "Ancient",
+    "level": 82,
+    "experience": 46.0,
+    "type": "Combat",
+    "runes": {
+      "Water rune": 3,
+      "Blood rune": 2,
+      "Death rune": 2
+    },
+    "members": false
+  },
+  "Ice Burst": {
+    "name": "Ice Burst",
+    "spellbook": "Ancient",
+    "level": 70,
+    "experience": 40.0,
+    "type": "Combat",
+    "runes": {
+      "Water rune": 4,
+      "Chaos rune": 4,
+      "Death rune": 2
+    },
+    "members": false
+  },
+  "Ice Rush": {
+    "name": "Ice Rush",
+    "spellbook": "Ancient",
+    "level": 58,
+    "experience": 34.0,
+    "type": "Combat",
+    "runes": {
+      "Water rune": 2,
+      "Chaos rune": 2,
+      "Death rune": 2
+    },
+    "members": false
+  },
+  "High Level Alchemy": {
+    "name": "High Level Alchemy",
+    "spellbook": "Standard",
+    "level": 55,
+    "experience": 65.0,
+    "type": "Utility",
+    "runes": {
+      "Fire rune": 5,
+      "Nature rune": 1
+    },
+    "members": false
+  },
+  "Low Level Alchemy": {
+    "name": "Low Level Alchemy",
+    "spellbook": "Standard",
+    "level": 21,
+    "experience": 31.0,
+    "type": "Utility",
+    "runes": {
+      "Fire rune": 3,
+      "Nature rune": 1
+    },
+    "members": false
+  },
+  "Superheat Item": {
+    "name": "Superheat Item",
+    "spellbook": "Standard",
+    "level": 43,
+    "experience": 53.0,
+    "type": "Utility",
+    "runes": {
+      "Fire rune": 4,
+      "Nature rune": 1
+    },
+    "members": false
+  },
+  "Iban Blast": {
+    "name": "Iban Blast",
+    "spellbook": "Standard",
+    "level": 50,
+    "experience": 30.0,
+    "type": "Combat",
+    "runes": {
+      "Fire rune": 5,
+      "Death rune": 1
+    },
+    "members": false
+  },
+  "Bones to Bananas": {
+    "name": "Bones to Bananas",
+    "spellbook": "Standard",
+    "level": 15,
+    "experience": 25.0,
+    "type": "Utility",
+    "runes": {
+      "Earth rune": 2,
+      "Water rune": 2,
+      "Nature rune": 1
+    },
+    "members": false
+  },
+  "Earth Wave": {
+    "name": "Earth Wave",
+    "spellbook": "Standard",
+    "level": 70,
+    "experience": 40.0,
+    "type": "Combat",
+    "runes": {
+      "Air rune": 5,
+      "Earth rune": 7,
+      "Blood rune": 1
+    },
+    "members": false
+  },
+  "Confuse": {
+    "name": "Confuse",
+    "spellbook": "Standard",
+    "level": 3,
+    "experience": 13.0,
+    "type": "Combat",
+    "runes": {
+      "Earth rune": 2,
+      "Water rune": 3,
+      "Body rune": 1
+    },
+    "members": false
+  },
+  "Crumble Undead": {
+    "name": "Crumble Undead",
+    "spellbook": "Standard",
+    "level": 39,
+    "experience": 24.5,
+    "type": "Combat",
+    "runes": {
+      "Air rune": 2,
+      "Earth rune": 2,
+      "Chaos rune": 1
+    },
+    "members": false
+  },
+  "Saradomin Strike": {
+    "name": "Saradomin Strike",
+    "spellbook": "Standard",
+    "level": 60,
+    "experience": 35.0,
+    "type": "Combat",
+    "runes": {
+      "Air rune": 4,
+      "Fire rune": 2,
+      "Blood rune": 2
+    },
+    "members": false
+  },
+  "Telekinetic Grab": {
+    "name": "Telekinetic Grab",
+    "spellbook": "Standard",
+    "level": 33,
+    "experience": 43.0,
+    "type": "Utility",
+    "runes": {
+      "Air rune": 1,
+      "Law rune": 1
+    },
+    "members": false
+  },
+  "Paddewwa Teleport": {
+    "name": "Paddewwa Teleport",
+    "spellbook": "Ancient",
+    "level": 54,
+    "experience": 64.0,
+    "type": "Teleport",
+    "runes": {
+      "Air rune": 1,
+      "Fire rune": 1,
+      "Law rune": 2
+    },
+    "members": false
+  },
+  "Earth Bolt": {
+    "name": "Earth Bolt",
+    "spellbook": "Standard",
+    "level": 29,
+    "experience": 19.5,
+    "type": "Combat",
+    "runes": {
+      "Air rune": 2,
+      "Earth rune": 3,
+      "Chaos rune": 1
+    },
+    "members": false
+  },
+  "Earth Strike": {
+    "name": "Earth Strike",
+    "spellbook": "Standard",
+    "level": 9,
+    "experience": 9.5,
+    "type": "Combat",
+    "runes": {
+      "Air rune": 1,
+      "Earth rune": 2,
+      "Mind rune": 1
+    },
+    "members": false
+  },
+  "Fire Strike": {
+    "name": "Fire Strike",
+    "spellbook": "Standard",
+    "level": 13,
+    "experience": 11.5,
+    "type": "Combat",
+    "runes": {
+      "Air rune": 2,
+      "Fire rune": 3,
+      "Mind rune": 1
+    },
+    "members": false
+  },
+  "Lvl-4 Enchant": {
+    "name": "Lvl-4 Enchant",
+    "spellbook": "Standard",
+    "level": 57,
+    "experience": 67.0,
+    "type": "Utility",
+    "runes": {
+      "Earth rune": 10,
+      "Cosmic rune": 1
+    },
+    "members": false
+  },
+  "Flames of Zamorak": {
+    "name": "Flames of Zamorak",
+    "spellbook": "Standard",
+    "level": 60,
+    "experience": 35.0,
+    "type": "Combat",
+    "runes": {
+      "Air rune": 1,
+      "Fire rune": 4,
+      "Blood rune": 2
+    },
+    "members": false
+  },
+  "Trollheim Teleport": {
+    "name": "Trollheim Teleport",
+    "spellbook": "Standard",
+    "level": 61,
+    "experience": 68.0,
+    "type": "Teleport",
+    "runes": {
+      "Fire rune": 2,
+      "Law rune": 2
+    },
+    "members": false
+  },
+  "Lvl-6 Enchant": {
+    "name": "Lvl-6 Enchant",
+    "spellbook": "Standard",
+    "level": 87,
+    "experience": 97.0,
+    "type": "Utility",
+    "runes": {
+      "Earth rune": 20,
+      "Fire rune": 20,
+      "Cosmic rune": 1
+    },
+    "members": false
+  },
+  "Water Blast": {
+    "name": "Water Blast",
+    "spellbook": "Standard",
+    "level": 47,
+    "experience": 28.5,
+    "type": "Combat",
+    "runes": {
+      "Air rune": 3,
+      "Water rune": 3,
+      "Death rune": 1
+    },
+    "members": false
+  },
+  "Tele Block": {
+    "name": "Tele Block",
+    "spellbook": "Standard",
+    "level": 85,
+    "experience": 83.6,
+    "type": "Combat",
+    "runes": {
+      "Chaos rune": 1,
+      "Death rune": 1,
+      "Law rune": 1
+    },
+    "members": false
+  },
+  "Smoke Rush": {
+    "name": "Smoke Rush",
+    "spellbook": "Ancient",
+    "level": 50,
+    "experience": 30.0,
+    "type": "Combat",
+    "runes": {
+      "Air rune": 1,
+      "Fire rune": 1,
+      "Chaos rune": 2,
+      "Death rune": 2
+    },
+    "members": false
+  },
+  "Shadow Rush": {
+    "name": "Shadow Rush",
+    "spellbook": "Ancient",
+    "level": 52,
+    "experience": 31.0,
+    "type": "Combat",
+    "runes": {
+      "Air rune": 1,
+      "Chaos rune": 2,
+      "Death rune": 2,
+      "Soul rune": 1
+    },
+    "members": false
+  },
+  "Wind Strike": {
+    "name": "Wind Strike",
+    "spellbook": "Standard",
+    "level": 1,
+    "experience": 5.5,
+    "type": "Combat",
+    "runes": {
+      "Air rune": 1,
+      "Mind rune": 1
+    },
+    "members": false
+  },
+  "Claws of Guthix": {
+    "name": "Claws of Guthix",
+    "spellbook": "Standard",
+    "level": 60,
+    "experience": 35.0,
+    "type": "Combat",
+    "runes": {
+      "Air rune": 4,
+      "Fire rune": 1,
+      "Blood rune": 2
+    },
+    "members": false
+  },
+  "Bones to Peaches": {
+    "name": "Bones to Peaches",
+    "spellbook": "Standard",
+    "level": 60,
+    "experience": 35.5,
+    "type": "Utility",
+    "runes": {
+      "Earth rune": 4,
+      "Water rune": 4,
+      "Nature rune": 2
+    },
+    "members": false
+  },
+  "Lvl-3 Enchant": {
+    "name": "Lvl-3 Enchant",
+    "spellbook": "Standard",
+    "level": 49,
+    "experience": 59.0,
+    "type": "Utility",
+    "runes": {
+      "Fire rune": 5,
+      "Cosmic rune": 1
+    },
+    "members": false
+  },
+  "Water Bolt": {
+    "name": "Water Bolt",
+    "spellbook": "Standard",
+    "level": 23,
+    "experience": 16.5,
+    "type": "Combat",
+    "runes": {
+      "Air rune": 2,
+      "Water rune": 2,
+      "Chaos rune": 1
+    },
+    "members": false
+  },
+  "Water Wave": {
+    "name": "Water Wave",
+    "spellbook": "Standard",
+    "level": 65,
+    "experience": 37.5,
+    "type": "Combat",
+    "runes": {
+      "Air rune": 5,
+      "Water rune": 7,
+      "Blood rune": 1
+    },
+    "members": false
+  },
+  "Wind Bolt": {
+    "name": "Wind Bolt",
+    "spellbook": "Standard",
+    "level": 17,
+    "experience": 13.5,
+    "type": "Combat",
+    "runes": {
+      "Air rune": 2,
+      "Chaos rune": 1
+    },
+    "members": false
+  },
+  "Water Strike": {
+    "name": "Water Strike",
+    "spellbook": "Standard",
+    "level": 5,
+    "experience": 7.5,
+    "type": "Combat",
+    "runes": {
+      "Air rune": 1,
+      "Water rune": 1,
+      "Mind rune": 1
+    },
+    "members": false
+  },
+  "Lumbridge Teleport": {
+    "name": "Lumbridge Teleport",
+    "spellbook": "Standard",
+    "level": 31,
+    "experience": 41.0,
+    "type": "Teleport",
+    "runes": {
+      "Air rune": 3,
+      "Earth rune": 1,
+      "Law rune": 1
+    },
+    "members": false
+  },
+  "Falador Teleport": {
+    "name": "Falador Teleport",
+    "spellbook": "Standard",
+    "level": 37,
+    "experience": 48.0,
+    "type": "Teleport",
+    "runes": {
+      "Air rune": 3,
+      "Water rune": 1,
+      "Law rune": 1
+    },
+    "members": false
+  },
+  "Charge Air Orb": {
+    "name": "Charge Air Orb",
+    "spellbook": "Standard",
+    "level": 66,
+    "experience": 76.0,
+    "type": "Utility",
+    "runes": {
+      "Air rune": 30,
+      "Cosmic rune": 3,
+      "Unpowered orb": 1
+    },
+    "members": false
+  },
+  "RuneScape:Templates": {
+    "name": "RuneScape:Templates",
+    "spellbook": "Standard",
+    "level": 1,
+    "experience": 0.0,
+    "type": "",
+    "runes": {},
+    "members": false
+  },
+  "Varrock Teleport": {
+    "name": "Varrock Teleport",
+    "spellbook": "Standard",
+    "level": 25,
+    "experience": 35.0,
+    "type": "Teleport",
+    "runes": {
+      "Air rune": 3,
+      "Fire rune": 1,
+      "Law rune": 1
+    },
+    "members": false
+  },
+  "Wind Blast": {
+    "name": "Wind Blast",
+    "spellbook": "Standard",
+    "level": 41,
+    "experience": 25.5,
+    "type": "Combat",
+    "runes": {
+      "Air rune": 3,
+      "Death rune": 1
+    },
+    "members": false
+  },
+  "Earth Blast": {
+    "name": "Earth Blast",
+    "spellbook": "Standard",
+    "level": 53,
+    "experience": 31.5,
+    "type": "Combat",
+    "runes": {
+      "Air rune": 3,
+      "Earth rune": 4,
+      "Death rune": 1
+    },
+    "members": false
+  },
+  "Wind Wave": {
+    "name": "Wind Wave",
+    "spellbook": "Standard",
+    "level": 62,
+    "experience": 36.0,
+    "type": "Combat",
+    "runes": {
+      "Air rune": 5,
+      "Blood rune": 1
+    },
+    "members": false
+  },
+  "Magic Dart": {
+    "name": "Magic Dart",
+    "spellbook": "Standard",
+    "level": 50,
+    "experience": 30.0,
+    "type": "Combat",
+    "runes": {
+      "Death rune": 1,
+      "Mind rune": 4
+    },
+    "members": false
+  },
+  "Charge": {
+    "name": "Charge",
+    "spellbook": "Standard",
+    "level": 80,
+    "experience": 180.0,
+    "type": "Combat",
+    "runes": {
+      "Air rune": 3,
+      "Fire rune": 3,
+      "Blood rune": 3
+    },
+    "members": false
+  },
+  "Teleport to House": {
+    "name": "Teleport to House",
+    "spellbook": "Standard",
+    "level": 40,
+    "experience": 30.0,
+    "type": "Teleport",
+    "runes": {
+      "Air rune": 1,
+      "Earth rune": 1,
+      "Law rune": 1
+    },
+    "members": false
+  },
+  "NPC Contact": {
+    "name": "NPC Contact",
+    "spellbook": "Lunar",
+    "level": 67,
+    "experience": 63.0,
+    "type": "Utility",
+    "runes": {
+      "Air rune": 2,
+      "Astral rune": 1,
+      "Cosmic rune": 1
+    },
+    "members": false
+  },
+  "Barbarian Teleport": {
+    "name": "Barbarian Teleport",
+    "spellbook": "Lunar",
+    "level": 75,
+    "experience": 76.0,
+    "type": "Teleport",
+    "runes": {
+      "Fire rune": 3,
+      "Astral rune": 2,
+      "Law rune": 2
+    },
+    "members": false
+  },
+  "Lumbridge Home Teleport": {
+    "name": "Lumbridge Home Teleport",
+    "spellbook": "Standard",
+    "level": 0,
+    "experience": 0.0,
+    "type": "Teleport",
+    "runes": {},
+    "members": false
+  },
+  "Camelot Teleport": {
+    "name": "Camelot Teleport",
+    "spellbook": "Standard",
+    "level": 45,
+    "experience": 55.5,
+    "type": "Teleport",
+    "runes": {
+      "Air rune": 5,
+      "Law rune": 1
+    },
+    "members": false
+  },
+  "Ardougne Teleport": {
+    "name": "Ardougne Teleport",
+    "spellbook": "Standard",
+    "level": 51,
+    "experience": 61.0,
+    "type": "Teleport",
+    "runes": {
+      "Water rune": 2,
+      "Law rune": 2
+    },
+    "members": false
+  },
+  "Watchtower Teleport": {
+    "name": "Watchtower Teleport",
+    "spellbook": "Standard",
+    "level": 58,
+    "experience": 68.0,
+    "type": "Teleport",
+    "runes": {
+      "Earth rune": 2,
+      "Law rune": 2
+    },
+    "members": false
+  },
+  "Ape Atoll Teleport (standard)": {
+    "name": "Ape Atoll Teleport (standard)",
+    "spellbook": "Standard",
+    "level": 64,
+    "experience": 74.0,
+    "type": "Teleport",
+    "runes": {
+      "Fire rune": 2,
+      "Water rune": 2,
+      "Law rune": 2,
+      "Banana": 1
+    },
+    "members": false
+  },
+  "Enchant Crossbow Bolt (Red Topaz)": {
+    "name": "Enchant Crossbow Bolt (Red Topaz)",
+    "spellbook": "Standard",
+    "level": 29,
+    "experience": 33.5,
+    "type": "Utility",
+    "runes": {
+      "Fire rune": 2,
+      "Cosmic rune": 1
+    },
+    "members": false
+  },
+  "Lvl-1 Enchant": {
+    "name": "Lvl-1 Enchant",
+    "spellbook": "Standard",
+    "level": 7,
+    "experience": 17.5,
+    "type": "Utility",
+    "runes": {
+      "Water rune": 1,
+      "Cosmic rune": 1
+    },
+    "members": false
+  },
+  "Blood Barrage": {
+    "name": "Blood Barrage",
+    "spellbook": "Ancient",
+    "level": 92,
+    "experience": 51.0,
+    "type": "Combat",
+    "runes": {
+      "Blood rune": 4,
+      "Death rune": 4,
+      "Soul rune": 1
+    },
+    "members": false
+  },
+  "Lvl-2 Enchant": {
+    "name": "Lvl-2 Enchant",
+    "spellbook": "Standard",
+    "level": 27,
+    "experience": 37.0,
+    "type": "Utility",
+    "runes": {
+      "Air rune": 3,
+      "Cosmic rune": 1
+    },
+    "members": false
+  },
+  "Weaken": {
+    "name": "Weaken",
+    "spellbook": "Standard",
+    "level": 11,
+    "experience": 21.0,
+    "type": "Combat",
+    "runes": {
+      "Earth rune": 2,
+      "Water rune": 3,
+      "Body rune": 1
+    },
+    "members": false
+  },
+  "Curse": {
+    "name": "Curse",
+    "spellbook": "Standard",
+    "level": 19,
+    "experience": 29.0,
+    "type": "Combat",
+    "runes": {
+      "Earth rune": 3,
+      "Water rune": 2,
+      "Body rune": 1
+    },
+    "members": false
+  },
+  "Bind": {
+    "name": "Bind",
+    "spellbook": "Standard",
+    "level": 20,
+    "experience": 31.0,
+    "type": "Combat",
+    "runes": {
+      "Earth rune": 3,
+      "Water rune": 3,
+      "Nature rune": 2
+    },
+    "members": false
+  },
+  "Snare": {
+    "name": "Snare",
+    "spellbook": "Standard",
+    "level": 50,
+    "experience": 61.0,
+    "type": "Combat",
+    "runes": {
+      "Earth rune": 4,
+      "Water rune": 4,
+      "Nature rune": 3
+    },
+    "members": false
+  },
+  "Vulnerability": {
+    "name": "Vulnerability",
+    "spellbook": "Standard",
+    "level": 66,
+    "experience": 76.0,
+    "type": "Combat",
+    "runes": {
+      "Earth rune": 5,
+      "Water rune": 5,
+      "Soul rune": 1
+    },
+    "members": false
+  },
+  "Enfeeble": {
+    "name": "Enfeeble",
+    "spellbook": "Standard",
+    "level": 73,
+    "experience": 83.0,
+    "type": "Combat",
+    "runes": {
+      "Earth rune": 8,
+      "Water rune": 8,
+      "Soul rune": 1
+    },
+    "members": false
+  },
+  "Entangle": {
+    "name": "Entangle",
+    "spellbook": "Standard",
+    "level": 79,
+    "experience": 89.0,
+    "type": "Combat",
+    "runes": {
+      "Earth rune": 5,
+      "Water rune": 5,
+      "Nature rune": 4
+    },
+    "members": false
+  },
+  "Stun": {
+    "name": "Stun",
+    "spellbook": "Standard",
+    "level": 80,
+    "experience": 90.0,
+    "type": "Combat",
+    "runes": {
+      "Earth rune": 12,
+      "Water rune": 12,
+      "Soul rune": 1
+    },
+    "members": false
+  },
+  "Tele Group Moonclan": {
+    "name": "Tele Group Moonclan",
+    "spellbook": "Lunar",
+    "level": 70,
+    "experience": 67.0,
+    "type": "Teleport",
+    "runes": {
+      "Earth rune": 4,
+      "Astral rune": 2,
+      "Law rune": 1
+    },
+    "members": false
+  },
+  "Moonclan Teleport": {
+    "name": "Moonclan Teleport",
+    "spellbook": "Lunar",
+    "level": 69,
+    "experience": 66.0,
+    "type": "Teleport",
+    "runes": {
+      "Earth rune": 2,
+      "Astral rune": 2,
+      "Law rune": 1
+    },
+    "members": false
+  },
+  "Spellbook Swap": {
+    "name": "Spellbook Swap",
+    "spellbook": "Lunar",
+    "level": 96,
+    "experience": 130.0,
+    "type": "Utility",
+    "runes": {
+      "Astral rune": 3,
+      "Cosmic rune": 2,
+      "Law rune": 1
+    },
+    "members": false
+  },
+  "Ghorrock Teleport": {
+    "name": "Ghorrock Teleport",
+    "spellbook": "Ancient",
+    "level": 96,
+    "experience": 106.0,
+    "type": "Teleport",
+    "runes": {
+      "Water rune": 8,
+      "Law rune": 2
+    },
+    "members": false
+  },
+  "Humidify": {
+    "name": "Humidify",
+    "spellbook": "Lunar",
+    "level": 68,
+    "experience": 65.0,
+    "type": "Utility",
+    "runes": {
+      "Fire rune": 1,
+      "Water rune": 3,
+      "Astral rune": 1
+    },
+    "members": false
+  },
+  "Superglass Make": {
+    "name": "Superglass Make",
+    "spellbook": "Lunar",
+    "level": 77,
+    "experience": 78.0,
+    "type": "Utility",
+    "runes": {
+      "Air rune": 10,
+      "Fire rune": 6,
+      "Astral rune": 2
+    },
+    "members": false
+  },
+  "Waterbirth Teleport": {
+    "name": "Waterbirth Teleport",
+    "spellbook": "Lunar",
+    "level": 72,
+    "experience": 71.0,
+    "type": "Teleport",
+    "runes": {
+      "Water rune": 1,
+      "Astral rune": 2,
+      "Law rune": 1
+    },
+    "members": false
+  },
+  "Khazard Teleport": {
+    "name": "Khazard Teleport",
+    "spellbook": "Lunar",
+    "level": 78,
+    "experience": 80.0,
+    "type": "Teleport",
+    "runes": {
+      "Water rune": 4,
+      "Astral rune": 2,
+      "Law rune": 2
+    },
+    "members": false
+  },
+  "Fishing Guild Teleport": {
+    "name": "Fishing Guild Teleport",
+    "spellbook": "Lunar",
+    "level": 85,
+    "experience": 89.0,
+    "type": "Teleport",
+    "runes": {
+      "Water rune": 10,
+      "Astral rune": 3,
+      "Law rune": 3
+    },
+    "members": false
+  },
+  "Catherby Teleport": {
+    "name": "Catherby Teleport",
+    "spellbook": "Lunar",
+    "level": 87,
+    "experience": 92.0,
+    "type": "Teleport",
+    "runes": {
+      "Water rune": 10,
+      "Astral rune": 3,
+      "Law rune": 3
+    },
+    "members": false
+  },
+  "Ice Plateau Teleport": {
+    "name": "Ice Plateau Teleport",
+    "spellbook": "Lunar",
+    "level": 89,
+    "experience": 96.0,
+    "type": "Teleport",
+    "runes": {
+      "Water rune": 8,
+      "Astral rune": 3,
+      "Law rune": 3
+    },
+    "members": false
+  },
+  "Lunar Home Teleport": {
+    "name": "Lunar Home Teleport",
+    "spellbook": "Lunar",
+    "level": 1,
+    "experience": 0.0,
+    "type": "Teleport",
+    "runes": {},
+    "members": false
+  },
+  "Teleother Lumbridge": {
+    "name": "Teleother Lumbridge",
+    "spellbook": "Standard",
+    "level": 74,
+    "experience": 84.0,
+    "type": "teleport",
+    "runes": {
+      "Earth rune": 1,
+      "Law rune": 1,
+      "Soul rune": 1
+    },
+    "members": false
+  },
+  "String Jewellery": {
+    "name": "String Jewellery",
+    "spellbook": "Lunar",
+    "level": 80,
+    "experience": 83.0,
+    "type": "Utility",
+    "runes": {
+      "Earth rune": 10,
+      "Water rune": 5,
+      "Astral rune": 2
+    },
+    "members": false
+  },
+  "Smoke Barrage": {
+    "name": "Smoke Barrage",
+    "spellbook": "Ancient",
+    "level": 86,
+    "experience": 48.0,
+    "type": "Combat",
+    "runes": {
+      "Air rune": 4,
+      "Fire rune": 4,
+      "Blood rune": 2,
+      "Death rune": 4
+    },
+    "members": false
+  },
+  "Plank Make": {
+    "name": "Plank Make",
+    "spellbook": "Lunar",
+    "level": 86,
+    "experience": 90.0,
+    "type": "Utility",
+    "runes": {
+      "Earth rune": 15,
+      "Astral rune": 2,
+      "Nature rune": 1
+    },
+    "members": false
+  },
+  "Kharyrll Teleport": {
+    "name": "Kharyrll Teleport",
+    "spellbook": "Ancient",
+    "level": 66,
+    "experience": 76.0,
+    "type": "Teleport",
+    "runes": {
+      "Blood rune": 1,
+      "Law rune": 2
+    },
+    "members": false
+  },
+  "Blood Burst": {
+    "name": "Blood Burst",
+    "spellbook": "Ancient",
+    "level": 68,
+    "experience": 39.0,
+    "type": "Combat",
+    "runes": {
+      "Blood rune": 2,
+      "Chaos rune": 4,
+      "Death rune": 2
+    },
+    "members": false
+  },
+  "Hunter Kit (spell)": {
+    "name": "Hunter Kit (spell)",
+    "spellbook": "Lunar",
+    "level": 71,
+    "experience": 70.0,
+    "type": "Utility",
+    "runes": {
+      "Earth rune": 2,
+      "Astral rune": 2
+    },
+    "members": false
+  },
+  "Vengeance": {
+    "name": "Vengeance",
+    "spellbook": "Lunar",
+    "level": 94,
+    "experience": 112.0,
+    "type": "Combat",
+    "runes": {
+      "Earth rune": 10,
+      "Astral rune": 4,
+      "Death rune": 2
+    },
+    "members": false
+  },
+  "Blood Rush": {
+    "name": "Blood Rush",
+    "spellbook": "Ancient",
+    "level": 56,
+    "experience": 33.0,
+    "type": "Combat",
+    "runes": {
+      "Blood rune": 1,
+      "Chaos rune": 2,
+      "Death rune": 2
+    },
+    "members": false
+  },
+  "Monster Examine": {
+    "name": "Monster Examine",
+    "spellbook": "Lunar",
+    "level": 66,
+    "experience": 61.0,
+    "type": "Combat",
+    "runes": {
+      "Astral rune": 1,
+      "Cosmic rune": 1,
+      "Mind rune": 1
+    },
+    "members": false
+  },
+  "Ape Atoll Teleport (Arceuus)": {
+    "name": "Ape Atoll Teleport (Arceuus)",
+    "spellbook": "Arceuus",
+    "level": 90,
+    "experience": 100.0,
+    "type": "Teleport",
+    "runes": {
+      "Blood rune": 2,
+      "Law rune": 2,
+      "Soul rune": 2
+    },
+    "members": false
+  },
+  "Lvl-5 Enchant": {
+    "name": "Lvl-5 Enchant",
+    "spellbook": "Standard",
+    "level": 68,
+    "experience": 78.0,
+    "type": "Utility",
+    "runes": {
+      "Earth rune": 15,
+      "Water rune": 15,
+      "Cosmic rune": 1
+    },
+    "members": false
+  },
+  "Vengeance Other": {
+    "name": "Vengeance Other",
+    "spellbook": "Lunar",
+    "level": 93,
+    "experience": 108.0,
+    "type": "Combat",
+    "runes": {
+      "Earth rune": 10,
+      "Astral rune": 3,
+      "Death rune": 2
+    },
+    "members": false
+  },
+  "Tele Group Waterbirth": {
+    "name": "Tele Group Waterbirth",
+    "spellbook": "Lunar",
+    "level": 73,
+    "experience": 72.0,
+    "type": "Teleport",
+    "runes": {
+      "Water rune": 5,
+      "Astral rune": 2,
+      "Law rune": 1
+    },
+    "members": false
+  },
+  "Tele Group Barbarian": {
+    "name": "Tele Group Barbarian",
+    "spellbook": "Lunar",
+    "level": 76,
+    "experience": 77.0,
+    "type": "Teleport",
+    "runes": {
+      "Fire rune": 6,
+      "Astral rune": 2,
+      "Law rune": 2
+    },
+    "members": false
+  },
+  "Tele Group Khazard": {
+    "name": "Tele Group Khazard",
+    "spellbook": "Lunar",
+    "level": 79,
+    "experience": 81.0,
+    "type": "Teleport",
+    "runes": {
+      "Water rune": 8,
+      "Astral rune": 2,
+      "Law rune": 2
+    },
+    "members": false
+  },
+  "Smoke Burst": {
+    "name": "Smoke Burst",
+    "spellbook": "Ancient",
+    "level": 62,
+    "experience": 36.0,
+    "type": "Combat",
+    "runes": {
+      "Air rune": 2,
+      "Fire rune": 2,
+      "Chaos rune": 4,
+      "Death rune": 2
+    },
+    "members": false
+  },
+  "Shadow Barrage": {
+    "name": "Shadow Barrage",
+    "spellbook": "Ancient",
+    "level": 88,
+    "experience": 49.0,
+    "type": "Combat",
+    "runes": {
+      "Air rune": 4,
+      "Blood rune": 2,
+      "Death rune": 4,
+      "Soul rune": 3
+    },
+    "members": false
+  },
+  "Enchant Crossbow Bolt (Onyx)": {
+    "name": "Enchant Crossbow Bolt (Onyx)",
+    "spellbook": "Standard",
+    "level": 87,
+    "experience": 97.0,
+    "type": "Utility",
+    "runes": {
+      "Fire rune": 20,
+      "Cosmic rune": 1,
+      "Death rune": 1
+    },
+    "members": false
+  },
+  "Enchant Crossbow Bolt (Dragonstone)": {
+    "name": "Enchant Crossbow Bolt (Dragonstone)",
+    "spellbook": "Standard",
+    "level": 68,
+    "experience": 78.0,
+    "type": "Utility",
+    "runes": {
+      "Earth rune": 15,
+      "Cosmic rune": 1,
+      "Soul rune": 1
+    },
+    "members": false
+  },
+  "Enchant Crossbow Bolt (Diamond)": {
+    "name": "Enchant Crossbow Bolt (Diamond)",
+    "spellbook": "Standard",
+    "level": 57,
+    "experience": 67.0,
+    "type": "Utility",
+    "runes": {
+      "Earth rune": 10,
+      "Cosmic rune": 1,
+      "Law rune": 2
+    },
+    "members": false
+  },
+  "Enchant Crossbow Bolt (Ruby)": {
+    "name": "Enchant Crossbow Bolt (Ruby)",
+    "spellbook": "Standard",
+    "level": 49,
+    "experience": 59.0,
+    "type": "Utility",
+    "runes": {
+      "Fire rune": 5,
+      "Blood rune": 1,
+      "Cosmic rune": 1
+    },
+    "members": false
+  },
+  "Enchant Crossbow Bolt (Emerald)": {
+    "name": "Enchant Crossbow Bolt (Emerald)",
+    "spellbook": "Standard",
+    "level": 27,
+    "experience": 37.0,
+    "type": "Utility",
+    "runes": {
+      "Air rune": 3,
+      "Cosmic rune": 1,
+      "Nature rune": 1
+    },
+    "members": false
+  },
+  "Enchant Crossbow Bolt (Pearl)": {
+    "name": "Enchant Crossbow Bolt (Pearl)",
+    "spellbook": "Standard",
+    "level": 24,
+    "experience": 29.0,
+    "type": "Utility",
+    "runes": {
+      "Water rune": 2,
+      "Cosmic rune": 1
+    },
+    "members": false
+  },
+  "Enchant Crossbow Bolt (Jade)": {
+    "name": "Enchant Crossbow Bolt (Jade)",
+    "spellbook": "Standard",
+    "level": 14,
+    "experience": 19.0,
+    "type": "Utility",
+    "runes": {
+      "Earth rune": 2,
+      "Cosmic rune": 1
+    },
+    "members": false
+  },
+  "Enchant Crossbow Bolt (Sapphire)": {
+    "name": "Enchant Crossbow Bolt (Sapphire)",
+    "spellbook": "Standard",
+    "level": 7,
+    "experience": 17.5,
+    "type": "Utility",
+    "runes": {
+      "Water rune": 1,
+      "Cosmic rune": 1,
+      "Mind rune": 1
+    },
+    "members": false
+  },
+  "Enchant Crossbow Bolt (Opal)": {
+    "name": "Enchant Crossbow Bolt (Opal)",
+    "spellbook": "Standard",
+    "level": 4,
+    "experience": 9.0,
+    "type": "Utility",
+    "runes": {
+      "Air rune": 2,
+      "Cosmic rune": 1
+    },
+    "members": false
+  },
+  "Charge Fire Orb": {
+    "name": "Charge Fire Orb",
+    "spellbook": "Standard",
+    "level": 63,
+    "experience": 73.0,
+    "type": "Utility",
+    "runes": {
+      "Fire rune": 30,
+      "Cosmic rune": 3,
+      "Unpowered orb": 1
+    },
+    "members": false
+  },
+  "Charge Earth Orb": {
+    "name": "Charge Earth Orb",
+    "spellbook": "Standard",
+    "level": 60,
+    "experience": 70.0,
+    "type": "Utility",
+    "runes": {
+      "Earth rune": 30,
+      "Cosmic rune": 3,
+      "Unpowered orb": 1
+    },
+    "members": false
+  },
+  "Charge Water Orb": {
+    "name": "Charge Water Orb",
+    "spellbook": "Standard",
+    "level": 56,
+    "experience": 66.0,
+    "type": "Utility",
+    "runes": {
+      "Water rune": 30,
+      "Cosmic rune": 3,
+      "Unpowered orb": 1
+    },
+    "members": false
+  },
+  "Tele Group Fishing Guild": {
+    "name": "Tele Group Fishing Guild",
+    "spellbook": "Lunar",
+    "level": 86,
+    "experience": 90.0,
+    "type": "Teleport",
+    "runes": {
+      "Water rune": 14,
+      "Astral rune": 3,
+      "Law rune": 3
+    },
+    "members": false
+  },
+  "Teleother Falador": {
+    "name": "Teleother Falador",
+    "spellbook": "Standard",
+    "level": 82,
+    "experience": 92.0,
+    "type": "teleport",
+    "runes": {
+      "Water rune": 1,
+      "Law rune": 1,
+      "Soul rune": 1
+    },
+    "members": false
+  },
+  "Teleother Camelot": {
+    "name": "Teleother Camelot",
+    "spellbook": "Standard",
+    "level": 90,
+    "experience": 100.0,
+    "type": "teleport",
+    "runes": {
+      "Law rune": 1,
+      "Soul rune": 2
+    },
+    "members": false
+  },
+  "Edgeville Home Teleport": {
+    "name": "Edgeville Home Teleport",
+    "spellbook": "Ancient",
+    "level": 1,
+    "experience": 0.0,
+    "type": "Teleport",
+    "runes": {},
+    "members": false
+  },
+  "Senntisten Teleport": {
+    "name": "Senntisten Teleport",
+    "spellbook": "Ancient",
+    "level": 60,
+    "experience": 70.0,
+    "type": "teleport",
+    "runes": {
+      "Law rune": 2,
+      "Soul rune": 1
+    },
+    "members": false
+  },
+  "Lassar Teleport": {
+    "name": "Lassar Teleport",
+    "spellbook": "Ancient",
+    "level": 72,
+    "experience": 82.0,
+    "type": "teleport",
+    "runes": {
+      "Water rune": 4,
+      "Law rune": 2
+    },
+    "members": false
+  },
+  "Tele Group Catherby": {
+    "name": "Tele Group Catherby",
+    "spellbook": "Lunar",
+    "level": 88,
+    "experience": 93.0,
+    "type": "Teleport",
+    "runes": {
+      "Water rune": 15,
+      "Astral rune": 3,
+      "Law rune": 3
+    },
+    "members": false
+  },
+  "Dareeyak Teleport": {
+    "name": "Dareeyak Teleport",
+    "spellbook": "Ancient",
+    "level": 78,
+    "experience": 88.0,
+    "type": "Teleport",
+    "runes": {
+      "Air rune": 2,
+      "Fire rune": 3,
+      "Law rune": 2
+    },
+    "members": false
+  },
+  "Blood Blitz": {
+    "name": "Blood Blitz",
+    "spellbook": "Ancient",
+    "level": 80,
+    "experience": 45.0,
+    "type": "Combat",
+    "runes": {
+      "Blood rune": 4,
+      "Death rune": 2
+    },
+    "members": false
+  },
+  "Shadow Burst": {
+    "name": "Shadow Burst",
+    "spellbook": "Ancient",
+    "level": 64,
+    "experience": 37.0,
+    "type": "Combat",
+    "runes": {
+      "Air rune": 1,
+      "Chaos rune": 4,
+      "Death rune": 2,
+      "Soul rune": 2
+    },
+    "members": false
+  },
+  "Shadow Blitz": {
+    "name": "Shadow Blitz",
+    "spellbook": "Ancient",
+    "level": 76,
+    "experience": 43.0,
+    "type": "Combat",
+    "runes": {
+      "Air rune": 2,
+      "Blood rune": 2,
+      "Death rune": 2,
+      "Soul rune": 2
+    },
+    "members": false
+  },
+  "Smoke Blitz": {
+    "name": "Smoke Blitz",
+    "spellbook": "Ancient",
+    "level": 74,
+    "experience": 42.0,
+    "type": "Combat",
+    "runes": {
+      "Air rune": 2,
+      "Fire rune": 2,
+      "Blood rune": 2,
+      "Death rune": 2
+    },
+    "members": false
+  },
+  "Carrallanger Teleport": {
+    "name": "Carrallanger Teleport",
+    "spellbook": "Ancient",
+    "level": 84,
+    "experience": 94.0,
+    "type": "Teleport",
+    "runes": {
+      "Law rune": 2,
+      "Soul rune": 2
+    },
+    "members": false
+  },
+  "Annakarl Teleport": {
+    "name": "Annakarl Teleport",
+    "spellbook": "Ancient",
+    "level": 90,
+    "experience": 100.0,
+    "type": "Teleport",
+    "runes": {
+      "Blood rune": 2,
+      "Law rune": 2
+    },
+    "members": false
+  },
+  "Tele Group Ice Plateau": {
+    "name": "Tele Group Ice Plateau",
+    "spellbook": "Lunar",
+    "level": 90,
+    "experience": 99.0,
+    "type": "Teleport",
+    "runes": {
+      "Water rune": 16,
+      "Astral rune": 3,
+      "Law rune": 3
+    },
+    "members": false
+  },
+  "Dream": {
+    "name": "Dream",
+    "spellbook": "Lunar",
+    "level": 79,
+    "experience": 82.0,
+    "type": "Combat",
+    "runes": {
+      "Astral rune": 2,
+      "Body rune": 5,
+      "Cosmic rune": 1
+    },
+    "members": false
+  },
+  "Stat Spy": {
+    "name": "Stat Spy",
+    "spellbook": "Lunar",
+    "level": 75,
+    "experience": 76.0,
+    "type": "Combat",
+    "runes": {
+      "Astral rune": 2,
+      "Body rune": 5,
+      "Cosmic rune": 2
+    },
+    "members": false
+  },
+  "Fertile Soil": {
+    "name": "Fertile Soil",
+    "spellbook": "Lunar",
+    "level": 83,
+    "experience": 87.0,
+    "type": "Utility",
+    "runes": {
+      "Earth rune": 15,
+      "Astral rune": 3,
+      "Nature rune": 2
+    },
+    "members": false
+  },
+  "Energy Transfer": {
+    "name": "Energy Transfer",
+    "spellbook": "Lunar",
+    "level": 91,
+    "experience": 100.0,
+    "type": "Combat",
+    "runes": {
+      "Astral rune": 3,
+      "Law rune": 2,
+      "Nature rune": 1
+    },
+    "members": false
+  },
+  "Cure Other": {
+    "name": "Cure Other",
+    "spellbook": "Lunar",
+    "level": 68,
+    "experience": 65.0,
+    "type": "Combat",
+    "runes": {
+      "Earth rune": 10,
+      "Astral rune": 1,
+      "Law rune": 1
+    },
+    "members": false
+  },
+  "Magic Imbue": {
+    "name": "Magic Imbue",
+    "spellbook": "Lunar",
+    "level": 82,
+    "experience": 86.0,
+    "type": "Utility",
+    "runes": {
+      "Fire rune": 7,
+      "Water rune": 7,
+      "Astral rune": 2
+    },
+    "members": false
+  },
+  "Bake Pie": {
+    "name": "Bake Pie",
+    "spellbook": "Lunar",
+    "level": 65,
+    "experience": 60.0,
+    "type": "Utility",
+    "runes": {
+      "Fire rune": 5,
+      "Water rune": 4,
+      "Astral rune": 1
+    },
+    "members": false
+  },
+  "Cure Plant": {
+    "name": "Cure Plant",
+    "spellbook": "Lunar",
+    "level": 66,
+    "experience": 60.0,
+    "type": "Utility",
+    "runes": {
+      "Earth rune": 8,
+      "Astral rune": 1
+    },
+    "members": false
+  },
+  "Cure Me": {
+    "name": "Cure Me",
+    "spellbook": "Lunar",
+    "level": 71,
+    "experience": 69.0,
+    "type": "combat",
+    "runes": {
+      "Astral rune": 2,
+      "Cosmic rune": 2,
+      "Law rune": 1
+    },
+    "members": false
+  },
+  "Cure Group": {
+    "name": "Cure Group",
+    "spellbook": "Lunar",
+    "level": 74,
+    "experience": 74.0,
+    "type": "Combat",
+    "runes": {
+      "Astral rune": 2,
+      "Cosmic rune": 2,
+      "Law rune": 2
+    },
+    "members": false
+  },
+  "Heal Other": {
+    "name": "Heal Other",
+    "spellbook": "Lunar",
+    "level": 92,
+    "experience": 101.0,
+    "type": "combat",
+    "runes": {
+      "Astral rune": 3,
+      "Blood rune": 1,
+      "Law rune": 3
+    },
+    "members": false
+  },
+  "Heal Group": {
+    "name": "Heal Group",
+    "spellbook": "Lunar",
+    "level": 95,
+    "experience": 124.0,
+    "type": "combat",
+    "runes": {
+      "Astral rune": 4,
+      "Blood rune": 3,
+      "Law rune": 6
+    },
+    "members": false
+  },
+  "Stat Restore Pot Share": {
+    "name": "Stat Restore Pot Share",
+    "spellbook": "Lunar",
+    "level": 81,
+    "experience": 84.0,
+    "type": "Combat",
+    "runes": {
+      "Earth rune": 10,
+      "Water rune": 10,
+      "Astral rune": 2
+    },
+    "members": false
+  },
+  "Boost Potion Share": {
+    "name": "Boost Potion Share",
+    "spellbook": "Lunar",
+    "level": 84,
+    "experience": 88.0,
+    "type": "combat",
+    "runes": {
+      "Earth rune": 12,
+      "Water rune": 10,
+      "Astral rune": 3
+    },
+    "members": false
+  },
+  "Teleport to Target": {
+    "name": "Teleport to Target",
+    "spellbook": "All",
+    "level": 85,
+    "experience": 45.0,
+    "type": "Teleport",
+    "runes": {
+      "Chaos rune": 1,
+      "Death rune": 1,
+      "Law rune": 1
+    },
+    "members": false
+  },
+  "Tan Leather": {
+    "name": "Tan Leather",
+    "spellbook": "Lunar",
+    "level": 78,
+    "experience": 81.0,
+    "type": "Utility",
+    "runes": {
+      "Fire rune": 5,
+      "Astral rune": 2,
+      "Nature rune": 1
+    },
+    "members": false
+  },
+  "Recharge Dragonstone": {
+    "name": "Recharge Dragonstone",
+    "spellbook": "Lunar",
+    "level": 89,
+    "experience": 97.5,
+    "type": "Utility",
+    "runes": {
+      "Water rune": 4,
+      "Astral rune": 1,
+      "Soul rune": 1
+    },
+    "members": false
+  },
+  "Geomancy": {
+    "name": "Geomancy",
+    "spellbook": "Lunar",
+    "level": 65,
+    "experience": 60.0,
+    "type": "Utility",
+    "runes": {
+      "Earth rune": 8,
+      "Astral rune": 3,
+      "Nature rune": 3
+    },
+    "members": false
+  },
+  "Kourend Castle Teleport": {
+    "name": "Kourend Castle Teleport",
+    "spellbook": "Standard",
+    "level": 48,
+    "experience": 58.0,
+    "type": "Teleport",
+    "runes": {
+      "Fire rune": 1,
+      "Water rune": 1,
+      "Law rune": 2
+    },
+    "members": false
+  },
+  "Arceuus Home Teleport": {
+    "name": "Arceuus Home Teleport",
+    "spellbook": "Arceuus",
+    "level": 1,
+    "experience": 0.0,
+    "type": "Teleport",
+    "runes": {},
+    "members": false
+  },
+  "Draynor Manor Teleport": {
+    "name": "Draynor Manor Teleport",
+    "spellbook": "Arceuus",
+    "level": 17,
+    "experience": 16.0,
+    "type": "Teleport",
+    "runes": {
+      "Earth rune": 1,
+      "Water rune": 1,
+      "Law rune": 1
+    },
+    "members": false
+  },
+  "Mind Altar Teleport": {
+    "name": "Mind Altar Teleport",
+    "spellbook": "Arceuus",
+    "level": 28,
+    "experience": 22.0,
+    "type": "Teleport",
+    "runes": {
+      "Law rune": 1,
+      "Mind rune": 2
+    },
+    "members": false
+  },
+  "Respawn Teleport": {
+    "name": "Respawn Teleport",
+    "spellbook": "Arceuus",
+    "level": 34,
+    "experience": 27.0,
+    "type": "Teleport",
+    "runes": {
+      "Law rune": 1,
+      "Soul rune": 1
+    },
+    "members": false
+  },
+  "Salve Graveyard Teleport": {
+    "name": "Salve Graveyard Teleport",
+    "spellbook": "Arceuus",
+    "level": 40,
+    "experience": 30.0,
+    "type": "Teleport",
+    "runes": {
+      "Law rune": 1,
+      "Soul rune": 2
+    },
+    "members": false
+  },
+  "Fenkenstrain's Castle Teleport": {
+    "name": "Fenkenstrain's Castle Teleport",
+    "spellbook": "Arceuus",
+    "level": 48,
+    "experience": 50.0,
+    "type": "Teleport",
+    "runes": {
+      "Earth rune": 1,
+      "Law rune": 1,
+      "Soul rune": 1
+    },
+    "members": false
+  },
+  "West Ardougne Teleport": {
+    "name": "West Ardougne Teleport",
+    "spellbook": "Arceuus",
+    "level": 61,
+    "experience": 68.0,
+    "type": "Teleport",
+    "runes": {
+      "Law rune": 2,
+      "Soul rune": 2
+    },
+    "members": false
+  },
+  "Harmony Island Teleport": {
+    "name": "Harmony Island Teleport",
+    "spellbook": "Arceuus",
+    "level": 65,
+    "experience": 74.0,
+    "type": "Teleport",
+    "runes": {
+      "Law rune": 1,
+      "Nature rune": 1,
+      "Soul rune": 1
+    },
+    "members": false
+  },
+  "Cemetery Teleport": {
+    "name": "Cemetery Teleport",
+    "spellbook": "Arceuus",
+    "level": 71,
+    "experience": 82.0,
+    "type": "Teleport",
+    "runes": {
+      "Blood rune": 1,
+      "Law rune": 1,
+      "Soul rune": 1
+    },
+    "members": false
+  },
+  "Barrows Teleport": {
+    "name": "Barrows Teleport",
+    "spellbook": "Arceuus",
+    "level": 83,
+    "experience": 90.0,
+    "type": "Teleport",
+    "runes": {
+      "Blood rune": 1,
+      "Law rune": 2,
+      "Soul rune": 2
+    },
+    "members": false
+  },
+  "Resurrect Crops": {
+    "name": "Resurrect Crops",
+    "spellbook": "Arceuus",
+    "level": 78,
+    "experience": 90.0,
+    "type": "Utility",
+    "runes": {
+      "Earth rune": 25,
+      "Blood rune": 8,
+      "Nature rune": 12,
+      "Soul rune": 8
+    },
+    "members": false
+  },
+  "Lvl-7 Enchant": {
+    "name": "Lvl-7 Enchant",
+    "spellbook": "Standard",
+    "level": 93,
+    "experience": 110.0,
+    "type": "Utility",
+    "runes": {
+      "Blood rune": 20,
+      "Cosmic rune": 1,
+      "Soul rune": 20
+    },
+    "members": false
+  },
+  "Spin Flax": {
+    "name": "Spin Flax",
+    "spellbook": "Lunar",
+    "level": 76,
+    "experience": 75.0,
+    "type": "Utility",
+    "runes": {
+      "Air rune": 5,
+      "Astral rune": 1,
+      "Nature rune": 2
+    },
+    "members": false
+  },
+  "Ourania Teleport": {
+    "name": "Ourania Teleport",
+    "spellbook": "Lunar",
+    "level": 71,
+    "experience": 69.0,
+    "type": "Teleport",
+    "runes": {
+      "Earth rune": 6,
+      "Astral rune": 2,
+      "Law rune": 1
+    },
+    "members": false
+  },
+  "Wind Surge": {
+    "name": "Wind Surge",
+    "spellbook": "Standard",
+    "level": 81,
+    "experience": 44.5,
+    "type": "Combat",
+    "runes": {
+      "Air rune": 7,
+      "Wrath rune": 1
+    },
+    "members": false
+  },
+  "Water Surge": {
+    "name": "Water Surge",
+    "spellbook": "Standard",
+    "level": 85,
+    "experience": 46.5,
+    "type": "Combat",
+    "runes": {
+      "Air rune": 7,
+      "Water rune": 10,
+      "Wrath rune": 1
+    },
+    "members": false
+  },
+  "Earth Surge": {
+    "name": "Earth Surge",
+    "spellbook": "Standard",
+    "level": 90,
+    "experience": 48.2,
+    "type": "Combat",
+    "runes": {
+      "Air rune": 7,
+      "Earth rune": 10,
+      "Wrath rune": 1
+    },
+    "members": false
+  },
+  "Fire Surge": {
+    "name": "Fire Surge",
+    "spellbook": "Standard",
+    "level": 95,
+    "experience": 50.5,
+    "type": "Combat",
+    "runes": {
+      "Air rune": 7,
+      "Fire rune": 10,
+      "Wrath rune": 1
+    },
+    "members": false
+  },
+  "Minigame Teleport": {
+    "name": "Minigame Teleport",
+    "spellbook": "All",
+    "level": 1,
+    "experience": 0.0,
+    "type": "Teleport",
+    "runes": {},
+    "members": false
+  },
+  "Battlefront Teleport": {
+    "name": "Battlefront Teleport",
+    "spellbook": "Arceuus",
+    "level": 23,
+    "experience": 19.0,
+    "type": "Teleport",
+    "runes": {
+      "Earth rune": 1,
+      "Fire rune": 1,
+      "Law rune": 1
+    },
+    "members": false
+  },
+  "Lesser Corruption": {
+    "name": "Lesser Corruption",
+    "spellbook": "Arceuus",
+    "level": 64,
+    "experience": 75.0,
+    "type": "Combat",
+    "runes": {
+      "Death rune": 1,
+      "Soul rune": 2
+    },
+    "members": false
+  },
+  "Greater Corruption": {
+    "name": "Greater Corruption",
+    "spellbook": "Arceuus",
+    "level": 85,
+    "experience": 95.0,
+    "type": "Combat",
+    "runes": {
+      "Blood rune": 1,
+      "Soul rune": 3
+    },
+    "members": false
+  },
+  "Ghostly Grasp": {
+    "name": "Ghostly Grasp",
+    "spellbook": "Arceuus",
+    "level": 35,
+    "experience": 22.5,
+    "type": "Combat",
+    "runes": {
+      "Air rune": 4,
+      "Chaos rune": 1
+    },
+    "members": false
+  },
+  "Skeletal Grasp": {
+    "name": "Skeletal Grasp",
+    "spellbook": "Arceuus",
+    "level": 56,
+    "experience": 33.0,
+    "type": "Combat",
+    "runes": {
+      "Earth rune": 8,
+      "Death rune": 1
+    },
+    "members": false
+  },
+  "Undead Grasp": {
+    "name": "Undead Grasp",
+    "spellbook": "Arceuus",
+    "level": 79,
+    "experience": 46.5,
+    "type": "Combat",
+    "runes": {
+      "Fire rune": 12,
+      "Blood rune": 1
+    },
+    "members": false
+  },
+  "Inferior Demonbane": {
+    "name": "Inferior Demonbane",
+    "spellbook": "Arceuus",
+    "level": 44,
+    "experience": 27.0,
+    "type": "Combat",
+    "runes": {
+      "Fire rune": 3,
+      "Chaos rune": 1
+    },
+    "members": false
+  },
+  "Superior Demonbane": {
+    "name": "Superior Demonbane",
+    "spellbook": "Arceuus",
+    "level": 62,
+    "experience": 36.0,
+    "type": "Combat",
+    "runes": {
+      "Fire rune": 5,
+      "Soul rune": 1
+    },
+    "members": false
+  },
+  "Dark Demonbane": {
+    "name": "Dark Demonbane",
+    "spellbook": "Arceuus",
+    "level": 82,
+    "experience": 43.5,
+    "type": "Combat",
+    "runes": {
+      "Fire rune": 7,
+      "Soul rune": 2
+    },
+    "members": false
+  },
+  "Demonic Offering": {
+    "name": "Demonic Offering",
+    "spellbook": "Arceuus",
+    "level": 84,
+    "experience": 175.0,
+    "type": "Utility",
+    "runes": {
+      "Soul rune": 1,
+      "Wrath rune": 1
+    },
+    "members": false
+  },
+  "Sinister Offering": {
+    "name": "Sinister Offering",
+    "spellbook": "Arceuus",
+    "level": 92,
+    "experience": 180.0,
+    "type": "Utility",
+    "runes": {
+      "Blood rune": 1,
+      "Wrath rune": 1
+    },
+    "members": false
+  },
+  "Degrime": {
+    "name": "Degrime",
+    "spellbook": "Arceuus",
+    "level": 70,
+    "experience": 83.0,
+    "type": "Utility",
+    "runes": {
+      "Earth rune": 4,
+      "Nature rune": 2
+    },
+    "members": false
+  },
+  "Dark Lure": {
+    "name": "Dark Lure",
+    "spellbook": "Arceuus",
+    "level": 50,
+    "experience": 60.0,
+    "type": "Combat",
+    "runes": {
+      "Death rune": 1,
+      "Nature rune": 1
+    },
+    "members": false
+  },
+  "Death Charge": {
+    "name": "Death Charge",
+    "spellbook": "Arceuus",
+    "level": 80,
+    "experience": 90.0,
+    "type": "Utility",
+    "runes": {
+      "Blood rune": 1,
+      "Death rune": 1,
+      "Soul rune": 1
+    },
+    "members": false
+  },
+  "Mark of Darkness": {
+    "name": "Mark of Darkness",
+    "spellbook": "Arceuus",
+    "level": 59,
+    "experience": 70.0,
+    "type": "Combat",
+    "runes": {
+      "Cosmic rune": 1,
+      "Soul rune": 1
+    },
+    "members": false
+  },
+  "Ward of Arceuus": {
+    "name": "Ward of Arceuus",
+    "spellbook": "Arceuus",
+    "level": 73,
+    "experience": 83.0,
+    "type": "Combat",
+    "runes": {
+      "Cosmic rune": 1,
+      "Nature rune": 2,
+      "Soul rune": 4
+    },
+    "members": false
+  },
+  "Shadow Veil": {
+    "name": "Shadow Veil",
+    "spellbook": "Arceuus",
+    "level": 47,
+    "experience": 58.0,
+    "type": "Utility",
+    "runes": {
+      "Earth rune": 5,
+      "Fire rune": 5,
+      "Cosmic rune": 5
+    },
+    "members": false
+  },
+  "Vile Vigour": {
+    "name": "Vile Vigour",
+    "spellbook": "Arceuus",
+    "level": 66,
+    "experience": 76.0,
+    "type": "Utility",
+    "runes": {
+      "Air rune": 3,
+      "Soul rune": 1
+    },
+    "members": false
+  },
+  "Arceuus Library Teleport": {
+    "name": "Arceuus Library Teleport",
+    "spellbook": "Arceuus",
+    "level": 6,
+    "experience": 9.0,
+    "type": "Teleport",
+    "runes": {
+      "Earth rune": 2,
+      "Law rune": 1
+    },
+    "members": false
+  },
+  "Basic Reanimation": {
+    "name": "Basic Reanimation",
+    "spellbook": "Arceuus",
+    "level": 16,
+    "experience": 32.0,
+    "type": "Utility",
+    "runes": {
+      "Body rune": 4,
+      "Nature rune": 2
+    },
+    "members": false
+  },
+  "Adept Reanimation": {
+    "name": "Adept Reanimation",
+    "spellbook": "Arceuus",
+    "level": 41,
+    "experience": 80.0,
+    "type": "Utility",
+    "runes": {
+      "Body rune": 4,
+      "Nature rune": 3,
+      "Soul rune": 1
+    },
+    "members": false
+  },
+  "Expert Reanimation": {
+    "name": "Expert Reanimation",
+    "spellbook": "Arceuus",
+    "level": 72,
+    "experience": 138.0,
+    "type": "Utility",
+    "runes": {
+      "Blood rune": 1,
+      "Nature rune": 3,
+      "Soul rune": 2
+    },
+    "members": false
+  },
+  "Master Reanimation": {
+    "name": "Master Reanimation",
+    "spellbook": "Arceuus",
+    "level": 90,
+    "experience": 170.0,
+    "type": "Utility",
+    "runes": {
+      "Blood rune": 2,
+      "Nature rune": 4,
+      "Soul rune": 4
+    },
+    "members": false
+  },
+  "Resurrect Lesser Ghost": {
+    "name": "Resurrect Lesser Ghost",
+    "spellbook": "Arceuus",
+    "level": 38,
+    "experience": 55.0,
+    "type": "Combat",
+    "runes": {
+      "Air rune": 10,
+      "Cosmic rune": 1,
+      "Mind rune": 5
+    },
+    "members": false
+  },
+  "Resurrect Lesser Skeleton": {
+    "name": "Resurrect Lesser Skeleton",
+    "spellbook": "Arceuus",
+    "level": 38,
+    "experience": 55.0,
+    "type": "Combat",
+    "runes": {
+      "Air rune": 10,
+      "Cosmic rune": 1,
+      "Mind rune": 5
+    },
+    "members": false
+  },
+  "Resurrect Lesser Zombie": {
+    "name": "Resurrect Lesser Zombie",
+    "spellbook": "Arceuus",
+    "level": 38,
+    "experience": 55.0,
+    "type": "Combat",
+    "runes": {
+      "Air rune": 10,
+      "Cosmic rune": 1,
+      "Mind rune": 5
+    },
+    "members": false
+  },
+  "Resurrect Superior Ghost": {
+    "name": "Resurrect Superior Ghost",
+    "spellbook": "Arceuus",
+    "level": 57,
+    "experience": 70.0,
+    "type": "Combat",
+    "runes": {
+      "Earth rune": 10,
+      "Cosmic rune": 1,
+      "Death rune": 5
+    },
+    "members": false
+  },
+  "Resurrect Superior Skeleton": {
+    "name": "Resurrect Superior Skeleton",
+    "spellbook": "Arceuus",
+    "level": 57,
+    "experience": 70.0,
+    "type": "Combat",
+    "runes": {
+      "Earth rune": 10,
+      "Cosmic rune": 1,
+      "Death rune": 5
+    },
+    "members": false
+  },
+  "Resurrect Superior Zombie": {
+    "name": "Resurrect Superior Zombie",
+    "spellbook": "Arceuus",
+    "level": 57,
+    "experience": 70.0,
+    "type": "Combat",
+    "runes": {
+      "Earth rune": 10,
+      "Cosmic rune": 1,
+      "Death rune": 5
+    },
+    "members": false
+  },
+  "Resurrect Greater Ghost": {
+    "name": "Resurrect Greater Ghost",
+    "spellbook": "Arceuus",
+    "level": 76,
+    "experience": 88.0,
+    "type": "Combat",
+    "runes": {
+      "Fire rune": 10,
+      "Blood rune": 5,
+      "Cosmic rune": 1
+    },
+    "members": false
+  },
+  "Resurrect Greater Skeleton": {
+    "name": "Resurrect Greater Skeleton",
+    "spellbook": "Arceuus",
+    "level": 76,
+    "experience": 88.0,
+    "type": "Combat",
+    "runes": {
+      "Fire rune": 10,
+      "Blood rune": 5,
+      "Cosmic rune": 1
+    },
+    "members": false
+  },
+  "Resurrect Greater Zombie": {
+    "name": "Resurrect Greater Zombie",
+    "spellbook": "Arceuus",
+    "level": 76,
+    "experience": 88.0,
+    "type": "Combat",
+    "runes": {
+      "Fire rune": 10,
+      "Blood rune": 5,
+      "Cosmic rune": 1
+    },
+    "members": false
+  },
+  "Civitas illa Fortis Teleport": {
+    "name": "Civitas illa Fortis Teleport",
+    "spellbook": "Standard",
+    "level": 54,
+    "experience": 64.0,
+    "type": "Teleport",
+    "runes": {
+      "Earth rune": 1,
+      "Fire rune": 1,
+      "Law rune": 2
+    },
+    "members": false
+  },
+  "Monster Inspect": {
+    "name": "Monster Inspect",
+    "spellbook": "Standard",
+    "level": 42,
+    "experience": 30.5,
+    "type": "Utility",
+    "runes": {
+      "Body rune": 2,
+      "Mind rune": 2
+    },
+    "members": false
+  },
+  "Teleport to Boat": {
+    "name": "Teleport to Boat",
+    "spellbook": "Standard",
+    "level": 67,
+    "experience": 77.0,
+    "type": "Teleport",
+    "runes": {
+      "Earth rune": 2,
+      "Water rune": 2,
+      "Law rune": 2
+    },
+    "members": false
+  },
+  "Summon Boat": {
+    "name": "Summon Boat",
+    "spellbook": "Standard",
+    "level": 56,
+    "experience": 66.0,
+    "type": "Teleport",
+    "runes": {
+      "Earth rune": 1,
+      "Water rune": 1,
+      "Law rune": 2
+    },
+    "members": false
+  },
+  "Alchemic Divergence": {
+    "name": "Alchemic Divergence",
+    "spellbook": "Standard",
+    "level": 1,
+    "experience": 0.0,
+    "type": "Utility",
+    "runes": {
+      "Nature rune": 1
+    },
+    "members": false
+  },
+  "Alchemic Convergence": {
+    "name": "Alchemic Convergence",
+    "spellbook": "Standard",
+    "level": 1,
+    "experience": 0.0,
+    "type": "Utility",
+    "runes": {
+      "Nature rune": 1
+    },
+    "members": false
+  }
+}

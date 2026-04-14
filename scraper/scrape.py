@@ -10,6 +10,7 @@ Exit codes:
   1 = fatal error (API failure, parse error, empty bucket)
   2 = drift warning (entry count changed >10% from last scrape)
 """
+from __future__ import annotations
 
 import hashlib
 import json
@@ -87,7 +88,16 @@ def fetch_bucket(bucket_name: str, fields: list[str]) -> list[dict]:
             print(f"FATAL: Unparseable JSON for {bucket_name} offset={offset}: {exc}", file=sys.stderr)
             sys.exit(1)
 
-        results = data.get("query", {}).get("results", [])
+        # Check for API-level errors
+        if "error" in data:
+            print(
+                f"FATAL: Bucket API error for {bucket_name}: {data['error']}",
+                file=sys.stderr,
+            )
+            sys.exit(1)
+
+        # The Bucket API returns results under the "bucket" key
+        results = data.get("bucket", [])
         all_results.extend(results)
 
         if len(results) < PAGE_SIZE:
@@ -109,6 +119,11 @@ def safe_int(val: Any, default: int | None = None) -> int | None:
     """Parse a value to int, returning *default* on failure."""
     if val is None or val == "" or val == "N/A":
         return default
+    # Handle array values (some bucket fields return arrays)
+    if isinstance(val, list):
+        if len(val) > 0:
+            return safe_int(val[0], default)
+        return default
     try:
         return int(val)
     except (ValueError, TypeError):
@@ -121,6 +136,10 @@ def safe_int(val: Any, default: int | None = None) -> int | None:
 
 def safe_float(val: Any, default: float | None = None) -> float | None:
     if val is None or val == "" or val == "N/A":
+        return default
+    if isinstance(val, list):
+        if len(val) > 0:
+            return safe_float(val[0], default)
         return default
     try:
         return float(val)
@@ -141,7 +160,33 @@ def safe_bool(val: Any, default: bool = False) -> bool:
 def safe_str(val: Any, default: str | None = None) -> str | None:
     if val is None or val == "":
         return default
+    if isinstance(val, list):
+        if len(val) > 0:
+            return str(val[0])
+        return default
     return str(val)
+
+
+def safe_str_list(val: Any) -> list[str]:
+    """Extract a list of strings from a value (may be string or list)."""
+    if val is None or val == "":
+        return []
+    if isinstance(val, list):
+        return [str(v) for v in val if v is not None and v != ""]
+    return [str(val)]
+
+
+def parse_immune(val: Any) -> bool | None:
+    """Parse immune fields: 'Immune' -> True, 'Not immune' -> False, else None."""
+    if val is None or val == "":
+        return None
+    s = str(val).strip().lower()
+    if s == "immune":
+        return True
+    if s == "not immune":
+        return False
+    # Fallback
+    return safe_bool(val)
 
 
 # ---------------------------------------------------------------------------
@@ -152,85 +197,95 @@ def safe_str(val: Any, default: str | None = None) -> str | None:
 def build_items(raw_items: list[dict], raw_bonuses: list[dict]) -> dict:
     """
     Merge infobox_item + infobox_bonuses into ItemDefinition keyed by id string.
+    Bonuses are matched by page_name_sub (item name).
     """
-    # Index bonuses by item name for merging
+    # Index bonuses by page_name_sub for merging
     bonuses_by_name: dict[str, dict] = {}
     for b in raw_bonuses:
-        name = b.get("item") or b.get("name") or ""
+        name = b.get("page_name_sub", "")
         if name:
             bonuses_by_name[name] = b
 
     items: dict[str, dict] = {}
     for row in raw_items:
-        item_id = safe_int(row.get("id"))
-        if item_id is None:
+        # item_id is an array of strings
+        item_ids = row.get("item_id", [])
+        if isinstance(item_ids, list):
+            ids = [safe_int(x) for x in item_ids if safe_int(x) is not None]
+        else:
+            ids = [safe_int(item_ids)]
+            ids = [x for x in ids if x is not None]
+
+        if not ids:
             continue
 
-        name = safe_str(row.get("name"), "")
+        name = safe_str(row.get("item_name"), "")
         bonus = bonuses_by_name.get(name, {})
 
-        equipment = None
-        slot = safe_str(bonus.get("slot"))
-        if slot:
-            # Parse requirement string "{{skill|Attack|40}},{{skill|Defence|20}}" -> {"Attack":40, ...}
-            reqs: dict[str, int] = {}
-            req_raw = safe_str(bonus.get("requirements"), "")
-            if req_raw:
-                # Handle both wiki template and plain formats
-                for m in re.finditer(r"(\w+)\|(\d+)", req_raw):
-                    reqs[m.group(1)] = int(m.group(2))
-                # Fallback: "Attack: 40, Defence: 20"
-                if not reqs:
-                    for m in re.finditer(r"(\w+)\s*[:=]\s*(\d+)", req_raw):
-                        reqs[m.group(1)] = int(m.group(2))
+        # Determine if tradeable on GE (has buy_limit implies GE tradeable)
+        buy_limit = safe_int(row.get("buy_limit"))
+        tradeable_raw = safe_str(row.get("tradeable"), "")
+        is_tradeable = tradeable_raw.lower() in ("yes", "true", "1") if tradeable_raw else buy_limit is not None
 
+        equipment = None
+        slot = safe_str(bonus.get("equipment_slot"))
+        if slot:
             equipment = {
                 "slot": slot,
-                "attackStab": safe_int(bonus.get("astab"), 0),
-                "attackSlash": safe_int(bonus.get("aslash"), 0),
-                "attackCrush": safe_int(bonus.get("acrush"), 0),
-                "attackMagic": safe_int(bonus.get("amagic"), 0),
-                "attackRanged": safe_int(bonus.get("arange"), 0),
-                "defenceStab": safe_int(bonus.get("dstab"), 0),
-                "defenceSlash": safe_int(bonus.get("dslash"), 0),
-                "defenceCrush": safe_int(bonus.get("dcrush"), 0),
-                "defenceMagic": safe_int(bonus.get("dmagic"), 0),
-                "defenceRanged": safe_int(bonus.get("drange"), 0),
-                "meleeStrength": safe_int(bonus.get("str"), 0),
-                "rangedStrength": safe_int(bonus.get("rstr"), 0),
-                "magicDamage": safe_float(bonus.get("mdmg"), 0.0),
-                "prayer": safe_int(bonus.get("prayer"), 0),
-                "requirements": reqs,
+                "attackStab": safe_int(bonus.get("stab_attack_bonus"), 0),
+                "attackSlash": safe_int(bonus.get("slash_attack_bonus"), 0),
+                "attackCrush": safe_int(bonus.get("crush_attack_bonus"), 0),
+                "attackMagic": safe_int(bonus.get("magic_attack_bonus"), 0),
+                "attackRanged": safe_int(bonus.get("range_attack_bonus"), 0),
+                "defenceStab": safe_int(bonus.get("stab_defence_bonus"), 0),
+                "defenceSlash": safe_int(bonus.get("slash_defence_bonus"), 0),
+                "defenceCrush": safe_int(bonus.get("crush_defence_bonus"), 0),
+                "defenceMagic": safe_int(bonus.get("magic_defence_bonus"), 0),
+                "defenceRanged": safe_int(bonus.get("range_defence_bonus"), 0),
+                "meleeStrength": safe_int(bonus.get("strength_bonus"), 0),
+                "rangedStrength": safe_int(bonus.get("ranged_strength_bonus"), 0),
+                "magicDamage": safe_float(bonus.get("magic_damage_bonus"), 0.0),
+                "prayer": safe_int(bonus.get("prayer_bonus"), 0),
+                "requirements": {},  # Requirements not directly available per-item from bucket
             }
 
         weapon = None
-        aspeed = safe_int(bonus.get("aspeed"))
+        aspeed = safe_int(bonus.get("weapon_attack_speed"))
         if aspeed is not None:
             weapon = {
                 "attackSpeed": aspeed,
-                "weaponType": safe_str(bonus.get("combatstyle"), ""),
+                "weaponType": safe_str(bonus.get("combat_style"), ""),
                 "stances": [],  # Stances not available from bucket API
             }
 
-        item = {
-            "id": item_id,
-            "name": name,
-            "members": safe_bool(row.get("members")),
-            "tradeable": safe_bool(row.get("tradeable")),
-            "tradeableOnGe": safe_bool(row.get("exchange")),
-            "stackable": safe_bool(row.get("stackable")),
-            "cost": safe_int(row.get("value"), 0),
-            "highAlch": safe_int(row.get("highalch")),
-            "lowAlch": safe_int(row.get("lowalch")),
-            "buyLimit": safe_int(row.get("limit")),
-            "weight": safe_float(row.get("weight")),
-            "examine": safe_str(row.get("examine")),
-            "questItem": safe_bool(row.get("quest")),
-            "equipment": equipment,
-            "weapon": weapon,
-        }
+        # Compute high/low alch from value if not directly available
+        value = safe_int(row.get("value"), 0)
+        high_alch = safe_int(row.get("high_alchemy_value"))
+        # low_alchemy_value is not in the bucket; compute from value
+        low_alch = None
+        if high_alch is not None:
+            low_alch = int(high_alch * 2 / 3) if high_alch > 0 else 0
 
-        items[str(item_id)] = item
+        # Create one entry per ID (some items have multiple IDs)
+        for item_id in ids:
+            item = {
+                "id": item_id,
+                "name": name,
+                "members": safe_bool(row.get("is_members_only")),
+                "tradeable": is_tradeable,
+                "tradeableOnGe": buy_limit is not None,
+                "stackable": False,  # Not directly available in bucket
+                "cost": value,
+                "highAlch": high_alch,
+                "lowAlch": low_alch,
+                "buyLimit": buy_limit,
+                "weight": safe_float(row.get("weight")),
+                "examine": safe_str(row.get("examine")),
+                "questItem": safe_bool(row.get("quest")),
+                "equipment": equipment,
+                "weapon": weapon,
+            }
+            items[str(item_id)] = item
 
     return items
 
@@ -239,81 +294,139 @@ def build_monsters(raw: list[dict]) -> dict:
     """MonsterDefinition keyed by id string."""
     monsters: dict[str, dict] = {}
     for row in raw:
-        monster_id = safe_int(row.get("id"))
-        if monster_id is None:
+        # id can be an array of strings
+        monster_ids = row.get("id", [])
+        if isinstance(monster_ids, list):
+            ids = [safe_int(x) for x in monster_ids if safe_int(x) is not None]
+        else:
+            ids = [safe_int(monster_ids)]
+            ids = [x for x in ids if x is not None]
+
+        if not ids:
             continue
 
-        monster = {
-            "id": monster_id,
-            "name": safe_str(row.get("name"), ""),
-            "members": safe_bool(row.get("members")),
-            "combatLevel": safe_int(row.get("combat")),
-            "hitpoints": safe_int(row.get("hitpoints")),
-            "maxHit": safe_str(row.get("max hit")),
-            "attackSpeed": safe_int(row.get("attack speed")),
-            "size": safe_int(row.get("size")),
-            "attackLevel": safe_int(row.get("att")),
-            "strengthLevel": safe_int(row.get("str")),
-            "defenceLevel": safe_int(row.get("def")),
-            "magicLevel": safe_int(row.get("mage")),
-            "rangedLevel": safe_int(row.get("range")),
-            "attackStab": safe_int(row.get("astab")),
-            "attackSlash": safe_int(row.get("aslash")),
-            "attackCrush": safe_int(row.get("acrush")),
-            "attackMagic": safe_int(row.get("amagic")),
-            "attackRanged": safe_int(row.get("arange")),
-            "defenceStab": safe_int(row.get("dstab")),
-            "defenceSlash": safe_int(row.get("dslash")),
-            "defenceCrush": safe_int(row.get("dcrush")),
-            "defenceMagic": safe_int(row.get("dmagic")),
-            "defenceRanged": safe_int(row.get("drange")),
-            "strengthBonus": safe_int(row.get("strbns")),
-            "rangedStrengthBonus": safe_int(row.get("rstrbns")),
-            "magicDamageBonus": safe_int(row.get("mbns")),
-            "slayerLevel": safe_int(row.get("slaylvl")),
-            "slayerXp": safe_float(row.get("slayxp")),
-            "slayerCategory": safe_str(row.get("cat")),
-            "assignedBy": safe_str(row.get("assignedby")),
-            "elementalWeakness": safe_str(row.get("elementalweakness")),
-            "elementalWeaknessPercent": safe_int(row.get("elementalweaknesspercent")),
-            "poisonous": safe_str(row.get("poison")),
-            "immunePoison": safe_bool(row.get("immunepoison")) if row.get("immunepoison") not in (None, "") else None,
-            "immuneVenom": safe_bool(row.get("immunevenom")) if row.get("immunevenom") not in (None, "") else None,
-            "examine": safe_str(row.get("examine")),
-        }
-        monsters[str(monster_id)] = monster
+        name = safe_str(row.get("name"), "")
+
+        # max_hit can be an array
+        max_hit_raw = row.get("max_hit")
+        if isinstance(max_hit_raw, list):
+            max_hit = safe_str(max_hit_raw[0] if max_hit_raw else None)
+        else:
+            max_hit = safe_str(max_hit_raw)
+
+        # slayer_category and assigned_by can be arrays
+        slayer_cats = safe_str_list(row.get("slayer_category"))
+        slayer_category = slayer_cats[0] if slayer_cats else None
+        assigned_list = safe_str_list(row.get("assigned_by"))
+        assigned_by = ",".join(assigned_list) if assigned_list else None
+
+        for monster_id in ids:
+            monster = {
+                "id": monster_id,
+                "name": name,
+                "members": safe_bool(row.get("is_members_only")),
+                "combatLevel": safe_int(row.get("combat_level")),
+                "hitpoints": safe_int(row.get("hitpoints")),
+                "maxHit": max_hit,
+                "attackSpeed": safe_int(row.get("attack_speed")),
+                "size": safe_int(row.get("size")),
+                "attackLevel": safe_int(row.get("attack_level")),
+                "strengthLevel": safe_int(row.get("strength_level")),
+                "defenceLevel": safe_int(row.get("defence_level")),
+                "magicLevel": safe_int(row.get("magic_level")),
+                "rangedLevel": safe_int(row.get("ranged_level")),
+                "attackStab": safe_int(row.get("stab_attack_bonus")),
+                "attackSlash": safe_int(row.get("slash_attack_bonus")),
+                "attackCrush": safe_int(row.get("crush_attack_bonus")),
+                "attackMagic": safe_int(row.get("magic_attack_bonus")),
+                "attackRanged": safe_int(row.get("range_attack_bonus")),
+                "defenceStab": safe_int(row.get("stab_defence_bonus")),
+                "defenceSlash": safe_int(row.get("slash_defence_bonus")),
+                "defenceCrush": safe_int(row.get("crush_defence_bonus")),
+                "defenceMagic": safe_int(row.get("magic_defence_bonus")),
+                "defenceRanged": safe_int(row.get("range_defence_bonus")),
+                "strengthBonus": safe_int(row.get("strength_bonus")),
+                "rangedStrengthBonus": safe_int(row.get("range_strength_bonus")),
+                "magicDamageBonus": safe_int(row.get("magic_damage_bonus")),
+                "slayerLevel": safe_int(row.get("slayer_level")),
+                "slayerXp": safe_float(row.get("slayer_experience")),
+                "slayerCategory": slayer_category,
+                "assignedBy": assigned_by,
+                "elementalWeakness": safe_str(row.get("elemental_weakness")),
+                "elementalWeaknessPercent": safe_int(row.get("elemental_weakness_percent")),
+                "poisonous": safe_str(row.get("poisonous")),
+                "immunePoison": parse_immune(row.get("poison_immune")),
+                "immuneVenom": parse_immune(row.get("venom_immune")),
+                "examine": safe_str(row.get("examine")),
+            }
+            monsters[str(monster_id)] = monster
 
     return monsters
 
 
 def build_drops(raw: list[dict]) -> list[dict]:
-    """DropEntry as a flat JSON array."""
+    """DropEntry as a flat JSON array, parsed from dropsline bucket."""
     drops: list[dict] = []
     for row in raw:
-        # Parse rarity — can be "1/128", "Always", a decimal, etc.
-        rarity_raw = safe_str(row.get("rarity"), "0")
+        # The page_name is the monster name (source page)
+        monster_name = safe_str(row.get("page_name"), "")
+        item_name = safe_str(row.get("item_name"), "")
+
+        # Parse the drop_json field for detailed drop info
+        drop_json_raw = safe_str(row.get("drop_json"), "")
+        drop_data = {}
+        if drop_json_raw:
+            try:
+                drop_data = json.loads(drop_json_raw)
+            except (json.JSONDecodeError, ValueError):
+                pass
+
+        # Use Dropped from if available (more accurate than page_name)
+        if drop_data.get("Dropped from"):
+            monster_name = drop_data["Dropped from"]
+        # Use Dropped item if available
+        if drop_data.get("Dropped item"):
+            item_name = drop_data["Dropped item"]
+
+        if not monster_name and not item_name:
+            continue
+
+        # Parse rarity from drop_json
+        rarity_raw = drop_data.get("Rarity", "0")
         rarity = 0.0
         if rarity_raw:
-            rarity_lower = rarity_raw.lower().strip()
-            if rarity_lower in ("always", "1", "1/1"):
+            rarity_str = str(rarity_raw).strip().lower()
+            if rarity_str in ("always", "1", "1/1"):
                 rarity = 1.0
-            elif "/" in rarity_raw:
-                parts = rarity_raw.split("/")
+            elif rarity_str == "varies":
+                rarity = 0.0
+            elif "/" in str(rarity_raw):
+                parts = str(rarity_raw).split("/")
                 try:
                     rarity = float(parts[0].strip()) / float(parts[1].strip())
                 except (ValueError, ZeroDivisionError, IndexError):
                     rarity = 0.0
             else:
-                rarity = safe_float(rarity_raw, 0.0)
+                rarity = safe_float(rarity_raw, 0.0) or 0.0
+
+        # Parse quantity
+        quantity = safe_str(drop_data.get("Drop Quantity"), "1")
+
+        # Rolls
+        rolls = safe_int(drop_data.get("Rolls"), 1)
+
+        # Name notes indicate noted drops
+        name_notes = safe_str(drop_data.get("Name Notes"), "")
+        noted = "noted" in (name_notes or "").lower()
 
         drop = {
-            "monsterName": safe_str(row.get("monster"), safe_str(row.get("name"), "")),
-            "itemName": safe_str(row.get("item"), safe_str(row.get("name2"), "")),
-            "itemId": safe_int(row.get("itemid")),
-            "quantity": safe_str(row.get("quantity"), "1"),
+            "monsterName": monster_name,
+            "itemName": item_name,
+            "itemId": None,  # Not available directly in bucket
+            "quantity": quantity,
             "rarity": rarity,
-            "noted": safe_bool(row.get("namenotes")),
-            "rolls": safe_int(row.get("rolls"), 1),
+            "noted": noted,
+            "rolls": rolls,
         }
         drops.append(drop)
 
@@ -324,19 +437,19 @@ def build_quests(raw: list[dict]) -> dict:
     """QuestDefinition keyed by quest name."""
     quests: dict[str, dict] = {}
     for row in raw:
-        name = safe_str(row.get("name"), "")
+        name = safe_str(row.get("page_name_sub"), safe_str(row.get("page_name"), ""))
         if not name:
             continue
 
         quest = {
             "name": name,
-            "difficulty": safe_str(row.get("difficulty")),
-            "length": safe_str(row.get("length")),
+            "difficulty": safe_str(row.get("official_difficulty")),
+            "length": safe_str(row.get("official_length")),
             "requirements": safe_str(row.get("requirements")),
-            "startPoint": safe_str(row.get("start")),
-            "itemsRequired": safe_str(row.get("items")),
-            "enemiesToDefeat": safe_str(row.get("kills")),
-            "ironmanConcerns": safe_str(row.get("ironman")),
+            "startPoint": safe_str(row.get("start_point")),
+            "itemsRequired": safe_str(row.get("items_required")),
+            "enemiesToDefeat": safe_str(row.get("enemies_to_defeat")),
+            "ironmanConcerns": safe_str(row.get("ironman_concerns")),
         }
         quests[name] = quest
 
@@ -344,44 +457,78 @@ def build_quests(raw: list[dict]) -> dict:
 
 
 def build_recipes(raw: list[dict]) -> dict:
-    """RecipeDefinition keyed by recipe name."""
+    """RecipeDefinition keyed by recipe name, parsed from production_json."""
     recipes: dict[str, dict] = {}
     for row in raw:
-        name = safe_str(row.get("name"), "")
+        # Parse production_json for the detailed recipe data
+        prod_json_raw = safe_str(row.get("production_json"), "")
+        prod_data = {}
+        if prod_json_raw:
+            try:
+                prod_data = json.loads(prod_json_raw)
+            except (json.JSONDecodeError, ValueError):
+                pass
+
+        name = prod_data.get("name", "")
+        if not name:
+            name = safe_str(row.get("page_name_sub"), safe_str(row.get("page_name"), ""))
         if not name:
             continue
 
-        # Parse materials: "Item1:3,Item2:1" or wiki template style
+        # Parse materials from production_json
         materials: list[dict] = []
-        mat_raw = safe_str(row.get("mat1"), "")
-        # Check mat1..mat10 fields
-        for i in range(1, 11):
-            mat_name = safe_str(row.get(f"mat{i}"))
-            mat_qty = safe_int(row.get(f"mat{i}qty"), 1)
-            if mat_name:
-                materials.append({"name": mat_name, "quantity": mat_qty})
+        raw_mats = prod_data.get("materials", [])
+        if isinstance(raw_mats, list):
+            for mat in raw_mats:
+                if isinstance(mat, dict):
+                    mat_name = mat.get("name", "")
+                    mat_qty = safe_int(mat.get("quantity"), 1)
+                    if mat_name:
+                        materials.append({"name": mat_name, "quantity": mat_qty})
+                elif isinstance(mat, str) and mat:
+                    materials.append({"name": mat, "quantity": 1})
 
-        # Parse tools and facilities
+        # Parse tools from uses_tool field or production_json
         tools: list[str] = []
-        tools_raw = safe_str(row.get("tools"))
-        if tools_raw:
-            tools = [t.strip() for t in tools_raw.split(",") if t.strip()]
+        tools_raw = row.get("uses_tool")
+        if isinstance(tools_raw, list):
+            tools = [str(t) for t in tools_raw if t]
+        elif tools_raw:
+            tools = [str(tools_raw)]
 
+        # Parse facilities from uses_facility field
         facilities: list[str] = []
-        fac_raw = safe_str(row.get("facilities"))
-        if fac_raw:
-            facilities = [f.strip() for f in fac_raw.split(",") if f.strip()]
+        fac_raw = row.get("uses_facility")
+        if isinstance(fac_raw, list):
+            facilities = [str(f) for f in fac_raw if f]
+        elif fac_raw:
+            facilities = [str(fac_raw)]
+
+        # Parse skill info from production_json
+        skills = prod_data.get("skills", [])
+        skill = None
+        level = None
+        experience = None
+        boostable = safe_bool(row.get("is_boostable"))
+        if isinstance(skills, list) and skills:
+            first_skill = skills[0]
+            if isinstance(first_skill, dict):
+                skill = first_skill.get("name")
+                level = safe_int(first_skill.get("level"))
+                experience = safe_float(first_skill.get("experience"))
+                if first_skill.get("boostable"):
+                    boostable = safe_bool(first_skill.get("boostable"))
 
         recipe = {
             "name": name,
-            "members": safe_bool(row.get("members")),
-            "skill": safe_str(row.get("skill")),
-            "level": safe_int(row.get("level")),
-            "experience": safe_float(row.get("experience")),
+            "members": safe_bool(row.get("is_members_only")),
+            "skill": skill,
+            "level": level,
+            "experience": experience,
             "materials": materials,
             "tools": tools,
             "facilities": facilities,
-            "boostable": safe_bool(row.get("boostable")),
+            "boostable": boostable,
         }
         recipes[name] = recipe
 
@@ -390,26 +537,26 @@ def build_recipes(raw: list[dict]) -> dict:
 
 def build_shops(raw_shops: list[dict], raw_storelines: list[dict]) -> dict:
     """ShopDefinition keyed by shop name. Storelines merged as items."""
-    # Group storeline items by shop name
+    # Group storeline items by sold_by (shop name)
     store_items_by_shop: dict[str, list[dict]] = {}
     for row in raw_storelines:
-        shop_name = safe_str(row.get("shop"), safe_str(row.get("store"), ""))
+        shop_name = safe_str(row.get("sold_by"), safe_str(row.get("page_name"), ""))
         if not shop_name:
             continue
 
         item = {
-            "itemName": safe_str(row.get("name"), safe_str(row.get("item"), "")),
-            "stock": safe_int(row.get("stock")),
-            "buyPrice": safe_str(row.get("buy")),
-            "sellPrice": safe_str(row.get("sell")),
-            "currency": safe_str(row.get("currency")),
-            "restockTime": safe_str(row.get("restock")),
+            "itemName": safe_str(row.get("sold_item"), ""),
+            "stock": safe_int(row.get("store_stock")),
+            "buyPrice": safe_str(row.get("store_buy_price")),
+            "sellPrice": safe_str(row.get("store_sell_price")),
+            "currency": safe_str(row.get("store_currency")),
+            "restockTime": safe_str(row.get("restock_time")),
         }
         store_items_by_shop.setdefault(shop_name, []).append(item)
 
     shops: dict[str, dict] = {}
     for row in raw_shops:
-        name = safe_str(row.get("name"), "")
+        name = safe_str(row.get("page_name_sub"), safe_str(row.get("page_name"), ""))
         if not name:
             continue
 
@@ -417,7 +564,7 @@ def build_shops(raw_shops: list[dict], raw_storelines: list[dict]) -> dict:
             "name": name,
             "owner": safe_str(row.get("owner")),
             "location": safe_str(row.get("location")),
-            "members": safe_bool(row.get("members")),
+            "members": safe_bool(row.get("is_members_only")),
             "items": store_items_by_shop.get(name, []),
         }
         shops[name] = shop
@@ -426,29 +573,62 @@ def build_shops(raw_shops: list[dict], raw_storelines: list[dict]) -> dict:
 
 
 def build_spells(raw: list[dict]) -> dict:
-    """SpellDefinition keyed by spell name."""
+    """SpellDefinition keyed by spell name, parsed from json field."""
     spells: dict[str, dict] = {}
     for row in raw:
-        name = safe_str(row.get("name"), "")
+        name = safe_str(row.get("page_name_sub"), safe_str(row.get("page_name"), ""))
         if not name:
             continue
 
-        # Parse runes: "Fire rune:5,Air rune:1" or individual rune fields
+        # Parse the json field for level, experience, type
+        spell_json_raw = safe_str(row.get("json"), "")
+        spell_data = {}
+        if spell_json_raw:
+            try:
+                spell_data = json.loads(spell_json_raw)
+            except (json.JSONDecodeError, ValueError):
+                pass
+
+        # Parse runes from uses_material (array of rune names)
+        rune_names = safe_str_list(row.get("uses_material"))
+        # The json field has a "cost" field with HTML rune quantities
+        # Parse rune quantities from the cost HTML: <sup>N</sup>[[File:X rune.png|...]]
         runes: dict[str, int] = {}
-        for i in range(1, 11):
-            rune_name = safe_str(row.get(f"rune{i}"))
-            rune_qty = safe_int(row.get(f"rune{i}qty"), 1)
-            if rune_name:
-                runes[rune_name] = rune_qty
+        cost_html = spell_data.get("cost", "")
+        if cost_html and rune_names:
+            # Pattern: <sup>N</sup>[[File:Rune.png|Rune|link=Rune name]]
+            for m in re.finditer(r"<sup>(\d+)</sup>\[\[File:([^|]+?)\.png", str(cost_html)):
+                qty = int(m.group(1))
+                rune_file = m.group(2)
+                # Match file name to rune name
+                runes[rune_file] = qty
+
+            # If regex didn't match, try simpler patterns
+            if not runes:
+                for rune_name in rune_names:
+                    runes[rune_name] = 1
+
+        spellbook = safe_str(row.get("spellbook"), "Standard")
+        # Capitalize first letter
+        if spellbook:
+            spellbook = spellbook[0].upper() + spellbook[1:] if len(spellbook) > 1 else spellbook.upper()
+            # Map common bucket values
+            spellbook_map = {
+                "Normal": "Standard",
+                "normal": "Standard",
+                "Regular": "Standard",
+                "regular": "Standard",
+            }
+            spellbook = spellbook_map.get(spellbook, spellbook)
 
         spell = {
             "name": name,
-            "spellbook": safe_str(row.get("spellbook"), "Standard"),
-            "level": safe_int(row.get("level"), 1),
-            "experience": safe_float(row.get("experience"), 0.0),
-            "type": safe_str(row.get("type"), ""),
+            "spellbook": spellbook,
+            "level": safe_int(spell_data.get("level"), 1),
+            "experience": safe_float(spell_data.get("exp"), 0.0),
+            "type": safe_str(spell_data.get("type"), ""),
             "runes": runes,
-            "members": safe_bool(row.get("members")),
+            "members": safe_bool(row.get("is_members_only")),
         }
         spells[name] = spell
 
@@ -622,7 +802,8 @@ def write_json(filename: str, data: Any) -> tuple[str, int]:
         f.write(content)
         f.write("\n")
 
-    sha = hashlib.sha256(content.encode("utf-8")).hexdigest()
+    hex_digest = hashlib.sha256(content.encode("utf-8")).hexdigest()
+    sha = f"sha256:{hex_digest}"
     count = len(data)
     return sha, count
 
@@ -645,66 +826,65 @@ def write_metadata(file_info: dict[str, dict]) -> None:
 # Bucket field selections
 # ---------------------------------------------------------------------------
 
-# Fields to request from each bucket. These are the wiki-side column names.
+# Fields to request from each bucket — these are the actual wiki bucket column names.
 ITEM_FIELDS = [
-    "id", "name", "members", "tradeable", "exchange", "stackable",
-    "value", "highalch", "lowalch", "limit", "weight", "examine", "quest",
+    "item_id", "item_name", "is_members_only", "tradeable",
+    "value", "high_alchemy_value", "weight", "examine", "quest", "buy_limit",
 ]
 
 BONUSES_FIELDS = [
-    "item", "name", "slot",
-    "astab", "aslash", "acrush", "amagic", "arange",
-    "dstab", "dslash", "dcrush", "dmagic", "drange",
-    "str", "rstr", "mdmg", "prayer",
-    "aspeed", "combatstyle", "requirements",
+    "page_name", "page_name_sub", "equipment_slot",
+    "stab_attack_bonus", "slash_attack_bonus", "crush_attack_bonus",
+    "magic_attack_bonus", "range_attack_bonus",
+    "stab_defence_bonus", "slash_defence_bonus", "crush_defence_bonus",
+    "magic_defence_bonus", "range_defence_bonus",
+    "strength_bonus", "ranged_strength_bonus", "prayer_bonus", "magic_damage_bonus",
+    "weapon_attack_speed", "combat_style",
 ]
 
 MONSTER_FIELDS = [
-    "id", "name", "members", "combat", "hitpoints",
-    "max hit", "attack speed", "size",
-    "att", "str", "def", "mage", "range",
-    "astab", "aslash", "acrush", "amagic", "arange",
-    "dstab", "dslash", "dcrush", "dmagic", "drange",
-    "strbns", "rstrbns", "mbns",
-    "slaylvl", "slayxp", "cat", "assignedby",
-    "elementalweakness", "elementalweaknesspercent",
-    "poison", "immunepoison", "immunevenom", "examine",
+    "id", "name", "is_members_only", "combat_level", "hitpoints",
+    "max_hit", "attack_speed", "size",
+    "attack_level", "strength_level", "defence_level", "magic_level", "ranged_level",
+    "stab_attack_bonus", "slash_attack_bonus", "crush_attack_bonus",
+    "magic_attack_bonus", "range_attack_bonus",
+    "stab_defence_bonus", "slash_defence_bonus", "crush_defence_bonus",
+    "magic_defence_bonus", "range_defence_bonus",
+    "strength_bonus", "range_strength_bonus", "magic_damage_bonus",
+    "slayer_level", "slayer_experience", "slayer_category", "assigned_by",
+    "elemental_weakness", "elemental_weakness_percent",
+    "poisonous", "poison_immune", "venom_immune", "examine",
 ]
 
 DROP_FIELDS = [
-    "monster", "name", "name2", "item", "itemid",
-    "quantity", "rarity", "namenotes", "rolls",
+    "page_name", "item_name", "drop_json",
 ]
 
 QUEST_FIELDS = [
-    "name", "difficulty", "length", "requirements",
-    "start", "items", "kills", "ironman",
+    "page_name", "page_name_sub",
+    "official_difficulty", "official_length", "requirements",
+    "start_point", "items_required", "enemies_to_defeat", "ironman_concerns",
 ]
 
 RECIPE_FIELDS = [
-    "name", "members", "skill", "level", "experience",
-    "mat1", "mat1qty", "mat2", "mat2qty", "mat3", "mat3qty",
-    "mat4", "mat4qty", "mat5", "mat5qty",
-    "mat6", "mat6qty", "mat7", "mat7qty", "mat8", "mat8qty",
-    "mat9", "mat9qty", "mat10", "mat10qty",
-    "tools", "facilities", "boostable",
+    "page_name", "page_name_sub",
+    "uses_material", "uses_tool", "uses_facility",
+    "is_members_only", "is_boostable", "uses_skill", "production_json",
 ]
 
 SHOP_FIELDS = [
-    "name", "owner", "location", "members",
+    "page_name", "page_name_sub", "owner", "location", "is_members_only",
 ]
 
 STORELINE_FIELDS = [
-    "shop", "store", "name", "item",
-    "stock", "buy", "sell", "currency", "restock",
+    "page_name", "page_name_sub", "sold_by", "sold_item",
+    "store_buy_price", "store_sell_price", "store_currency",
+    "store_stock", "restock_time",
 ]
 
 SPELL_FIELDS = [
-    "name", "spellbook", "level", "experience", "type", "members",
-    "rune1", "rune1qty", "rune2", "rune2qty", "rune3", "rune3qty",
-    "rune4", "rune4qty", "rune5", "rune5qty",
-    "rune6", "rune6qty", "rune7", "rune7qty",
-    "rune8", "rune8qty", "rune9", "rune9qty", "rune10", "rune10qty",
+    "page_name", "page_name_sub",
+    "is_members_only", "spellbook", "uses_material", "json",
 ]
 
 VARBIT_FIELDS = [
@@ -834,7 +1014,10 @@ def main() -> int:
     print()
     print("=== Summary ===")
     for fname, info in sorted(file_info.items()):
-        print(f"  {fname}: {info['entries']} entries (sha256: {info['hash'][:16]}...)")
+        hash_display = info['hash']
+        if hash_display.startswith("sha256:"):
+            hash_display = hash_display[7:]
+        print(f"  {fname}: {info['entries']} entries (sha256: {hash_display[:16]}...)")
 
     if drift:
         print()

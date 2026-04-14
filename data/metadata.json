@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "scrapedAt": "2026-04-14T05:49:57Z",
+  "files": {
+    "items.json": {
+      "hash": "sha256:80ee3f593f73c6881a7a87b5d752351cfc91356d2df99ff3d602deb3a99ec69a",
+      "entries": 15387
+    },
+    "monsters.json": {
+      "hash": "sha256:a6779b5773fea7f7d337e49a5924eac21ee0abcd102961e823f28f03942d4d9b",
+      "entries": 4077
+    },
+    "drops.json": {
+      "hash": "sha256:2fd733336f95162bbbe4246c24bb6ce3a51ff9f7b41b31704c0701daffb2df92",
+      "entries": 38636
+    },
+    "quests.json": {
+      "hash": "sha256:0a20a0a49b819176b100081863773334664b6d06ecb4eac1d5a5ec4e1daccb72",
+      "entries": 215
+    },
+    "recipes.json": {
+      "hash": "sha256:76aab0ee0fc17a3068987d055a5b3c7833e1d9cb28eaa38b1e7dca6a5d3bdf85",
+      "entries": 4857
+    },
+    "shops.json": {
+      "hash": "sha256:306125a7da06da2b2589b07d3b683eb02c89211547c7cbf8d08e8ec705af354a",
+      "entries": 503
+    },
+    "spells.json": {
+      "hash": "sha256:34ea375431b94a67cabde6673d0d561b9f0ed6fca41472b2b148fb190e9ba524",
+      "entries": 200
+    },
+    "varbits.json": {
+      "hash": "sha256:3afa4336123162a168c6a516f976c6b569f7b88b83d9afe99b5923a690f08c95",
+      "entries": 2871
+    }
+  }
+}
