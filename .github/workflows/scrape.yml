@@ -11,9 +11,13 @@ permissions:
   pull-requests: write
 
 jobs:
+  # ── Job 1: Scrape data (runs automatically) ──────────────────────────
   scrape:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    outputs:
+      status: ${{ steps.scrape.outputs.status }}
+      changed: ${{ steps.changes.outputs.changed }}
 
     steps:
       - name: Checkout repository
@@ -72,21 +76,81 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Configure git
+      - name: Upload scraped data
         if: steps.changes.outputs.changed == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: scraped-data
+          path: data/
+          retention-days: 7
+
+      - name: Open failure issue
+        if: failure() && steps.scrape.outputs.status == 'failed'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue create \
+            --title "Scraper failed — $(date -u +%Y-%m-%d)" \
+            --body "The daily OSRS data scrape failed.
+
+          **Workflow run:** ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
+          Please investigate the logs and re-run manually if needed."
+
+  # ── Job 2: Deploy data (requires manual approval) ────────────────────
+  #
+  # Configure the "production" environment in GitHub repo settings:
+  #   Settings → Environments → New environment → "production"
+  #   → Add required reviewers (yourself)
+  #
+  # After a successful scrape, this job will wait for approval.
+  # You'll get a notification — click "Review deployments" → Approve.
+  # If the scrape had issues, just don't approve and it expires.
+  #
+  deploy:
+    needs: scrape
+    if: needs.scrape.outputs.changed == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    environment: production
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download scraped data
+        uses: actions/download-artifact@v4
+        with:
+          name: scraped-data
+          path: data/
+
+      - name: Configure git
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Auto-commit to main
-        if: steps.scrape.outputs.status == 'ok' && steps.changes.outputs.changed == 'true'
+      - name: Show diff summary
+        run: |
+          echo "=== Data changes ==="
+          git diff --stat data/
+          echo ""
+          echo "=== Entry counts ==="
+          python3 -c "
+          import json
+          meta = json.load(open('data/metadata.json'))
+          for f, info in sorted(meta['files'].items()):
+              print(f'  {f}: {info[\"entries\"]} entries')
+          "
+
+      - name: Commit to main
+        if: needs.scrape.outputs.status == 'ok'
         run: |
           git add data/
           git commit -m "chore: update OSRS data $(date -u +%Y-%m-%d)"
           git push
 
       - name: Create drift PR
-        if: steps.scrape.outputs.status == 'drift' && steps.changes.outputs.changed == 'true'
+        if: needs.scrape.outputs.status == 'drift'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -106,16 +170,3 @@ jobs:
           **Run:** ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
             --base main \
             --head "$branch"
-
-      - name: Open failure issue
-        if: failure() && steps.scrape.outputs.status == 'failed'
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          gh issue create \
-            --title "Scraper failed — $(date -u +%Y-%m-%d)" \
-            --body "The daily OSRS data scrape failed.
-
-          **Workflow run:** ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
-
-          Please investigate the logs and re-run manually if needed."
