@@ -1,0 +1,102 @@
+name: Scrape OSRS Wiki Data
+
+on:
+  schedule:
+    - cron: "0 10 * * *" # Daily at 10:00 UTC
+  workflow_dispatch: # Manual trigger
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r scraper/requirements.txt
+
+      - name: Run scraper
+        id: scrape
+        run: |
+          set +e
+          python scraper/scrape.py
+          exit_code=$?
+          set -e
+
+          if [ $exit_code -eq 0 ]; then
+            echo "status=ok" >> "$GITHUB_OUTPUT"
+          elif [ $exit_code -eq 2 ]; then
+            echo "status=drift" >> "$GITHUB_OUTPUT"
+          else
+            echo "status=failed" >> "$GITHUB_OUTPUT"
+            exit 1
+          fi
+
+      - name: Check for data changes
+        id: changes
+        run: |
+          if git diff --quiet data/; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Configure git
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Auto-commit to main
+        if: steps.scrape.outputs.status == 'ok' && steps.changes.outputs.changed == 'true'
+        run: |
+          git add data/
+          git commit -m "chore: update OSRS data $(date -u +%Y-%m-%d)"
+          git push
+
+      - name: Create drift PR
+        if: steps.scrape.outputs.status == 'drift' && steps.changes.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          branch="data-drift/$(date -u +%Y-%m-%d-%H%M%S)"
+          git checkout -b "$branch"
+          git add data/
+          git commit -m "chore: update OSRS data (drift detected) $(date -u +%Y-%m-%d)"
+          git push -u origin "$branch"
+
+          gh pr create \
+            --title "Data drift detected — $(date -u +%Y-%m-%d)" \
+            --body "## Drift Warning
+
+          The daily scrape completed but one or more data files changed by more than 10% in entry count.
+          Please review the diff before merging.
+
+          **Run:** ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
+            --base main \
+            --head "$branch"
+
+      - name: Open failure issue
+        if: failure() && steps.scrape.outputs.status == 'failed'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue create \
+            --title "Scraper failed — $(date -u +%Y-%m-%d)" \
+            --body "The daily OSRS data scrape failed.
+
+          **Workflow run:** ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
+          Please investigate the logs and re-run manually if needed."
