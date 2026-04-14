@@ -194,11 +194,28 @@ def parse_immune(val: Any) -> bool | None:
 # ---------------------------------------------------------------------------
 
 
+def load_requirements() -> dict[str, dict[str, int]]:
+    """Load equipment requirements from cache-dumper output."""
+    req_path = DATA_DIR / "requirements.json"
+    if not req_path.exists():
+        print("  WARNING: requirements.json not found, equipment requirements will be empty")
+        return {}
+    try:
+        data = json.loads(req_path.read_text(encoding="utf-8"))
+        print(f"  Loaded {len(data)} equipment requirements from cache")
+        return data
+    except Exception as e:
+        print(f"  WARNING: failed to load requirements.json: {e}")
+        return {}
+
+
 def build_items(raw_items: list[dict], raw_bonuses: list[dict]) -> dict:
     """
     Merge infobox_item + infobox_bonuses into ItemDefinition keyed by id string.
     Bonuses are matched by page_name_sub (item name).
     """
+    requirements = load_requirements()
+
     # Index bonuses by page_name_sub for merging
     bonuses_by_name: dict[str, dict] = {}
     for b in raw_bonuses:
@@ -246,7 +263,7 @@ def build_items(raw_items: list[dict], raw_bonuses: list[dict]) -> dict:
                 "rangedStrength": safe_int(bonus.get("ranged_strength_bonus"), 0),
                 "magicDamage": safe_float(bonus.get("magic_damage_bonus"), 0.0),
                 "prayer": safe_int(bonus.get("prayer_bonus"), 0),
-                "requirements": {},  # Requirements not directly available per-item from bucket
+                "requirements": {},  # Populated below from cache-dumper output
             }
 
         weapon = None
@@ -268,6 +285,13 @@ def build_items(raw_items: list[dict], raw_bonuses: list[dict]) -> dict:
 
         # Create one entry per ID (some items have multiple IDs)
         for item_id in ids:
+            # Merge cache-based equipment requirements if available
+            item_equipment = equipment
+            if item_equipment is not None:
+                reqs = requirements.get(str(item_id), {})
+                if reqs:
+                    item_equipment = {**item_equipment, "requirements": reqs}
+
             item = {
                 "id": item_id,
                 "name": name,
@@ -282,7 +306,7 @@ def build_items(raw_items: list[dict], raw_bonuses: list[dict]) -> dict:
                 "weight": safe_float(row.get("weight")),
                 "examine": safe_str(row.get("examine")),
                 "questItem": safe_bool(row.get("quest")),
-                "equipment": equipment,
+                "equipment": item_equipment,
                 "weapon": weapon,
             }
             items[str(item_id)] = item
