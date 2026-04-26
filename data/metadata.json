@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "scrapedAt": "2026-04-25T10:22:59Z",
+  "scrapedAt": "2026-04-26T07:22:37Z",
   "files": {
     "items.json": {
-      "hash": "sha256:b304ac3059ca5897e7f822d0664f47a20bbde570de0560ec36a433e56392e05c",
+      "hash": "sha256:99ab2a5dda0ed0c2c6236f059b944479a0489cdd6cd2322e0c7dbf982fd82701",
       "entries": 15436
     },
     "monsters.json": {
-      "hash": "sha256:9caca5605e1ebb20da4393a62d810ede2812fe7b54e516e47dab3d6f31d01f87",
+      "hash": "sha256:6c5ad7a9dc7773bff074537cfd0b0a70512056a21a431b3717a47b43a0070849",
       "entries": 4079
     },
     "drops.json": {
@@ -15,7 +15,7 @@
       "entries": 38640
     },
     "quests.json": {
-      "hash": "sha256:5077042b597b4b22d05cb4555058d0e14eb539d8daccdb68302d9bbcc678a6bd",
+      "hash": "sha256:eb81f85d0685ade601917cd8bd68600334c19106f5966d8e027380d44bfe7332",
       "entries": 215
     },
     "recipes.json": {
