@@ -7853,6 +7853,22 @@
         "sellPrice": "7",
         "currency": "Coins",
         "restockTime": "100"
+      },
+      {
+        "itemName": "Wrath talisman",
+        "stock": 1,
+        "buyPrice": "40",
+        "sellPrice": "130",
+        "currency": "Coins",
+        "restockTime": "N/A"
+      },
+      {
+        "itemName": "Raw cave eel",
+        "stock": 100,
+        "buyPrice": "6",
+        "sellPrice": "19",
+        "currency": "Coins",
+        "restockTime": "N/A"
       }
     ]
   },
@@ -22527,6 +22543,14 @@
         "sellPrice": "12",
         "currency": "Coins",
         "restockTime": "100"
+      },
+      {
+        "itemName": "Blood talisman",
+        "stock": 1,
+        "buyPrice": "0",
+        "sellPrice": "8",
+        "currency": "Coins",
+        "restockTime": "N/A"
       }
     ]
   },
@@ -34294,6 +34318,110 @@
         "sellPrice": "10000",
         "currency": "League Points",
         "restockTime": "N/A"
+      },
+      {
+        "itemName": "Demonic pacts banner",
+        "stock": null,
+        "buyPrice": "N/A",
+        "sellPrice": "500",
+        "currency": "League Points",
+        "restockTime": "N/A"
+      },
+      {
+        "itemName": "Demonic Pacts Relic Hunter (T1)",
+        "stock": null,
+        "buyPrice": "N/A",
+        "sellPrice": "1000",
+        "currency": "League Points",
+        "restockTime": "N/A"
+      },
+      {
+        "itemName": "Demonic Pacts Relic Hunter (T2)",
+        "stock": null,
+        "buyPrice": "N/A",
+        "sellPrice": "5000",
+        "currency": "League Points",
+        "restockTime": "N/A"
+      },
+      {
+        "itemName": "Demonic Pacts Relic Hunter (T3)",
+        "stock": null,
+        "buyPrice": "N/A",
+        "sellPrice": "20000",
+        "currency": "League Points",
+        "restockTime": "N/A"
+      },
+      {
+        "itemName": "Demonic pacts throne scroll",
+        "stock": null,
+        "buyPrice": "N/A",
+        "sellPrice": "3000",
+        "currency": "League Points",
+        "restockTime": "N/A"
+      },
+      {
+        "itemName": "Impish ritual kit",
+        "stock": null,
+        "buyPrice": "N/A",
+        "sellPrice": "1000",
+        "currency": "League Points",
+        "restockTime": "N/A"
+      },
+      {
+        "itemName": "Impish whistle",
+        "stock": null,
+        "buyPrice": "N/A",
+        "sellPrice": "8000",
+        "currency": "League Points",
+        "restockTime": "N/A"
+      },
+      {
+        "itemName": "Demonic trident ornament kit",
+        "stock": null,
+        "buyPrice": "N/A",
+        "sellPrice": "4500",
+        "currency": "League Points",
+        "restockTime": "N/A"
+      },
+      {
+        "itemName": "Demonic axe ornament kit",
+        "stock": null,
+        "buyPrice": "N/A",
+        "sellPrice": "10000",
+        "currency": "League Points",
+        "restockTime": "N/A"
+      },
+      {
+        "itemName": "Demonic quill",
+        "stock": null,
+        "buyPrice": "N/A",
+        "sellPrice": "3000",
+        "currency": "League Points",
+        "restockTime": "N/A"
+      },
+      {
+        "itemName": "Demonic skin contract",
+        "stock": null,
+        "buyPrice": "N/A",
+        "sellPrice": "3000",
+        "currency": "League Points",
+        "restockTime": "N/A"
+      },
+      {
+        "itemName": "Demonic pacts demon butler scroll",
+        "stock": null,
+        "buyPrice": "N/A",
+        "sellPrice": "4000",
+        "currency": "League Points",
+        "restockTime": "N/A"
+      },
+      {
+        "itemName": "Demonic staff ornament kit",
+        "stock": null,
+        "buyPrice": "N/A",
+        "sellPrice": "2000",
+        "currency": "League Points",
+        "restockTime": "N/A"
       }
     ]
   },
@@ -37632,6 +37760,54 @@
         "sellPrice": "2080",
         "currency": "Coins",
         "restockTime": "12000"
+      },
+      {
+        "itemName": "Bronze dagger",
+        "stock": 5,
+        "buyPrice": "6",
+        "sellPrice": "10",
+        "currency": "Coins",
+        "restockTime": "N/A"
+      },
+      {
+        "itemName": "Iron dagger",
+        "stock": 3,
+        "buyPrice": "21",
+        "sellPrice": "35",
+        "currency": "Coins",
+        "restockTime": "N/A"
+      },
+      {
+        "itemName": "Steel dagger",
+        "stock": 2,
+        "buyPrice": "75",
+        "sellPrice": "125",
+        "currency": "Coins",
+        "restockTime": "N/A"
+      },
+      {
+        "itemName": "Bronze halberd",
+        "stock": 5,
+        "buyPrice": "48",
+        "sellPrice": "80",
+        "currency": "Coins",
+        "restockTime": "N/A"
+      },
+      {
+        "itemName": "Iron halberd",
+        "stock": 3,
+        "buyPrice": "168",
+        "sellPrice": "280",
+        "currency": "Coins",
+        "restockTime": "N/A"
+      },
+      {
+        "itemName": "Steel halberd",
+        "stock": 2,
+        "buyPrice": "600",
+        "sellPrice": "1000",
+        "currency": "Coins",
+        "restockTime": "N/A"
       }
     ]
   },
@@ -37760,6 +37936,30 @@
         "sellPrice": "650",
         "currency": "Coins",
         "restockTime": "30"
+      },
+      {
+        "itemName": "Bird snare",
+        "stock": 5,
+        "buyPrice": "2",
+        "sellPrice": "6",
+        "currency": "Coins",
+        "restockTime": "N/A"
+      },
+      {
+        "itemName": "Box trap",
+        "stock": 5,
+        "buyPrice": "12",
+        "sellPrice": "41",
+        "currency": "Coins",
+        "restockTime": "N/A"
+      },
+      {
+        "itemName": "Pestle and mortar",
+        "stock": 10,
+        "buyPrice": "1",
+        "sellPrice": "5",
+        "currency": "Coins",
+        "restockTime": "N/A"
       }
     ]
   },
@@ -38848,6 +39048,30 @@
         "sellPrice": "650",
         "currency": "Coins",
         "restockTime": "30"
+      },
+      {
+        "itemName": "Bird snare",
+        "stock": 5,
+        "buyPrice": "2",
+        "sellPrice": "6",
+        "currency": "Coins",
+        "restockTime": "N/A"
+      },
+      {
+        "itemName": "Box trap",
+        "stock": 5,
+        "buyPrice": "12",
+        "sellPrice": "41",
+        "currency": "Coins",
+        "restockTime": "N/A"
+      },
+      {
+        "itemName": "Pestle and mortar",
+        "stock": 10,
+        "buyPrice": "1",
+        "sellPrice": "5",
+        "currency": "Coins",
+        "restockTime": "N/A"
       }
     ]
   },
@@ -42766,6 +42990,30 @@
         "sellPrice": "400",
         "currency": "Coins",
         "restockTime": "30"
+      },
+      {
+        "itemName": "Bronze knife",
+        "stock": 2000,
+        "buyPrice": "0",
+        "sellPrice": "1",
+        "currency": "Coins",
+        "restockTime": "N/A"
+      },
+      {
+        "itemName": "Iron knife",
+        "stock": 1000,
+        "buyPrice": "1",
+        "sellPrice": "3",
+        "currency": "Coins",
+        "restockTime": "N/A"
+      },
+      {
+        "itemName": "Steel knife",
+        "stock": 800,
+        "buyPrice": "6",
+        "sellPrice": "11",
+        "currency": "Coins",
+        "restockTime": "N/A"
       }
     ]
   },

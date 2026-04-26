@@ -2526,5 +2526,14 @@
       "Nature rune": 1
     },
     "members": false
+  },
+  "League Home Teleport": {
+    "name": "League Home Teleport",
+    "spellbook": "All",
+    "level": 1,
+    "experience": 0.0,
+    "type": "Teleport",
+    "runes": {},
+    "members": false
   }
 }

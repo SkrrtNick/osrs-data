@@ -18171,8 +18171,8 @@
     ],
     "boostable": true
   },
-  "Guthix rest#(3)": {
-    "name": "Guthix rest#(3)",
+  "Guthix rest#3 dose": {
+    "name": "Guthix rest#3 dose",
     "members": false,
     "skill": "Herblore",
     "level": 18,
@@ -50538,6 +50538,62 @@
     ],
     "facilities": [],
     "boostable": true
+  },
+  "Poisoned egg": {
+    "name": "Poisoned egg",
+    "members": false,
+    "skill": null,
+    "level": null,
+    "experience": null,
+    "materials": [
+      {
+        "name": "Yellow egg",
+        "quantity": 1
+      }
+    ],
+    "tools": [],
+    "facilities": [
+      "Poison crater"
+    ],
+    "boostable": false
+  },
+  "Spiked/pois. egg": {
+    "name": "Spiked/pois. egg",
+    "members": false,
+    "skill": null,
+    "level": null,
+    "experience": null,
+    "materials": [
+      {
+        "name": "Poisoned egg",
+        "quantity": 1
+      },
+      {
+        "name": "Spikes (Barbarian Assault)",
+        "quantity": 1
+      }
+    ],
+    "tools": [],
+    "facilities": [],
+    "boostable": false
+  },
+  "Omega egg": {
+    "name": "Omega egg",
+    "members": false,
+    "skill": null,
+    "level": null,
+    "experience": null,
+    "materials": [
+      {
+        "name": "Spiked/pois. egg",
+        "quantity": 1
+      }
+    ],
+    "tools": [],
+    "facilities": [
+      "Lava crater"
+    ],
+    "boostable": false
   },
   "Stuffed kbd heads": {
     "name": "Stuffed kbd heads",
@@ -83554,14 +83610,10 @@
       {
         "name": "Pheasant tail feathers",
         "quantity": 15
-      },
-      {
-        "name": "Thread",
-        "quantity": 1
       }
     ],
     "tools": [
-      "Needle"
+      "Costume needle"
     ],
     "facilities": [],
     "boostable": true
@@ -83576,14 +83628,10 @@
       {
         "name": "Pheasant tail feathers",
         "quantity": 15
-      },
-      {
-        "name": "Thread",
-        "quantity": 1
       }
     ],
     "tools": [
-      "Needle"
+      "Costume needle"
     ],
     "facilities": [],
     "boostable": true
@@ -83598,14 +83646,10 @@
       {
         "name": "Pheasant tail feathers",
         "quantity": 15
-      },
-      {
-        "name": "Thread",
-        "quantity": 1
       }
     ],
     "tools": [
-      "Needle"
+      "Costume needle"
     ],
     "facilities": [],
     "boostable": true
@@ -83620,14 +83664,10 @@
       {
         "name": "Pheasant tail feathers",
         "quantity": 15
-      },
-      {
-        "name": "Thread",
-        "quantity": 1
       }
     ],
     "tools": [
-      "Needle"
+      "Costume needle"
     ],
     "facilities": [],
     "boostable": true
@@ -93815,10 +93855,6 @@
     "experience": 0.0,
     "materials": [
       {
-        "name": "Barrel stand",
-        "quantity": 1
-      },
-      {
         "name": "Oak plank",
         "quantity": 5
       },
@@ -93829,7 +93865,8 @@
     ],
     "tools": [
       "Saw",
-      "Hammer"
+      "Hammer",
+      "Barrel stand"
     ],
     "facilities": [],
     "boostable": false
@@ -95177,6 +95214,17 @@
     "facilities": [],
     "boostable": true
   },
+  "Stone": {
+    "name": "Stone",
+    "members": false,
+    "skill": "Agility",
+    "level": 1,
+    "experience": 1.6,
+    "materials": [],
+    "tools": [],
+    "facilities": [],
+    "boostable": false
+  },
   "Platform edge": {
     "name": "Platform edge",
     "members": false,
@@ -95184,6 +95232,26 @@
     "level": 73,
     "experience": null,
     "materials": [],
+    "tools": [],
+    "facilities": [],
+    "boostable": false
+  },
+  "Soulreaper axe (o)": {
+    "name": "Soulreaper axe (o)",
+    "members": false,
+    "skill": null,
+    "level": null,
+    "experience": null,
+    "materials": [
+      {
+        "name": "Soulreaper axe",
+        "quantity": 1
+      },
+      {
+        "name": "Demonic axe ornament kit",
+        "quantity": 1
+      }
+    ],
     "tools": [],
     "facilities": [],
     "boostable": false
