@@ -2511,9 +2511,7 @@
     "level": 1,
     "experience": 0.0,
     "type": "Utility",
-    "runes": {
-      "Nature rune": 1
-    },
+    "runes": {},
     "members": false
   },
   "Alchemic Convergence": {
@@ -2522,9 +2520,7 @@
     "level": 1,
     "experience": 0.0,
     "type": "Utility",
-    "runes": {
-      "Nature rune": 1
-    },
+    "runes": {},
     "members": false
   },
   "League Home Teleport": {

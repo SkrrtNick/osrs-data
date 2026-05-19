@@ -29147,9 +29147,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "magic": 60
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 5,
@@ -37600,9 +37598,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "defence": 41
-      }
+      "requirements": {}
     },
     "weapon": null
   },
@@ -39748,10 +39744,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "attack": 50,
-        "slayer": 55
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 5,
@@ -41803,9 +41796,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "magic": 60
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 5,
@@ -42669,9 +42660,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "magic": 60
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 5,
@@ -43015,9 +43004,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "defence": 34
-      }
+      "requirements": {}
     },
     "weapon": null
   },
@@ -46662,9 +46649,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "defence": 13
-      }
+      "requirements": {}
     },
     "weapon": null
   },
@@ -48028,9 +48013,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "magic": 60
-      }
+      "requirements": {}
     },
     "weapon": null
   },
@@ -49902,9 +49885,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "magic": 60
-      }
+      "requirements": {}
     },
     "weapon": null
   },
@@ -53074,9 +53055,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "magic": 60
-      }
+      "requirements": {}
     },
     "weapon": null
   },
@@ -54728,9 +54707,7 @@
       "rangedStrength": 28,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "ranged": 50
-      }
+      "requirements": {}
     },
     "weapon": null
   },
@@ -84598,9 +84575,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "attack": 75
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 4,
@@ -84661,23 +84636,6 @@
     "buyLimit": 11000,
     "weight": 0.01,
     "examine": "A scale from the hide of a lava dragon.",
-    "questItem": false,
-    "equipment": null,
-    "weapon": null
-  },
-  "3256": {
-    "id": 3256,
-    "name": "Lava scale shard",
-    "members": false,
-    "tradeable": true,
-    "tradeableOnGe": true,
-    "stackable": false,
-    "cost": 20,
-    "highAlch": 12,
-    "lowAlch": 8,
-    "buyLimit": 11000,
-    "weight": 0.0,
-    "examine": "Ground-up lava dragon scale.",
     "questItem": false,
     "equipment": null,
     "weapon": null
@@ -109644,9 +109602,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "ranged": 50
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 4,
@@ -147652,9 +147608,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 2,
-      "requirements": {
-        "hitpoints": 75
-      }
+      "requirements": {}
     },
     "weapon": null
   },
@@ -147688,9 +147642,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 8,
-      "requirements": {
-        "attack": 75
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 6,
@@ -147728,9 +147680,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 8,
-      "requirements": {
-        "attack": 75
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 6,
@@ -147768,9 +147718,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 8,
-      "requirements": {
-        "attack": 75
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 6,
@@ -147808,9 +147756,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 8,
-      "requirements": {
-        "attack": 75
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 6,
@@ -154379,9 +154325,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "firemaking": 50
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 4,
@@ -162681,10 +162625,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "magic": 75,
-        "slayer": 55
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 4,
@@ -173228,9 +173169,7 @@
       "rangedStrength": 5,
       "magicDamage": 0.0,
       "prayer": 2,
-      "requirements": {
-        "hitpoints": 75
-      }
+      "requirements": {}
     },
     "weapon": null
   },
@@ -175402,9 +175341,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 5,
-      "requirements": {
-        "attack": 40
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 5,
@@ -180952,10 +180889,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "attack": 80,
-        "defence": 80
-      }
+      "requirements": {}
     },
     "weapon": null
   },
@@ -183339,6 +183273,40 @@
     "buyLimit": null,
     "weight": 1.5,
     "examine": "It likes ferreting around.",
+    "questItem": false,
+    "equipment": null,
+    "weapon": null
+  },
+  "33395": {
+    "id": 33395,
+    "name": "Open gem sack",
+    "members": false,
+    "tradeable": false,
+    "tradeableOnGe": false,
+    "stackable": false,
+    "cost": 100,
+    "highAlch": null,
+    "lowAlch": null,
+    "buyLimit": null,
+    "weight": 1.0,
+    "examine": "You can carry uncut gems in here.",
+    "questItem": false,
+    "equipment": null,
+    "weapon": null
+  },
+  "33393": {
+    "id": 33393,
+    "name": "Gem sack",
+    "members": false,
+    "tradeable": false,
+    "tradeableOnGe": false,
+    "stackable": false,
+    "cost": 100,
+    "highAlch": null,
+    "lowAlch": null,
+    "buyLimit": null,
+    "weight": 1.0,
+    "examine": "You can carry uncut gems in here.",
     "questItem": false,
     "equipment": null,
     "weapon": null
@@ -186561,9 +186529,7 @@
       "rangedStrength": 0,
       "magicDamage": 5.0,
       "prayer": 2,
-      "requirements": {
-        "hitpoints": 75
-      }
+      "requirements": {}
     },
     "weapon": null
   },
@@ -186982,6 +186948,40 @@
     "buyLimit": null,
     "weight": 0.45,
     "examine": "Pie might just about meet the critera<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"The preceding quoted material has been reproduced verbatim from the quoted original and is not a transcription error.\">sic</span>&#93;</sup>.",
+    "questItem": false,
+    "equipment": null,
+    "weapon": null
+  },
+  "33386": {
+    "id": 33386,
+    "name": "Open gem pouch",
+    "members": false,
+    "tradeable": false,
+    "tradeableOnGe": false,
+    "stackable": false,
+    "cost": 100,
+    "highAlch": null,
+    "lowAlch": null,
+    "buyLimit": null,
+    "weight": 1.0,
+    "examine": "You can carry uncut gems in here.",
+    "questItem": false,
+    "equipment": null,
+    "weapon": null
+  },
+  "33384": {
+    "id": 33384,
+    "name": "Gem pouch",
+    "members": false,
+    "tradeable": false,
+    "tradeableOnGe": false,
+    "stackable": false,
+    "cost": 100,
+    "highAlch": null,
+    "lowAlch": null,
+    "buyLimit": null,
+    "weight": 1.0,
+    "examine": "You can carry uncut gems in here.",
     "questItem": false,
     "equipment": null,
     "weapon": null
@@ -195202,9 +195202,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 3,
-      "requirements": {
-        "defence": 70
-      }
+      "requirements": {}
     },
     "weapon": null
   },
@@ -197778,10 +197776,7 @@
       "rangedStrength": 0,
       "magicDamage": 15.0,
       "prayer": 0,
-      "requirements": {
-        "magic": 82,
-        "hitpoints": 50
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 5,
@@ -197819,10 +197814,7 @@
       "rangedStrength": 0,
       "magicDamage": 15.0,
       "prayer": 0,
-      "requirements": {
-        "magic": 82,
-        "hitpoints": 50
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 5,
@@ -197860,10 +197852,7 @@
       "rangedStrength": 0,
       "magicDamage": 15.0,
       "prayer": 0,
-      "requirements": {
-        "magic": 82,
-        "hitpoints": 50
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 5,
@@ -199754,9 +199743,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "attack": 80
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 4,
@@ -200440,10 +200427,7 @@
       "rangedStrength": 0,
       "magicDamage": 3.0,
       "prayer": 0,
-      "requirements": {
-        "magic": 75,
-        "defence": 65
-      }
+      "requirements": {}
     },
     "weapon": null
   },
@@ -200477,10 +200461,7 @@
       "rangedStrength": 0,
       "magicDamage": 3.0,
       "prayer": 0,
-      "requirements": {
-        "magic": 75,
-        "defence": 65
-      }
+      "requirements": {}
     },
     "weapon": null
   },
@@ -200514,10 +200495,7 @@
       "rangedStrength": 0,
       "magicDamage": 3.0,
       "prayer": 0,
-      "requirements": {
-        "magic": 75,
-        "defence": 65
-      }
+      "requirements": {}
     },
     "weapon": null
   },
@@ -217796,10 +217774,7 @@
       "rangedStrength": 106,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "ranged": 80,
-        "agility": 70
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 5,
@@ -219560,9 +219535,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "attack": 80
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 4,
@@ -219600,9 +219573,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "attack": 80
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 4,
@@ -219640,9 +219611,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "attack": 80
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 4,
@@ -219680,9 +219649,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "attack": 80
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 4,
@@ -219720,9 +219687,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "attack": 80
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 4,
@@ -219760,9 +219725,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "attack": 80
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 4,
@@ -219800,9 +219763,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "attack": 80
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 4,
@@ -219840,10 +219801,7 @@
       "rangedStrength": 106,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "ranged": 80,
-        "agility": 70
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 5,
@@ -219881,10 +219839,7 @@
       "rangedStrength": 106,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "ranged": 80,
-        "agility": 70
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 5,
@@ -219922,10 +219877,7 @@
       "rangedStrength": 106,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "ranged": 80,
-        "agility": 70
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 5,
@@ -219963,10 +219915,7 @@
       "rangedStrength": 106,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "ranged": 80,
-        "agility": 70
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 5,
@@ -220004,10 +219953,7 @@
       "rangedStrength": 106,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "ranged": 80,
-        "agility": 70
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 5,
@@ -220045,10 +219991,7 @@
       "rangedStrength": 106,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "ranged": 80,
-        "agility": 70
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 5,
@@ -220086,10 +220029,7 @@
       "rangedStrength": 106,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "ranged": 80,
-        "agility": 70
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 5,
@@ -230911,11 +230851,7 @@
       "rangedStrength": 0,
       "magicDamage": 5.0,
       "prayer": 4,
-      "requirements": {
-        "magic": 80,
-        "defence": 80,
-        "prayer": 80
-      }
+      "requirements": {}
     },
     "weapon": null
   },
@@ -231068,9 +231004,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 3,
-      "requirements": {
-        "attack": 80
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 4,
@@ -236276,9 +236210,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "attack": 70
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 4,
@@ -236316,9 +236248,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "attack": 75
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 4,
@@ -241758,9 +241688,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "attack": 60
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 6,
@@ -242482,12 +242410,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "ranged": 1,
-        "magic": 1,
-        "strength": 1,
-        "defence": 41
-      }
+      "requirements": {}
     },
     "weapon": null
   },
@@ -242521,12 +242444,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "ranged": 1,
-        "magic": 1,
-        "strength": 1,
-        "defence": 1
-      }
+      "requirements": {}
     },
     "weapon": null
   },
@@ -242560,12 +242478,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "ranged": 1,
-        "magic": 1,
-        "strength": 1,
-        "defence": 34
-      }
+      "requirements": {}
     },
     "weapon": null
   },
@@ -242735,9 +242648,7 @@
       "rangedStrength": 0,
       "magicDamage": 1.0,
       "prayer": 0,
-      "requirements": {
-        "magic": 40
-      }
+      "requirements": {}
     },
     "weapon": null
   },
@@ -242771,9 +242682,7 @@
       "rangedStrength": 0,
       "magicDamage": 1.0,
       "prayer": 0,
-      "requirements": {
-        "magic": 40
-      }
+      "requirements": {}
     },
     "weapon": null
   },
@@ -242807,9 +242716,7 @@
       "rangedStrength": 0,
       "magicDamage": 1.0,
       "prayer": 0,
-      "requirements": {
-        "magic": 40
-      }
+      "requirements": {}
     },
     "weapon": null
   },
@@ -242843,10 +242750,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "attack": 75,
-        "strength": 75
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 6,
@@ -243114,9 +243018,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 3,
-      "requirements": {
-        "attack": 80
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 4,
@@ -243154,9 +243056,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 3,
-      "requirements": {
-        "attack": 80
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 4,
@@ -244180,11 +244080,7 @@
       "rangedStrength": 0,
       "magicDamage": 5.0,
       "prayer": 4,
-      "requirements": {
-        "magic": 80,
-        "defence": 80,
-        "prayer": 80
-      }
+      "requirements": {}
     },
     "weapon": null
   },
@@ -244218,9 +244114,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "attack": 82
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 5,
@@ -249846,9 +249740,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "ranged": 60
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 9,
@@ -249886,10 +249778,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "attack": 60,
-        "strength": 40
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 6,
@@ -249927,9 +249816,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "attack": 60
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 5,
@@ -249967,9 +249854,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 5,
-      "requirements": {
-        "attack": 60
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 4,
@@ -251201,9 +251086,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "attack": 60
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 7,
@@ -251347,9 +251230,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "attack": 60
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 4,
@@ -251387,9 +251268,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "ranged": 64
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 6,
@@ -251533,9 +251412,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "attack": 60
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 5,
@@ -251590,9 +251467,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 5,
-      "requirements": {
-        "attack": 60
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 4,
@@ -251647,9 +251522,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "defence": 60
-      }
+      "requirements": {}
     },
     "weapon": null
   },
@@ -251717,9 +251590,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "defence": 60
-      }
+      "requirements": {}
     },
     "weapon": null
   },
@@ -251753,9 +251624,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "attack": 60
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 4,
@@ -251895,9 +251764,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "attack": 60
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 4,
@@ -251935,9 +251802,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "strength": 60
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 6,
@@ -252179,9 +252044,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 3,
-      "requirements": {
-        "defence": 55
-      }
+      "requirements": {}
     },
     "weapon": null
   },
@@ -254108,9 +253971,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 1,
-      "requirements": {
-        "defence": 80
-      }
+      "requirements": {}
     },
     "weapon": null
   },
@@ -254144,9 +254005,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 1,
-      "requirements": {
-        "defence": 80
-      }
+      "requirements": {}
     },
     "weapon": null
   },
@@ -254180,9 +254039,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 1,
-      "requirements": {
-        "defence": 80
-      }
+      "requirements": {}
     },
     "weapon": null
   },
@@ -259119,10 +258976,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "attack": 75,
-        "defence": 75
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 5,
@@ -259211,9 +259065,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "ranged": 60
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 3,
@@ -269556,9 +269408,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "attack": 50
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 4,
@@ -269634,9 +269484,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "magic": 50
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 4,
@@ -270003,9 +269851,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 4,
-      "requirements": {
-        "defence": 75
-      }
+      "requirements": {}
     },
     "weapon": null
   },
@@ -271328,9 +271174,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "attack": 77
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 4,
@@ -273352,13 +273196,13 @@
     "id": 29218,
     "name": "Jaguar fur",
     "members": false,
-    "tradeable": false,
-    "tradeableOnGe": false,
+    "tradeable": true,
+    "tradeableOnGe": true,
     "stackable": false,
     "cost": 80,
     "highAlch": 48,
     "lowAlch": 32,
-    "buyLimit": null,
+    "buyLimit": 10000,
     "weight": 3.0,
     "examine": "This would make nice clothing.",
     "questItem": false,
@@ -276178,9 +276022,7 @@
       "rangedStrength": 40,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "ranged": 77
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 5,
@@ -276218,10 +276060,7 @@
       "rangedStrength": 0,
       "magicDamage": 10.0,
       "prayer": 0,
-      "requirements": {
-        "magic": 77,
-        "attack": 50
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 5,
@@ -277134,9 +276973,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 4,
-      "requirements": {
-        "defence": 20
-      }
+      "requirements": {}
     },
     "weapon": null
   },
@@ -277170,9 +277007,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 8,
-      "requirements": {
-        "defence": 20
-      }
+      "requirements": {}
     },
     "weapon": null
   },
@@ -277206,9 +277041,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 6,
-      "requirements": {
-        "defence": 20
-      }
+      "requirements": {}
     },
     "weapon": null
   },
@@ -278156,9 +277989,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 8,
-      "requirements": {
-        "attack": 75
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 6,
@@ -278196,9 +278027,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "attack": 75
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 4,
@@ -278236,9 +278065,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "ranged": 60
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 9,
@@ -278310,10 +278137,7 @@
       "rangedStrength": 0,
       "magicDamage": 15.0,
       "prayer": 0,
-      "requirements": {
-        "magic": 82,
-        "hitpoints": 50
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 5,
@@ -278419,9 +278243,7 @@
       "rangedStrength": 0,
       "magicDamage": 2.0,
       "prayer": 0,
-      "requirements": {
-        "magic": 75
-      }
+      "requirements": {}
     },
     "weapon": null
   },
@@ -278455,9 +278277,7 @@
       "rangedStrength": 0,
       "magicDamage": 2.0,
       "prayer": 0,
-      "requirements": {
-        "magic": 75
-      }
+      "requirements": {}
     },
     "weapon": null
   },
@@ -278525,9 +278345,7 @@
       "rangedStrength": 0,
       "magicDamage": 2.0,
       "prayer": 0,
-      "requirements": {
-        "magic": 75
-      }
+      "requirements": {}
     },
     "weapon": null
   },
@@ -278765,9 +278583,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "firemaking": 50
-      }
+      "requirements": {}
     },
     "weapon": null
   },
@@ -289068,7 +288884,7 @@
     "lowAlch": 40000,
     "buyLimit": null,
     "weight": 0.1,
-    "examine": "This can be handed to the Sage for a rare item of your choice.",
+    "examine": "This can be handed to the Sage<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"It is given to the Leagues Tutor.\">sic</span>&#93;</sup> for a rare item of your choice.",
     "questItem": false,
     "equipment": null,
     "weapon": null
@@ -292251,7 +292067,7 @@
     "highAlch": 180,
     "lowAlch": 120,
     "buyLimit": 25000,
-    "weight": 0.002,
+    "weight": 0.0,
     "examine": "A combined cosmic and soul rune.",
     "questItem": false,
     "equipment": null,
@@ -293617,9 +293433,7 @@
       "rangedStrength": 122,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "ranged": 64
-      }
+      "requirements": {}
     },
     "weapon": null
   },
@@ -294568,9 +294382,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "defence": 78
-      }
+      "requirements": {}
     },
     "weapon": null
   },
@@ -294604,9 +294416,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "defence": 78
-      }
+      "requirements": {}
     },
     "weapon": null
   },
@@ -294640,9 +294450,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "defence": 78
-      }
+      "requirements": {}
     },
     "weapon": null
   },
@@ -298454,9 +298262,7 @@
       "rangedStrength": 0,
       "magicDamage": 0.0,
       "prayer": 1,
-      "requirements": {
-        "attack": 60
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 4,
@@ -299480,12 +299286,7 @@
       "rangedStrength": 3,
       "magicDamage": 2.0,
       "prayer": 0,
-      "requirements": {
-        "ranged": 80,
-        "defence": 80,
-        "strength": 80,
-        "magic": 80
-      }
+      "requirements": {}
     },
     "weapon": null
   },
@@ -299570,12 +299371,7 @@
       "rangedStrength": 2,
       "magicDamage": 1.0,
       "prayer": 0,
-      "requirements": {
-        "ranged": 80,
-        "defence": 80,
-        "strength": 80,
-        "magic": 80
-      }
+      "requirements": {}
     },
     "weapon": null
   },
@@ -299609,12 +299405,7 @@
       "rangedStrength": 3,
       "magicDamage": 1.0,
       "prayer": 0,
-      "requirements": {
-        "ranged": 80,
-        "defence": 80,
-        "strength": 80,
-        "magic": 80
-      }
+      "requirements": {}
     },
     "weapon": null
   },
@@ -299648,12 +299439,7 @@
       "rangedStrength": 2,
       "magicDamage": 2.0,
       "prayer": 0,
-      "requirements": {
-        "ranged": 80,
-        "defence": 80,
-        "strength": 80,
-        "magic": 80
-      }
+      "requirements": {}
     },
     "weapon": null
   },
@@ -299687,12 +299473,7 @@
       "rangedStrength": 3,
       "magicDamage": 1.0,
       "prayer": 0,
-      "requirements": {
-        "ranged": 80,
-        "defence": 80,
-        "strength": 80,
-        "magic": 80
-      }
+      "requirements": {}
     },
     "weapon": null
   },
@@ -299726,12 +299507,7 @@
       "rangedStrength": 2,
       "magicDamage": 2.0,
       "prayer": 0,
-      "requirements": {
-        "ranged": 80,
-        "defence": 80,
-        "strength": 80,
-        "magic": 80
-      }
+      "requirements": {}
     },
     "weapon": null
   },
@@ -299765,12 +299541,7 @@
       "rangedStrength": 3,
       "magicDamage": 2.0,
       "prayer": 0,
-      "requirements": {
-        "ranged": 80,
-        "defence": 80,
-        "strength": 80,
-        "magic": 80
-      }
+      "requirements": {}
     },
     "weapon": null
   },
@@ -300774,13 +300545,13 @@
     "id": 32368,
     "name": "Fish crate (giant krill)",
     "members": false,
-    "tradeable": false,
-    "tradeableOnGe": false,
+    "tradeable": true,
+    "tradeableOnGe": true,
     "stackable": false,
     "cost": 5,
     "highAlch": 3,
     "lowAlch": 2,
-    "buyLimit": null,
+    "buyLimit": 250,
     "weight": 1.0,
     "examine": "A sturdy container packed with ice and full to the brim with giant krill.",
     "questItem": false,
@@ -300808,13 +300579,13 @@
     "id": 32371,
     "name": "Fish crate (haddock)",
     "members": false,
-    "tradeable": false,
-    "tradeableOnGe": false,
+    "tradeable": true,
+    "tradeableOnGe": true,
     "stackable": false,
     "cost": 5,
     "highAlch": 3,
     "lowAlch": 2,
-    "buyLimit": null,
+    "buyLimit": 250,
     "weight": 1.0,
     "examine": "A sturdy container packed with ice and full to the brim with haddock.",
     "questItem": false,
@@ -300842,13 +300613,13 @@
     "id": 32374,
     "name": "Fish crate (yellowfin)",
     "members": false,
-    "tradeable": false,
-    "tradeableOnGe": false,
+    "tradeable": true,
+    "tradeableOnGe": true,
     "stackable": false,
     "cost": 5,
     "highAlch": 3,
     "lowAlch": 2,
-    "buyLimit": null,
+    "buyLimit": 250,
     "weight": 1.0,
     "examine": "A sturdy container packed with ice and full to the brim with yellowfin.",
     "questItem": false,
@@ -300876,13 +300647,13 @@
     "id": 32377,
     "name": "Fish crate (halibut)",
     "members": false,
-    "tradeable": false,
-    "tradeableOnGe": false,
+    "tradeable": true,
+    "tradeableOnGe": true,
     "stackable": false,
     "cost": 5,
     "highAlch": 3,
     "lowAlch": 2,
-    "buyLimit": null,
+    "buyLimit": 250,
     "weight": 1.0,
     "examine": "A sturdy container packed with ice and full to the brim with halibut.",
     "questItem": false,
@@ -300910,13 +300681,13 @@
     "id": 32380,
     "name": "Fish crate (bluefin)",
     "members": false,
-    "tradeable": false,
-    "tradeableOnGe": false,
+    "tradeable": true,
+    "tradeableOnGe": true,
     "stackable": false,
     "cost": 5,
     "highAlch": 3,
     "lowAlch": 2,
-    "buyLimit": null,
+    "buyLimit": 250,
     "weight": 1.0,
     "examine": "A sturdy container packed with ice and full to the brim with bluefin.",
     "questItem": false,
@@ -315003,10 +314774,7 @@
       "rangedStrength": 106,
       "magicDamage": 0.0,
       "prayer": 0,
-      "requirements": {
-        "ranged": 80,
-        "agility": 70
-      }
+      "requirements": {}
     },
     "weapon": {
       "attackSpeed": 5,
@@ -316590,6 +316358,40 @@
     "equipment": null,
     "weapon": null
   },
+  "33392": {
+    "id": 33392,
+    "name": "Open gem tote",
+    "members": false,
+    "tradeable": false,
+    "tradeableOnGe": false,
+    "stackable": false,
+    "cost": 100,
+    "highAlch": null,
+    "lowAlch": null,
+    "buyLimit": null,
+    "weight": 1.0,
+    "examine": "You can carry uncut gems in here.",
+    "questItem": false,
+    "equipment": null,
+    "weapon": null
+  },
+  "33390": {
+    "id": 33390,
+    "name": "Gem tote",
+    "members": false,
+    "tradeable": false,
+    "tradeableOnGe": false,
+    "stackable": false,
+    "cost": 100,
+    "highAlch": null,
+    "lowAlch": null,
+    "buyLimit": null,
+    "weight": 1.0,
+    "examine": "You can carry uncut gems in here.",
+    "questItem": false,
+    "equipment": null,
+    "weapon": null
+  },
   "33239": {
     "id": 33239,
     "name": "Flask of fervour",
@@ -317456,7 +317258,7 @@
       "attackMagic": 25,
       "attackRanged": 0,
       "defenceStab": 0,
-      "defenceSlash": 0,
+      "defenceSlash": 5,
       "defenceCrush": 5,
       "defenceMagic": 17,
       "defenceRanged": 0,
@@ -318557,5 +318359,298 @@
       "weaponType": "Axe",
       "stances": []
     }
+  },
+  "33333": {
+    "id": 33333,
+    "name": "Iban's staff (o)",
+    "members": false,
+    "tradeable": false,
+    "tradeableOnGe": false,
+    "stackable": false,
+    "cost": 20,
+    "highAlch": 12,
+    "lowAlch": 8,
+    "buyLimit": null,
+    "weight": 1.814,
+    "examine": "I'll need to get this repaired before I can use it.",
+    "questItem": false,
+    "equipment": null,
+    "weapon": null
+  },
+  "33330": {
+    "id": 33330,
+    "name": "Iban's staff",
+    "members": false,
+    "tradeable": false,
+    "tradeableOnGe": false,
+    "stackable": false,
+    "cost": 42500,
+    "highAlch": 25500,
+    "lowAlch": 17000,
+    "buyLimit": null,
+    "weight": 2.267,
+    "examine": "An ancient staff, formerly the property of Iban.",
+    "questItem": false,
+    "equipment": null,
+    "weapon": null
+  },
+  "33332": {
+    "id": 33332,
+    "name": "Iban's staff (u) (o)",
+    "members": false,
+    "tradeable": false,
+    "tradeableOnGe": false,
+    "stackable": false,
+    "cost": 85000,
+    "highAlch": 51000,
+    "lowAlch": 34000,
+    "buyLimit": null,
+    "weight": 2.267,
+    "examine": "An ancient staff, formerly owned by Iban, now upgraded to hold more charges.",
+    "questItem": true,
+    "equipment": {
+      "slot": "weapon",
+      "attackStab": 10,
+      "attackSlash": -1,
+      "attackCrush": 40,
+      "attackMagic": 10,
+      "attackRanged": 0,
+      "defenceStab": 2,
+      "defenceSlash": 3,
+      "defenceCrush": 1,
+      "defenceMagic": 10,
+      "defenceRanged": 0,
+      "meleeStrength": 50,
+      "rangedStrength": 0,
+      "magicDamage": 0.0,
+      "prayer": 0,
+      "requirements": {}
+    },
+    "weapon": {
+      "attackSpeed": 5,
+      "weaponType": "Staff",
+      "stances": []
+    }
+  },
+  "33314": {
+    "id": 33314,
+    "name": "Trident of the swamp (o)",
+    "members": false,
+    "tradeable": false,
+    "tradeableOnGe": false,
+    "stackable": false,
+    "cost": 78500,
+    "highAlch": 47100,
+    "lowAlch": 31400,
+    "buyLimit": null,
+    "weight": 1.814,
+    "examine": "A toxic weapon from the deep.",
+    "questItem": false,
+    "equipment": null,
+    "weapon": null
+  },
+  "33316": {
+    "id": 33316,
+    "name": "Uncharged toxic trident (o)",
+    "members": false,
+    "tradeable": false,
+    "tradeableOnGe": false,
+    "stackable": false,
+    "cost": 78000,
+    "highAlch": 46800,
+    "lowAlch": 31200,
+    "buyLimit": null,
+    "weight": 1.814,
+    "examine": "It needs to be charged with death runes, chaos runes, fire runes and Zulrah's scales.",
+    "questItem": false,
+    "equipment": null,
+    "weapon": null
+  },
+  "33318": {
+    "id": 33318,
+    "name": "Trident of the swamp (e) (o)",
+    "members": false,
+    "tradeable": false,
+    "tradeableOnGe": false,
+    "stackable": false,
+    "cost": 108500,
+    "highAlch": 65100,
+    "lowAlch": 43400,
+    "buyLimit": null,
+    "weight": 1.814,
+    "examine": "An enhanced toxic weapon from the deep.",
+    "questItem": false,
+    "equipment": null,
+    "weapon": null
+  },
+  "33320": {
+    "id": 33320,
+    "name": "Uncharged toxic trident (e)",
+    "members": false,
+    "tradeable": true,
+    "tradeableOnGe": true,
+    "stackable": false,
+    "cost": 108000,
+    "highAlch": 64800,
+    "lowAlch": 43200,
+    "buyLimit": 8,
+    "weight": 1.814,
+    "examine": "It needs to be charged with death runes, chaos runes, fire runes and Zulrah's scales.",
+    "questItem": false,
+    "equipment": null,
+    "weapon": null
+  },
+  "33323": {
+    "id": 33323,
+    "name": "Trident of the seas (full) (o)",
+    "members": false,
+    "tradeable": false,
+    "tradeableOnGe": false,
+    "stackable": false,
+    "cost": 69000,
+    "highAlch": 41400,
+    "lowAlch": 27600,
+    "buyLimit": null,
+    "weight": 1.814,
+    "examine": "A weapon from the deep.",
+    "questItem": false,
+    "equipment": null,
+    "weapon": null
+  },
+  "33322": {
+    "id": 33322,
+    "name": "Trident of the seas (o)",
+    "members": false,
+    "tradeable": false,
+    "tradeableOnGe": false,
+    "stackable": false,
+    "cost": 68500,
+    "highAlch": 41100,
+    "lowAlch": 27400,
+    "buyLimit": null,
+    "weight": 1.814,
+    "examine": "A weapon from the deep.",
+    "questItem": false,
+    "equipment": null,
+    "weapon": null
+  },
+  "33326": {
+    "id": 33326,
+    "name": "Trident of the seas (e) (o)",
+    "members": false,
+    "tradeable": false,
+    "tradeableOnGe": false,
+    "stackable": false,
+    "cost": 98500,
+    "highAlch": 59100,
+    "lowAlch": 39400,
+    "buyLimit": null,
+    "weight": 1.814,
+    "examine": "An enhanced weapon from the deep.",
+    "questItem": false,
+    "equipment": null,
+    "weapon": null
+  },
+  "33328": {
+    "id": 33328,
+    "name": "Uncharged trident (e) (o)",
+    "members": false,
+    "tradeable": false,
+    "tradeableOnGe": false,
+    "stackable": false,
+    "cost": 98000,
+    "highAlch": 58800,
+    "lowAlch": 39200,
+    "buyLimit": null,
+    "weight": 1.814,
+    "examine": "It needs to be charged with death runes, chaos runes, fire runes and coins.",
+    "questItem": false,
+    "equipment": null,
+    "weapon": null
+  },
+  "33340": {
+    "id": 33340,
+    "name": "Demonic slayer helmet",
+    "members": false,
+    "tradeable": false,
+    "tradeableOnGe": false,
+    "stackable": false,
+    "cost": 90000,
+    "highAlch": 54000,
+    "lowAlch": 36000,
+    "buyLimit": null,
+    "weight": 2.267,
+    "examine": "You don't want to wear it inside-out.",
+    "questItem": false,
+    "equipment": null,
+    "weapon": null
+  },
+  "33338": {
+    "id": 33338,
+    "name": "Demonic slayer helmet",
+    "members": false,
+    "tradeable": false,
+    "tradeableOnGe": false,
+    "stackable": false,
+    "cost": 90000,
+    "highAlch": 54000,
+    "lowAlch": 36000,
+    "buyLimit": null,
+    "weight": 2.267,
+    "examine": "You don't want to wear it inside-out.",
+    "questItem": false,
+    "equipment": null,
+    "weapon": null
+  },
+  "33389": {
+    "id": 33389,
+    "name": "Open gem satchel",
+    "members": false,
+    "tradeable": false,
+    "tradeableOnGe": false,
+    "stackable": false,
+    "cost": 100,
+    "highAlch": null,
+    "lowAlch": null,
+    "buyLimit": null,
+    "weight": 1.0,
+    "examine": "You can carry uncut gems in here.",
+    "questItem": false,
+    "equipment": null,
+    "weapon": null
+  },
+  "33387": {
+    "id": 33387,
+    "name": "Gem satchel",
+    "members": false,
+    "tradeable": false,
+    "tradeableOnGe": false,
+    "stackable": false,
+    "cost": 100,
+    "highAlch": null,
+    "lowAlch": null,
+    "buyLimit": null,
+    "weight": 1.0,
+    "examine": "You can carry uncut gems in here.",
+    "questItem": false,
+    "equipment": null,
+    "weapon": null
+  },
+  "33382": {
+    "id": 33382,
+    "name": "Immaculate mole skin",
+    "members": false,
+    "tradeable": false,
+    "tradeableOnGe": false,
+    "stackable": false,
+    "cost": 400,
+    "highAlch": 240,
+    "lowAlch": 160,
+    "buyLimit": null,
+    "weight": 0.001,
+    "examine": "The immaculate skin of a large mole.",
+    "questItem": false,
+    "equipment": null,
+    "weapon": null
   }
 }

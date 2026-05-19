@@ -2411,7 +2411,7 @@
     "members": false,
     "skill": "Mining",
     "level": 15,
-    "experience": 35.0,
+    "experience": 0.0,
     "materials": [],
     "tools": [
       "Pickaxe"
@@ -9527,6 +9527,32 @@
     "facilities": [],
     "boostable": true
   },
+  "Jade machete": {
+    "name": "Jade machete",
+    "members": false,
+    "skill": null,
+    "level": null,
+    "experience": null,
+    "materials": [
+      {
+        "name": "Trading sticks",
+        "quantity": 600
+      },
+      {
+        "name": "Jade",
+        "quantity": 3
+      },
+      {
+        "name": "Gout tuber",
+        "quantity": 1
+      }
+    ],
+    "tools": [],
+    "facilities": [
+      "Safta Doc"
+    ],
+    "boostable": false
+  },
   "Jungle camo legs": {
     "name": "Jungle camo legs",
     "members": false,
@@ -10332,6 +10358,32 @@
     ],
     "facilities": [],
     "boostable": true
+  },
+  "Red topaz machete": {
+    "name": "Red topaz machete",
+    "members": false,
+    "skill": null,
+    "level": null,
+    "experience": null,
+    "materials": [
+      {
+        "name": "Trading sticks",
+        "quantity": 1200
+      },
+      {
+        "name": "Red topaz",
+        "quantity": 3
+      },
+      {
+        "name": "Gout tuber",
+        "quantity": 1
+      }
+    ],
+    "tools": [],
+    "facilities": [
+      "Safta Doc"
+    ],
+    "boostable": false
   },
   "Regen bracelet": {
     "name": "Regen bracelet",
@@ -36084,6 +36136,32 @@
     ],
     "tools": [],
     "facilities": [],
+    "boostable": false
+  },
+  "Opal machete": {
+    "name": "Opal machete",
+    "members": false,
+    "skill": null,
+    "level": null,
+    "experience": null,
+    "materials": [
+      {
+        "name": "Trading sticks",
+        "quantity": 300
+      },
+      {
+        "name": "Opal",
+        "quantity": 3
+      },
+      {
+        "name": "Gout tuber",
+        "quantity": 1
+      }
+    ],
+    "tools": [],
+    "facilities": [
+      "Safta Doc"
+    ],
     "boostable": false
   },
   "Rune fire arrow": {
@@ -65660,6 +65738,32 @@
     "facilities": [],
     "boostable": false
   },
+  "Gem sack": {
+    "name": "Gem sack",
+    "members": false,
+    "skill": "Crafting",
+    "level": 81,
+    "experience": 300.0,
+    "materials": [
+      {
+        "name": "Gem bag",
+        "quantity": 1
+      },
+      {
+        "name": "Gem tote",
+        "quantity": 1
+      },
+      {
+        "name": "Immaculate mole skin",
+        "quantity": 1
+      }
+    ],
+    "tools": [
+      "Costume needle"
+    ],
+    "facilities": [],
+    "boostable": true
+  },
   "Alchemical hydra heads": {
     "name": "Alchemical hydra heads",
     "members": false,
@@ -66283,6 +66387,28 @@
     "materials": [],
     "tools": [
       "Oak bird house"
+    ],
+    "facilities": [],
+    "boostable": false
+  },
+  "Gem pouch": {
+    "name": "Gem pouch",
+    "members": false,
+    "skill": "Crafting",
+    "level": 12,
+    "experience": 25.0,
+    "materials": [
+      {
+        "name": "Bolt of linen",
+        "quantity": 1
+      },
+      {
+        "name": "Silk",
+        "quantity": 1
+      }
+    ],
+    "tools": [
+      "Costume needle"
     ],
     "facilities": [],
     "boostable": false
@@ -75292,7 +75418,7 @@
     "members": false,
     "skill": "Mining",
     "level": null,
-    "experience": 32.0,
+    "experience": 16.0,
     "materials": [],
     "tools": [
       "Pickaxe"
@@ -88123,7 +88249,7 @@
     "members": false,
     "skill": "Firemaking",
     "level": 97,
-    "experience": 420.0,
+    "experience": 268.0,
     "materials": [],
     "tools": [
       "Tinderbox",
@@ -89350,7 +89476,7 @@
     "members": false,
     "skill": "Firemaking",
     "level": 76,
-    "experience": 245.0,
+    "experience": 180.0,
     "materials": [],
     "tools": [
       "Tinderbox",
@@ -89380,7 +89506,7 @@
     "members": false,
     "skill": "Firemaking",
     "level": 90,
-    "experience": 320.0,
+    "experience": 220.5,
     "materials": [],
     "tools": [
       "Tinderbox",
@@ -95225,6 +95351,32 @@
     "facilities": [],
     "boostable": false
   },
+  "Gem tote": {
+    "name": "Gem tote",
+    "members": false,
+    "skill": "Crafting",
+    "level": 81,
+    "experience": 200.0,
+    "materials": [
+      {
+        "name": "Bolt of cotton",
+        "quantity": 1
+      },
+      {
+        "name": "Silk",
+        "quantity": 1
+      },
+      {
+        "name": "Gem satchel",
+        "quantity": 1
+      }
+    ],
+    "tools": [
+      "Costume needle"
+    ],
+    "facilities": [],
+    "boostable": true
+  },
   "Platform edge": {
     "name": "Platform edge",
     "members": false,
@@ -95253,6 +95405,152 @@
       }
     ],
     "tools": [],
+    "facilities": [],
+    "boostable": false
+  },
+  "Iban's staff (o)": {
+    "name": "Iban's staff (o)",
+    "members": false,
+    "skill": null,
+    "level": null,
+    "experience": null,
+    "materials": [
+      {
+        "name": "Iban's staff",
+        "quantity": 1
+      },
+      {
+        "name": "Demonic staff ornament kit",
+        "quantity": 1
+      }
+    ],
+    "tools": [],
+    "facilities": [],
+    "boostable": false
+  },
+  "Iban's staff (u) (o)": {
+    "name": "Iban's staff (u) (o)",
+    "members": false,
+    "skill": null,
+    "level": null,
+    "experience": null,
+    "materials": [
+      {
+        "name": "Iban's staff (u)",
+        "quantity": 1
+      },
+      {
+        "name": "Demonic staff ornament kit",
+        "quantity": 1
+      }
+    ],
+    "tools": [],
+    "facilities": [],
+    "boostable": false
+  },
+  "Trident of the swamp (o)": {
+    "name": "Trident of the swamp (o)",
+    "members": false,
+    "skill": null,
+    "level": null,
+    "experience": null,
+    "materials": [
+      {
+        "name": "Trident of the swamp",
+        "quantity": 1
+      },
+      {
+        "name": "Demonic trident ornament kit",
+        "quantity": 1
+      }
+    ],
+    "tools": [],
+    "facilities": [],
+    "boostable": false
+  },
+  "Trident of the swamp (e) (o)": {
+    "name": "Trident of the swamp (e) (o)",
+    "members": false,
+    "skill": null,
+    "level": null,
+    "experience": null,
+    "materials": [
+      {
+        "name": "Trident of the swamp (e)",
+        "quantity": 1
+      },
+      {
+        "name": "Demonic trident ornament kit",
+        "quantity": 1
+      }
+    ],
+    "tools": [],
+    "facilities": [],
+    "boostable": false
+  },
+  "Trident of the seas (o)": {
+    "name": "Trident of the seas (o)",
+    "members": false,
+    "skill": null,
+    "level": null,
+    "experience": null,
+    "materials": [
+      {
+        "name": "Trident of the seas",
+        "quantity": 1
+      },
+      {
+        "name": "Demonic trident ornament kit",
+        "quantity": 1
+      }
+    ],
+    "tools": [],
+    "facilities": [],
+    "boostable": false
+  },
+  "Trident of the seas (e) (o)": {
+    "name": "Trident of the seas (e) (o)",
+    "members": false,
+    "skill": null,
+    "level": null,
+    "experience": null,
+    "materials": [
+      {
+        "name": "Trident of the seas (e)",
+        "quantity": 1
+      },
+      {
+        "name": "Demonic trident ornament kit",
+        "quantity": 1
+      }
+    ],
+    "tools": [],
+    "facilities": [],
+    "boostable": false
+  },
+  "Gem satchel": {
+    "name": "Gem satchel",
+    "members": false,
+    "skill": "Crafting",
+    "level": 39,
+    "experience": 50.0,
+    "materials": [
+      {
+        "name": "Bolt of canvas",
+        "quantity": 1
+      },
+      {
+        "name": "Silk",
+        "quantity": 1
+      },
+      {
+        "name": "Gem pouch",
+        "quantity": 1
+      }
+    ],
+    "tools": [
+      "Costume needle"
+    ],
     "facilities": [],
     "boostable": false
   }

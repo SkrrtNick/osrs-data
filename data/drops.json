@@ -274,7 +274,7 @@
     "itemName": "Clue geode (beginner)",
     "itemId": null,
     "quantity": "1",
-    "rarity": 0.0,
+    "rarity": 0.004739336492890996,
     "noted": false,
     "rolls": 1
   },
@@ -7705,6 +7705,15 @@
   },
   {
     "monsterName": "Iron rocks",
+    "itemName": "Iron ore",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 1.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Iron rocks",
     "itemName": "Uncut sapphire",
     "itemId": null,
     "quantity": "1",
@@ -7740,11 +7749,20 @@
     "rolls": 1
   },
   {
-    "monsterName": "Iron rocks",
-    "itemName": "Iron ore",
+    "monsterName": "Iron rocks#Prifddinas",
+    "itemName": "Crystal shard",
     "itemId": null,
     "quantity": "1",
-    "rarity": 1.0,
+    "rarity": 0.015384615384615385,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Iron rocks#Mining Guild",
+    "itemName": "Unidentified minerals",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.01,
     "noted": false,
     "rolls": 1
   },
@@ -7754,6 +7772,15 @@
     "itemId": null,
     "quantity": "1",
     "rarity": 0.0011086474501108647,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Iron rocks#Varlamore",
+    "itemName": "Loop half of key (moon key)",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.0,
     "noted": false,
     "rolls": 1
   },
@@ -7790,33 +7817,6 @@
     "itemId": null,
     "quantity": "1",
     "rarity": 0.0,
-    "noted": false,
-    "rolls": 1
-  },
-  {
-    "monsterName": "Iron rocks#Prifddinas",
-    "itemName": "Crystal shard",
-    "itemId": null,
-    "quantity": "1",
-    "rarity": 0.015384615384615385,
-    "noted": false,
-    "rolls": 1
-  },
-  {
-    "monsterName": "Iron rocks",
-    "itemName": "Loop half of key (moon key)",
-    "itemId": null,
-    "quantity": "1",
-    "rarity": 0.0,
-    "noted": false,
-    "rolls": 1
-  },
-  {
-    "monsterName": "Iron rocks",
-    "itemName": "Unidentified minerals",
-    "itemId": null,
-    "quantity": "1",
-    "rarity": 0.01,
     "noted": false,
     "rolls": 1
   },
@@ -14509,6 +14509,15 @@
   },
   {
     "monsterName": "Giant Mole",
+    "itemName": "Immaculate mole skin",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.02,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Giant Mole",
     "itemName": "Brimstone key",
     "itemId": null,
     "quantity": "1",
@@ -15790,7 +15799,7 @@
     "itemName": "Loop half of key (moon key)",
     "itemId": null,
     "quantity": "1",
-    "rarity": 0.0014285714285714286,
+    "rarity": 0.002074688796680498,
     "noted": false,
     "rolls": 1
   },
@@ -28895,15 +28904,6 @@
     "itemId": null,
     "quantity": "1",
     "rarity": 0.2,
-    "noted": false,
-    "rolls": 1
-  },
-  {
-    "monsterName": "Hobgoblin#Unarmed",
-    "itemName": "Ecumenical key",
-    "itemId": null,
-    "quantity": "1",
-    "rarity": 0.016666666666666666,
     "noted": false,
     "rolls": 1
   },
@@ -46696,7 +46696,7 @@
     "itemName": "Loop half of key (moon key)",
     "itemId": null,
     "quantity": "1",
-    "rarity": 0.0011111111111111111,
+    "rarity": 0.0010351966873706005,
     "noted": false,
     "rolls": 1
   },
@@ -66789,6 +66789,15 @@
     "rolls": 1
   },
   {
+    "monsterName": "River troll",
+    "itemName": "Troll bone",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.25,
+    "noted": false,
+    "rolls": 1
+  },
+  {
     "monsterName": "Broken staff",
     "itemName": "Staff",
     "itemId": null,
@@ -68275,6 +68284,15 @@
   },
   {
     "monsterName": "Copper rocks",
+    "itemName": "Copper ore",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 1.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Copper rocks",
     "itemName": "Uncut sapphire",
     "itemId": null,
     "quantity": "1",
@@ -68311,16 +68329,16 @@
   },
   {
     "monsterName": "Copper rocks",
-    "itemName": "Copper ore",
+    "itemName": "Clue geode (beginner)",
     "itemId": null,
     "quantity": "1",
-    "rarity": 1.0,
+    "rarity": 0.0,
     "noted": false,
     "rolls": 1
   },
   {
-    "monsterName": "Copper rocks",
-    "itemName": "Clue geode (beginner)",
+    "monsterName": "Copper rocks#Varlamore",
+    "itemName": "Loop half of key (moon key)",
     "itemId": null,
     "quantity": "1",
     "rarity": 0.0,
@@ -68374,6 +68392,15 @@
   },
   {
     "monsterName": "Tin rocks",
+    "itemName": "Tin ore",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 1.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Tin rocks",
     "itemName": "Uncut sapphire",
     "itemId": null,
     "quantity": "1",
@@ -68410,16 +68437,16 @@
   },
   {
     "monsterName": "Tin rocks",
-    "itemName": "Tin ore",
+    "itemName": "Clue geode (beginner)",
     "itemId": null,
     "quantity": "1",
-    "rarity": 1.0,
+    "rarity": 0.0,
     "noted": false,
     "rolls": 1
   },
   {
-    "monsterName": "Tin rocks",
-    "itemName": "Clue geode (beginner)",
+    "monsterName": "Tin rocks#Varlamore",
+    "itemName": "Loop half of key (moon key)",
     "itemId": null,
     "quantity": "1",
     "rarity": 0.0,
@@ -70390,19 +70417,19 @@
   },
   {
     "monsterName": "Mahogany tree",
-    "itemName": "Loop half of key (moon key)",
+    "itemName": "Ent seed",
     "itemId": null,
     "quantity": "1",
-    "rarity": 0.0,
+    "rarity": 0.0025,
     "noted": false,
     "rolls": 1
   },
   {
     "monsterName": "Mahogany tree",
-    "itemName": "Ent seed",
+    "itemName": "Loop half of key (moon key)",
     "itemId": null,
     "quantity": "1",
-    "rarity": 0.0025,
+    "rarity": 0.0,
     "noted": false,
     "rolls": 1
   },
@@ -70885,6 +70912,15 @@
   },
   {
     "monsterName": "Coal rocks",
+    "itemName": "Coal",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 1.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Coal rocks",
     "itemName": "Uncut sapphire",
     "itemId": null,
     "quantity": "1",
@@ -70920,17 +70956,35 @@
     "rolls": 1
   },
   {
-    "monsterName": "Coal rocks",
-    "itemName": "Coal",
+    "monsterName": "Coal rocks#Mining Guild",
+    "itemName": "Unidentified minerals",
     "itemId": null,
     "quantity": "1",
-    "rarity": 1.0,
+    "rarity": 0.016666666666666666,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Coal rocks#Prifddinas",
+    "itemName": "Crystal shard",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.015384615384615385,
     "noted": false,
     "rolls": 1
   },
   {
     "monsterName": "Coal rocks",
     "itemName": "Clue geode (beginner)",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.003205128205128205,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Coal rocks#Varlamore",
+    "itemName": "Loop half of key (moon key)",
     "itemId": null,
     "quantity": "1",
     "rarity": 0.0,
@@ -70967,33 +71021,6 @@
   {
     "monsterName": "Coal rocks",
     "itemName": "Clue geode (elite)",
-    "itemId": null,
-    "quantity": "1",
-    "rarity": 0.0,
-    "noted": false,
-    "rolls": 1
-  },
-  {
-    "monsterName": "Coal rocks",
-    "itemName": "Unidentified minerals",
-    "itemId": null,
-    "quantity": "1",
-    "rarity": 0.016666666666666666,
-    "noted": false,
-    "rolls": 1
-  },
-  {
-    "monsterName": "Coal rocks#Prifddinas",
-    "itemName": "Crystal shard",
-    "itemId": null,
-    "quantity": "1",
-    "rarity": 0.015384615384615385,
-    "noted": false,
-    "rolls": 1
-  },
-  {
-    "monsterName": "Coal rocks",
-    "itemName": "Loop half of key (moon key)",
     "itemId": null,
     "quantity": "1",
     "rarity": 0.0,
@@ -71461,6 +71488,15 @@
   },
   {
     "monsterName": "Clay rocks",
+    "itemName": "Clay",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 1.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Clay rocks",
     "itemName": "Uncut sapphire",
     "itemId": null,
     "quantity": "1",
@@ -71497,16 +71533,16 @@
   },
   {
     "monsterName": "Clay rocks",
-    "itemName": "Clay",
+    "itemName": "Clue geode (beginner)",
     "itemId": null,
     "quantity": "1",
-    "rarity": 1.0,
+    "rarity": 0.0,
     "noted": false,
     "rolls": 1
   },
   {
-    "monsterName": "Clay rocks",
-    "itemName": "Clue geode (beginner)",
+    "monsterName": "Clay rocks#Varlamore",
+    "itemName": "Loop half of key (moon key)",
     "itemId": null,
     "quantity": "1",
     "rarity": 0.0,
@@ -71543,15 +71579,6 @@
   {
     "monsterName": "Clay rocks",
     "itemName": "Clue geode (elite)",
-    "itemId": null,
-    "quantity": "1",
-    "rarity": 0.0,
-    "noted": false,
-    "rolls": 1
-  },
-  {
-    "monsterName": "Clay rocks",
-    "itemName": "Loop half of key (moon key)",
     "itemId": null,
     "quantity": "1",
     "rarity": 0.0,
@@ -73441,6 +73468,15 @@
   },
   {
     "monsterName": "Silver rocks",
+    "itemName": "Silver ore",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 1.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Silver rocks",
     "itemName": "Uncut sapphire",
     "itemId": null,
     "quantity": "1",
@@ -73469,60 +73505,6 @@
   {
     "monsterName": "Silver rocks",
     "itemName": "Uncut diamond",
-    "itemId": null,
-    "quantity": "1",
-    "rarity": 0.0,
-    "noted": false,
-    "rolls": 1
-  },
-  {
-    "monsterName": "Silver rocks",
-    "itemName": "Silver ore",
-    "itemId": null,
-    "quantity": "1",
-    "rarity": 1.0,
-    "noted": false,
-    "rolls": 1
-  },
-  {
-    "monsterName": "Silver rocks",
-    "itemName": "Clue geode (beginner)",
-    "itemId": null,
-    "quantity": "1",
-    "rarity": 0.0,
-    "noted": false,
-    "rolls": 1
-  },
-  {
-    "monsterName": "Silver rocks",
-    "itemName": "Clue geode (easy)",
-    "itemId": null,
-    "quantity": "1",
-    "rarity": 0.0,
-    "noted": false,
-    "rolls": 1
-  },
-  {
-    "monsterName": "Silver rocks",
-    "itemName": "Clue geode (medium)",
-    "itemId": null,
-    "quantity": "1",
-    "rarity": 0.0,
-    "noted": false,
-    "rolls": 1
-  },
-  {
-    "monsterName": "Silver rocks",
-    "itemName": "Clue geode (hard)",
-    "itemId": null,
-    "quantity": "1",
-    "rarity": 0.0,
-    "noted": false,
-    "rolls": 1
-  },
-  {
-    "monsterName": "Silver rocks",
-    "itemName": "Clue geode (elite)",
     "itemId": null,
     "quantity": "1",
     "rarity": 0.0,
@@ -73540,7 +73522,52 @@
   },
   {
     "monsterName": "Silver rocks",
+    "itemName": "Clue geode (beginner)",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.0011560693641618498,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Silver rocks#Varlamore",
     "itemName": "Loop half of key (moon key)",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Silver rocks",
+    "itemName": "Clue geode (easy)",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Silver rocks",
+    "itemName": "Clue geode (medium)",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Silver rocks",
+    "itemName": "Clue geode (hard)",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Silver rocks",
+    "itemName": "Clue geode (elite)",
     "itemId": null,
     "quantity": "1",
     "rarity": 0.0,
@@ -73558,6 +73585,24 @@
   },
   {
     "monsterName": "Gold rocks",
+    "itemName": "Gold ore",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 1.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Gold rocks#Witchaven",
+    "itemName": "'perfect' gold ore",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 1.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Gold rocks",
     "itemName": "Uncut sapphire",
     "itemId": null,
     "quantity": "1",
@@ -73586,69 +73631,6 @@
   {
     "monsterName": "Gold rocks",
     "itemName": "Uncut diamond",
-    "itemId": null,
-    "quantity": "1",
-    "rarity": 0.0,
-    "noted": false,
-    "rolls": 1
-  },
-  {
-    "monsterName": "Gold rocks",
-    "itemName": "Gold ore",
-    "itemId": null,
-    "quantity": "1",
-    "rarity": 1.0,
-    "noted": false,
-    "rolls": 1
-  },
-  {
-    "monsterName": "Gold rocks",
-    "itemName": "'perfect' gold ore",
-    "itemId": null,
-    "quantity": "1",
-    "rarity": 1.0,
-    "noted": false,
-    "rolls": 1
-  },
-  {
-    "monsterName": "Gold rocks",
-    "itemName": "Clue geode (beginner)",
-    "itemId": null,
-    "quantity": "1",
-    "rarity": 0.0,
-    "noted": false,
-    "rolls": 1
-  },
-  {
-    "monsterName": "Gold rocks",
-    "itemName": "Clue geode (easy)",
-    "itemId": null,
-    "quantity": "1",
-    "rarity": 0.0,
-    "noted": false,
-    "rolls": 1
-  },
-  {
-    "monsterName": "Gold rocks",
-    "itemName": "Clue geode (medium)",
-    "itemId": null,
-    "quantity": "1",
-    "rarity": 0.0,
-    "noted": false,
-    "rolls": 1
-  },
-  {
-    "monsterName": "Gold rocks",
-    "itemName": "Clue geode (hard)",
-    "itemId": null,
-    "quantity": "1",
-    "rarity": 0.0,
-    "noted": false,
-    "rolls": 1
-  },
-  {
-    "monsterName": "Gold rocks",
-    "itemName": "Clue geode (elite)",
     "itemId": null,
     "quantity": "1",
     "rarity": 0.0,
@@ -73666,7 +73648,52 @@
   },
   {
     "monsterName": "Gold rocks",
+    "itemName": "Clue geode (beginner)",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.0033783783783783786,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Gold rocks#Varlamore",
     "itemName": "Loop half of key (moon key)",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Gold rocks",
+    "itemName": "Clue geode (easy)",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Gold rocks",
+    "itemName": "Clue geode (medium)",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Gold rocks",
+    "itemName": "Clue geode (hard)",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Gold rocks",
+    "itemName": "Clue geode (elite)",
     "itemId": null,
     "quantity": "1",
     "rarity": 0.0,
@@ -73679,6 +73706,15 @@
     "itemId": null,
     "quantity": "1",
     "rarity": 0.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Mithril rocks",
+    "itemName": "Mithril ore",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 1.0,
     "noted": false,
     "rolls": 1
   },
@@ -73719,61 +73755,7 @@
     "rolls": 1
   },
   {
-    "monsterName": "Mithril rocks",
-    "itemName": "Mithril ore",
-    "itemId": null,
-    "quantity": "1",
-    "rarity": 1.0,
-    "noted": false,
-    "rolls": 1
-  },
-  {
-    "monsterName": "Mithril rocks",
-    "itemName": "Clue geode (beginner)",
-    "itemId": null,
-    "quantity": "1",
-    "rarity": 0.0,
-    "noted": false,
-    "rolls": 1
-  },
-  {
-    "monsterName": "Mithril rocks",
-    "itemName": "Clue geode (easy)",
-    "itemId": null,
-    "quantity": "1",
-    "rarity": 0.0,
-    "noted": false,
-    "rolls": 1
-  },
-  {
-    "monsterName": "Mithril rocks",
-    "itemName": "Clue geode (medium)",
-    "itemId": null,
-    "quantity": "1",
-    "rarity": 0.0,
-    "noted": false,
-    "rolls": 1
-  },
-  {
-    "monsterName": "Mithril rocks",
-    "itemName": "Clue geode (hard)",
-    "itemId": null,
-    "quantity": "1",
-    "rarity": 0.0,
-    "noted": false,
-    "rolls": 1
-  },
-  {
-    "monsterName": "Mithril rocks",
-    "itemName": "Clue geode (elite)",
-    "itemId": null,
-    "quantity": "1",
-    "rarity": 0.0,
-    "noted": false,
-    "rolls": 1
-  },
-  {
-    "monsterName": "Mithril rocks",
+    "monsterName": "Mithril rocks#Mining Guild",
     "itemName": "Unidentified minerals",
     "itemId": null,
     "quantity": "1",
@@ -73792,7 +73774,52 @@
   },
   {
     "monsterName": "Mithril rocks",
+    "itemName": "Clue geode (beginner)",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.007518796992481203,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Mithril rocks#Varlamore",
     "itemName": "Loop half of key (moon key)",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.0010121457489878543,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Mithril rocks",
+    "itemName": "Clue geode (easy)",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Mithril rocks",
+    "itemName": "Clue geode (medium)",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Mithril rocks",
+    "itemName": "Clue geode (hard)",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Mithril rocks",
+    "itemName": "Clue geode (elite)",
     "itemId": null,
     "quantity": "1",
     "rarity": 0.0,
@@ -73805,6 +73832,15 @@
     "itemId": null,
     "quantity": "1",
     "rarity": 0.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Adamantite rocks",
+    "itemName": "Adamantite ore",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 1.0,
     "noted": false,
     "rolls": 1
   },
@@ -73845,61 +73881,7 @@
     "rolls": 1
   },
   {
-    "monsterName": "Adamantite rocks",
-    "itemName": "Adamantite ore",
-    "itemId": null,
-    "quantity": "1",
-    "rarity": 1.0,
-    "noted": false,
-    "rolls": 1
-  },
-  {
-    "monsterName": "Adamantite rocks",
-    "itemName": "Clue geode (beginner)",
-    "itemId": null,
-    "quantity": "1",
-    "rarity": 0.0,
-    "noted": false,
-    "rolls": 1
-  },
-  {
-    "monsterName": "Adamantite rocks",
-    "itemName": "Clue geode (easy)",
-    "itemId": null,
-    "quantity": "1",
-    "rarity": 0.0,
-    "noted": false,
-    "rolls": 1
-  },
-  {
-    "monsterName": "Adamantite rocks",
-    "itemName": "Clue geode (medium)",
-    "itemId": null,
-    "quantity": "1",
-    "rarity": 0.0,
-    "noted": false,
-    "rolls": 1
-  },
-  {
-    "monsterName": "Adamantite rocks",
-    "itemName": "Clue geode (hard)",
-    "itemId": null,
-    "quantity": "1",
-    "rarity": 0.0,
-    "noted": false,
-    "rolls": 1
-  },
-  {
-    "monsterName": "Adamantite rocks",
-    "itemName": "Clue geode (elite)",
-    "itemId": null,
-    "quantity": "1",
-    "rarity": 0.0,
-    "noted": false,
-    "rolls": 1
-  },
-  {
-    "monsterName": "Adamantite rocks",
+    "monsterName": "Adamantite rocks#Mining Guild",
     "itemName": "Unidentified minerals",
     "itemId": null,
     "quantity": "1",
@@ -73918,7 +73900,52 @@
   },
   {
     "monsterName": "Adamantite rocks",
+    "itemName": "Clue geode (beginner)",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.020833333333333332,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Adamantite rocks#Varlamore",
     "itemName": "Loop half of key (moon key)",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.002531645569620253,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Adamantite rocks",
+    "itemName": "Clue geode (easy)",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.0024096385542168677,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Adamantite rocks",
+    "itemName": "Clue geode (medium)",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.0020491803278688526,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Adamantite rocks",
+    "itemName": "Clue geode (hard)",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.0012406947890818859,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Adamantite rocks",
+    "itemName": "Clue geode (elite)",
     "itemId": null,
     "quantity": "1",
     "rarity": 0.0,
@@ -98290,6 +98317,15 @@
   },
   {
     "monsterName": "Runite rocks",
+    "itemName": "Runite ore",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 1.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Runite rocks",
     "itemName": "Uncut sapphire",
     "itemId": null,
     "quantity": "1",
@@ -98325,61 +98361,7 @@
     "rolls": 1
   },
   {
-    "monsterName": "Runite rocks",
-    "itemName": "Runite ore",
-    "itemId": null,
-    "quantity": "1",
-    "rarity": 1.0,
-    "noted": false,
-    "rolls": 1
-  },
-  {
-    "monsterName": "Runite rocks",
-    "itemName": "Clue geode (beginner)",
-    "itemId": null,
-    "quantity": "1",
-    "rarity": 0.0,
-    "noted": false,
-    "rolls": 1
-  },
-  {
-    "monsterName": "Runite rocks",
-    "itemName": "Clue geode (easy)",
-    "itemId": null,
-    "quantity": "1",
-    "rarity": 0.0,
-    "noted": false,
-    "rolls": 1
-  },
-  {
-    "monsterName": "Runite rocks",
-    "itemName": "Clue geode (medium)",
-    "itemId": null,
-    "quantity": "1",
-    "rarity": 0.0,
-    "noted": false,
-    "rolls": 1
-  },
-  {
-    "monsterName": "Runite rocks",
-    "itemName": "Clue geode (hard)",
-    "itemId": null,
-    "quantity": "1",
-    "rarity": 0.0,
-    "noted": false,
-    "rolls": 1
-  },
-  {
-    "monsterName": "Runite rocks",
-    "itemName": "Clue geode (elite)",
-    "itemId": null,
-    "quantity": "1",
-    "rarity": 0.0,
-    "noted": false,
-    "rolls": 1
-  },
-  {
-    "monsterName": "Runite rocks",
+    "monsterName": "Runite rocks#Mining Guild",
     "itemName": "Unidentified minerals",
     "itemId": null,
     "quantity": "1",
@@ -98398,10 +98380,55 @@
   },
   {
     "monsterName": "Runite rocks",
+    "itemName": "Clue geode (beginner)",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.03125,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Runite rocks#Varlamore",
     "itemName": "Loop half of key (moon key)",
     "itemId": null,
     "quantity": "1",
-    "rarity": 0.004,
+    "rarity": 0.0035460992907801418,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Runite rocks",
+    "itemName": "Clue geode (easy)",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.003676470588235294,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Runite rocks",
+    "itemName": "Clue geode (medium)",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.003125,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Runite rocks",
+    "itemName": "Clue geode (hard)",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.001890359168241966,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Runite rocks",
+    "itemName": "Clue geode (elite)",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.0,
     "noted": false,
     "rolls": 1
   },
@@ -103429,6 +103456,15 @@
   },
   {
     "monsterName": "Blurite rocks",
+    "itemName": "Blurite ore",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 1.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Blurite rocks",
     "itemName": "Uncut sapphire",
     "itemId": null,
     "quantity": "1",
@@ -103465,19 +103501,10 @@
   },
   {
     "monsterName": "Blurite rocks",
-    "itemName": "Blurite ore",
-    "itemId": null,
-    "quantity": "1",
-    "rarity": 1.0,
-    "noted": false,
-    "rolls": 1
-  },
-  {
-    "monsterName": "Blurite rocks",
     "itemName": "Clue geode (beginner)",
     "itemId": null,
     "quantity": "1",
-    "rarity": 0.0,
+    "rarity": 0.0010604453870625664,
     "noted": false,
     "rolls": 1
   },
@@ -106021,6 +106048,15 @@
   },
   {
     "monsterName": "Limestone rock",
+    "itemName": "Limestone",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 1.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Limestone rock",
     "itemName": "Uncut sapphire",
     "itemId": null,
     "quantity": "1",
@@ -106057,19 +106093,10 @@
   },
   {
     "monsterName": "Limestone rock",
-    "itemName": "Limestone",
-    "itemId": null,
-    "quantity": "1",
-    "rarity": 1.0,
-    "noted": false,
-    "rolls": 1
-  },
-  {
-    "monsterName": "Limestone rock",
     "itemName": "Clue geode (beginner)",
     "itemId": null,
     "quantity": "1",
-    "rarity": 0.0,
+    "rarity": 0.0010604453870625664,
     "noted": false,
     "rolls": 1
   },
@@ -131976,7 +132003,7 @@
     "rolls": 1
   },
   {
-    "monsterName": "Jekyll and Hyde#Marrentil",
+    "monsterName": "Jekyll and Hyde#Marrentill",
     "itemName": "Antipoison(4)",
     "itemId": null,
     "quantity": "1",
@@ -153009,7 +153036,7 @@
     "rolls": 1
   },
   {
-    "monsterName": "Hay bale",
+    "monsterName": "Hay bale#Searchable",
     "itemName": "Needle",
     "itemId": null,
     "quantity": "1",
@@ -153805,7 +153832,7 @@
     "itemName": "Clue geode (beginner)",
     "itemId": null,
     "quantity": "1",
-    "rarity": 0.0,
+    "rarity": 0.0013966480446927375,
     "noted": false,
     "rolls": 1
   },
@@ -153922,7 +153949,7 @@
     "itemName": "Clue geode (beginner)",
     "itemId": null,
     "quantity": "1",
-    "rarity": 0.0,
+    "rarity": 0.0013003901170351106,
     "noted": false,
     "rolls": 1
   },
@@ -168526,6 +168553,15 @@
   },
   {
     "monsterName": "Lovakite rocks",
+    "itemName": "Lovakite ore",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 1.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Lovakite rocks",
     "itemName": "Uncut sapphire",
     "itemId": null,
     "quantity": "1",
@@ -168562,19 +168598,10 @@
   },
   {
     "monsterName": "Lovakite rocks",
-    "itemName": "Lovakite ore",
-    "itemId": null,
-    "quantity": "1",
-    "rarity": 1.0,
-    "noted": false,
-    "rolls": 1
-  },
-  {
-    "monsterName": "Lovakite rocks",
     "itemName": "Clue geode (beginner)",
     "itemId": null,
     "quantity": "1",
-    "rarity": 0.0,
+    "rarity": 0.004807692307692308,
     "noted": false,
     "rolls": 1
   },
@@ -212491,6 +212518,24 @@
   },
   {
     "monsterName": "Ash pile",
+    "itemName": "Volcanic ash",
+    "itemId": null,
+    "quantity": "1–6",
+    "rarity": 0.95,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Ash pile",
+    "itemName": "Soda ash",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.05,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Ash pile",
     "itemName": "Uncut sapphire",
     "itemId": null,
     "quantity": "1",
@@ -212527,28 +212572,10 @@
   },
   {
     "monsterName": "Ash pile",
-    "itemName": "Volcanic ash",
-    "itemId": null,
-    "quantity": "1–6",
-    "rarity": 0.95,
-    "noted": false,
-    "rolls": 1
-  },
-  {
-    "monsterName": "Ash pile",
-    "itemName": "Soda ash",
-    "itemId": null,
-    "quantity": "1",
-    "rarity": 0.05,
-    "noted": false,
-    "rolls": 1
-  },
-  {
-    "monsterName": "Ash pile",
     "itemName": "Clue geode (beginner)",
     "itemId": null,
     "quantity": "1",
-    "rarity": 0.0,
+    "rarity": 0.0011560693641618498,
     "noted": false,
     "rolls": 1
   },
@@ -243612,7 +243639,7 @@
     "rolls": 1
   },
   {
-    "monsterName": "Reward Chest (The Gauntlet)",
+    "monsterName": "Reward Chest (The Gauntlet)#Failure",
     "itemName": "Iwan's flyer",
     "itemId": null,
     "quantity": "1",
@@ -243621,7 +243648,7 @@
     "rolls": 1
   },
   {
-    "monsterName": "Reward Chest (The Gauntlet)",
+    "monsterName": "Reward Chest (The Gauntlet)#Failure",
     "itemName": "Potion (Apothecary)",
     "itemId": null,
     "quantity": "1",
@@ -243630,7 +243657,7 @@
     "rolls": 1
   },
   {
-    "monsterName": "Reward Chest (The Gauntlet)",
+    "monsterName": "Reward Chest (The Gauntlet)#Failure",
     "itemName": "Rotten tomato",
     "itemId": null,
     "quantity": "1",
@@ -243639,7 +243666,7 @@
     "rolls": 1
   },
   {
-    "monsterName": "Reward Chest (The Gauntlet)",
+    "monsterName": "Reward Chest (The Gauntlet)#Partial completion",
     "itemName": "Adamant dagger",
     "itemId": null,
     "quantity": "1",
@@ -243648,7 +243675,7 @@
     "rolls": 1
   },
   {
-    "monsterName": "Reward Chest (The Gauntlet)",
+    "monsterName": "Reward Chest (The Gauntlet)#Partial completion",
     "itemName": "Adamant full helm",
     "itemId": null,
     "quantity": "1",
@@ -243657,7 +243684,7 @@
     "rolls": 1
   },
   {
-    "monsterName": "Reward Chest (The Gauntlet)",
+    "monsterName": "Reward Chest (The Gauntlet)#Partial completion",
     "itemName": "Adamant mace",
     "itemId": null,
     "quantity": "2–3 (noted)",
@@ -243666,7 +243693,7 @@
     "rolls": 1
   },
   {
-    "monsterName": "Reward Chest (The Gauntlet)",
+    "monsterName": "Reward Chest (The Gauntlet)#Partial completion",
     "itemName": "Adamant pickaxe",
     "itemId": null,
     "quantity": "1",
@@ -243675,7 +243702,7 @@
     "rolls": 1
   },
   {
-    "monsterName": "Reward Chest (The Gauntlet)",
+    "monsterName": "Reward Chest (The Gauntlet)#Partial completion",
     "itemName": "Adamant platebody",
     "itemId": null,
     "quantity": "1",
@@ -243684,7 +243711,7 @@
     "rolls": 1
   },
   {
-    "monsterName": "Reward Chest (The Gauntlet)",
+    "monsterName": "Reward Chest (The Gauntlet)#Partial completion",
     "itemName": "Adamant platelegs",
     "itemId": null,
     "quantity": "1",
@@ -243693,7 +243720,7 @@
     "rolls": 1
   },
   {
-    "monsterName": "Reward Chest (The Gauntlet)",
+    "monsterName": "Reward Chest (The Gauntlet)#Partial completion",
     "itemName": "Adamant plateskirt",
     "itemId": null,
     "quantity": "1",
@@ -243702,7 +243729,7 @@
     "rolls": 1
   },
   {
-    "monsterName": "Reward Chest (The Gauntlet)",
+    "monsterName": "Reward Chest (The Gauntlet)#Partial completion",
     "itemName": "Adamant scimitar",
     "itemId": null,
     "quantity": "1",
@@ -243711,7 +243738,7 @@
     "rolls": 1
   },
   {
-    "monsterName": "Reward Chest (The Gauntlet)",
+    "monsterName": "Reward Chest (The Gauntlet)#Partial completion",
     "itemName": "Maple longbow",
     "itemId": null,
     "quantity": "7–13 (noted)",
@@ -243720,7 +243747,7 @@
     "rolls": 1
   },
   {
-    "monsterName": "Reward Chest (The Gauntlet)",
+    "monsterName": "Reward Chest (The Gauntlet)#Partial completion",
     "itemName": "Maple shortbow",
     "itemId": null,
     "quantity": "8–11 (noted)",
@@ -243729,7 +243756,7 @@
     "rolls": 1
   },
   {
-    "monsterName": "Reward Chest (The Gauntlet)",
+    "monsterName": "Reward Chest (The Gauntlet)#Partial completion",
     "itemName": "Mithril full helm",
     "itemId": null,
     "quantity": "1",
@@ -243738,7 +243765,7 @@
     "rolls": 1
   },
   {
-    "monsterName": "Reward Chest (The Gauntlet)",
+    "monsterName": "Reward Chest (The Gauntlet)#Partial completion",
     "itemName": "Mithril mace",
     "itemId": null,
     "quantity": "2–5 (noted)",
@@ -243747,7 +243774,7 @@
     "rolls": 1
   },
   {
-    "monsterName": "Reward Chest (The Gauntlet)",
+    "monsterName": "Reward Chest (The Gauntlet)#Partial completion",
     "itemName": "Mithril platebody",
     "itemId": null,
     "quantity": "1",
@@ -243756,7 +243783,7 @@
     "rolls": 1
   },
   {
-    "monsterName": "Reward Chest (The Gauntlet)",
+    "monsterName": "Reward Chest (The Gauntlet)#Partial completion",
     "itemName": "Mithril platelegs",
     "itemId": null,
     "quantity": "1",
@@ -243765,7 +243792,7 @@
     "rolls": 1
   },
   {
-    "monsterName": "Reward Chest (The Gauntlet)",
+    "monsterName": "Reward Chest (The Gauntlet)#Partial completion",
     "itemName": "Mithril plateskirt",
     "itemId": null,
     "quantity": "1",
@@ -243774,7 +243801,7 @@
     "rolls": 1
   },
   {
-    "monsterName": "Reward Chest (The Gauntlet)",
+    "monsterName": "Reward Chest (The Gauntlet)#Partial completion",
     "itemName": "Air rune",
     "itemId": null,
     "quantity": "200–300",
@@ -243783,7 +243810,7 @@
     "rolls": 1
   },
   {
-    "monsterName": "Reward Chest (The Gauntlet)",
+    "monsterName": "Reward Chest (The Gauntlet)#Partial completion",
     "itemName": "Body rune",
     "itemId": null,
     "quantity": "250–350",
@@ -243792,7 +243819,7 @@
     "rolls": 1
   },
   {
-    "monsterName": "Reward Chest (The Gauntlet)",
+    "monsterName": "Reward Chest (The Gauntlet)#Partial completion",
     "itemName": "Earth rune",
     "itemId": null,
     "quantity": "200–300",
@@ -243801,7 +243828,7 @@
     "rolls": 1
   },
   {
-    "monsterName": "Reward Chest (The Gauntlet)",
+    "monsterName": "Reward Chest (The Gauntlet)#Partial completion",
     "itemName": "Fire rune",
     "itemId": null,
     "quantity": "200–300",
@@ -243810,7 +243837,7 @@
     "rolls": 1
   },
   {
-    "monsterName": "Reward Chest (The Gauntlet)",
+    "monsterName": "Reward Chest (The Gauntlet)#Partial completion",
     "itemName": "Mind rune",
     "itemId": null,
     "quantity": "300–400",
@@ -243819,7 +243846,7 @@
     "rolls": 1
   },
   {
-    "monsterName": "Reward Chest (The Gauntlet)",
+    "monsterName": "Reward Chest (The Gauntlet)#Partial completion",
     "itemName": "Water rune",
     "itemId": null,
     "quantity": "200–300",
@@ -243828,7 +243855,7 @@
     "rolls": 1
   },
   {
-    "monsterName": "Reward Chest (The Gauntlet)",
+    "monsterName": "Reward Chest (The Gauntlet)#Partial completion",
     "itemName": "Cake",
     "itemId": null,
     "quantity": "10–20 (noted)",
@@ -243837,7 +243864,7 @@
     "rolls": 1
   },
   {
-    "monsterName": "Reward Chest (The Gauntlet)",
+    "monsterName": "Reward Chest (The Gauntlet)#Partial completion",
     "itemName": "Cod",
     "itemId": null,
     "quantity": "75–125 (noted)",
@@ -243846,7 +243873,7 @@
     "rolls": 1
   },
   {
-    "monsterName": "Reward Chest (The Gauntlet)",
+    "monsterName": "Reward Chest (The Gauntlet)#Partial completion",
     "itemName": "Trout",
     "itemId": null,
     "quantity": "50–100 (noted)",
@@ -243855,7 +243882,7 @@
     "rolls": 1
   },
   {
-    "monsterName": "Reward Chest (The Gauntlet)",
+    "monsterName": "Reward Chest (The Gauntlet)#Partial completion",
     "itemName": "Eye of newt",
     "itemId": null,
     "quantity": "300–500 (noted)",
@@ -243864,7 +243891,7 @@
     "rolls": 1
   },
   {
-    "monsterName": "Reward Chest (The Gauntlet)",
+    "monsterName": "Reward Chest (The Gauntlet)#Partial completion",
     "itemName": "Silver bar",
     "itemId": null,
     "quantity": "15–30 (noted)",
@@ -243873,7 +243900,7 @@
     "rolls": 1
   },
   {
-    "monsterName": "Reward Chest (The Gauntlet)",
+    "monsterName": "Reward Chest (The Gauntlet)#Partial completion",
     "itemName": "Uncut sapphire",
     "itemId": null,
     "quantity": "1–3 (noted)",
@@ -243882,214 +243909,16 @@
     "rolls": 1
   },
   {
-    "monsterName": "Reward Chest (The Gauntlet)",
+    "monsterName": "Reward Chest (The Gauntlet)#Regular",
     "itemName": "Crystal shard",
     "itemId": null,
-    "quantity": "5–10",
+    "quantity": "5–9",
     "rarity": 1.0,
     "noted": false,
     "rolls": 1
   },
   {
-    "monsterName": "Reward Chest (The Gauntlet)",
-    "itemName": "Rune full helm",
-    "itemId": null,
-    "quantity": "2–4 (noted)",
-    "rarity": 0.041666666666666664,
-    "noted": false,
-    "rolls": 2
-  },
-  {
-    "monsterName": "Reward Chest (The Gauntlet)",
-    "itemName": "Rune chainbody",
-    "itemId": null,
-    "quantity": "1–2 (noted)",
-    "rarity": 0.041666666666666664,
-    "noted": false,
-    "rolls": 2
-  },
-  {
-    "monsterName": "Reward Chest (The Gauntlet)",
-    "itemName": "Rune platebody",
-    "itemId": null,
-    "quantity": "1–2 (noted)",
-    "rarity": 0.041666666666666664,
-    "noted": false,
-    "rolls": 2
-  },
-  {
-    "monsterName": "Reward Chest (The Gauntlet)",
-    "itemName": "Rune platelegs",
-    "itemId": null,
-    "quantity": "1–2 (noted)",
-    "rarity": 0.041666666666666664,
-    "noted": false,
-    "rolls": 2
-  },
-  {
-    "monsterName": "Reward Chest (The Gauntlet)",
-    "itemName": "Rune plateskirt",
-    "itemId": null,
-    "quantity": "1–2 (noted)",
-    "rarity": 0.041666666666666664,
-    "noted": false,
-    "rolls": 2
-  },
-  {
-    "monsterName": "Reward Chest (The Gauntlet)",
-    "itemName": "Rune halberd",
-    "itemId": null,
-    "quantity": "1–2 (noted)",
-    "rarity": 0.041666666666666664,
-    "noted": false,
-    "rolls": 2
-  },
-  {
-    "monsterName": "Reward Chest (The Gauntlet)",
-    "itemName": "Rune pickaxe",
-    "itemId": null,
-    "quantity": "1–2 (noted)",
-    "rarity": 0.041666666666666664,
-    "noted": false,
-    "rolls": 2
-  },
-  {
-    "monsterName": "Reward Chest (The Gauntlet)",
-    "itemName": "Dragon halberd",
-    "itemId": null,
-    "quantity": "1 (noted)",
-    "rarity": 0.041666666666666664,
-    "noted": false,
-    "rolls": 2
-  },
-  {
-    "monsterName": "Reward Chest (The Gauntlet)",
-    "itemName": "Cosmic rune",
-    "itemId": null,
-    "quantity": "160–240",
-    "rarity": 0.041666666666666664,
-    "noted": false,
-    "rolls": 2
-  },
-  {
-    "monsterName": "Reward Chest (The Gauntlet)",
-    "itemName": "Nature rune",
-    "itemId": null,
-    "quantity": "100–140",
-    "rarity": 0.041666666666666664,
-    "noted": false,
-    "rolls": 2
-  },
-  {
-    "monsterName": "Reward Chest (The Gauntlet)",
-    "itemName": "Law rune",
-    "itemId": null,
-    "quantity": "80–140",
-    "rarity": 0.041666666666666664,
-    "noted": false,
-    "rolls": 2
-  },
-  {
-    "monsterName": "Reward Chest (The Gauntlet)",
-    "itemName": "Chaos rune",
-    "itemId": null,
-    "quantity": "180–300",
-    "rarity": 0.041666666666666664,
-    "noted": false,
-    "rolls": 2
-  },
-  {
-    "monsterName": "Reward Chest (The Gauntlet)",
-    "itemName": "Death rune",
-    "itemId": null,
-    "quantity": "100–160",
-    "rarity": 0.041666666666666664,
-    "noted": false,
-    "rolls": 2
-  },
-  {
-    "monsterName": "Reward Chest (The Gauntlet)",
-    "itemName": "Blood rune",
-    "itemId": null,
-    "quantity": "80–140",
-    "rarity": 0.041666666666666664,
-    "noted": false,
-    "rolls": 2
-  },
-  {
-    "monsterName": "Reward Chest (The Gauntlet)",
-    "itemName": "Mithril arrow",
-    "itemId": null,
-    "quantity": "800–1200",
-    "rarity": 0.041666666666666664,
-    "noted": false,
-    "rolls": 2
-  },
-  {
-    "monsterName": "Reward Chest (The Gauntlet)",
-    "itemName": "Adamant arrow",
-    "itemId": null,
-    "quantity": "400–600",
-    "rarity": 0.041666666666666664,
-    "noted": false,
-    "rolls": 2
-  },
-  {
-    "monsterName": "Reward Chest (The Gauntlet)",
-    "itemName": "Rune arrow",
-    "itemId": null,
-    "quantity": "200–300",
-    "rarity": 0.041666666666666664,
-    "noted": false,
-    "rolls": 2
-  },
-  {
-    "monsterName": "Reward Chest (The Gauntlet)",
-    "itemName": "Dragon arrow",
-    "itemId": null,
-    "quantity": "30–85",
-    "rarity": 0.041666666666666664,
-    "noted": false,
-    "rolls": 2
-  },
-  {
-    "monsterName": "Reward Chest (The Gauntlet)",
-    "itemName": "Uncut sapphire",
-    "itemId": null,
-    "quantity": "20–60 (noted)",
-    "rarity": 0.041666666666666664,
-    "noted": false,
-    "rolls": 2
-  },
-  {
-    "monsterName": "Reward Chest (The Gauntlet)",
-    "itemName": "Uncut emerald",
-    "itemId": null,
-    "quantity": "10–50 (noted)",
-    "rarity": 0.041666666666666664,
-    "noted": false,
-    "rolls": 2
-  },
-  {
-    "monsterName": "Reward Chest (The Gauntlet)",
-    "itemName": "Uncut ruby",
-    "itemId": null,
-    "quantity": "5–30 (noted)",
-    "rarity": 0.041666666666666664,
-    "noted": false,
-    "rolls": 2
-  },
-  {
-    "monsterName": "Reward Chest (The Gauntlet)",
-    "itemName": "Uncut diamond",
-    "itemId": null,
-    "quantity": "3–7 (noted)",
-    "rarity": 0.041666666666666664,
-    "noted": false,
-    "rolls": 2
-  },
-  {
-    "monsterName": "Reward Chest (The Gauntlet)",
+    "monsterName": "Reward Chest (The Gauntlet)#Regular",
     "itemName": "Battlestaff",
     "itemId": null,
     "quantity": "4–8 (noted)",
@@ -244098,7 +243927,205 @@
     "rolls": 2
   },
   {
-    "monsterName": "Reward Chest (The Gauntlet)",
+    "monsterName": "Reward Chest (The Gauntlet)#Regular",
+    "itemName": "Rune full helm",
+    "itemId": null,
+    "quantity": "2–4 (noted)",
+    "rarity": 0.041666666666666664,
+    "noted": false,
+    "rolls": 2
+  },
+  {
+    "monsterName": "Reward Chest (The Gauntlet)#Regular",
+    "itemName": "Rune chainbody",
+    "itemId": null,
+    "quantity": "1–2 (noted)",
+    "rarity": 0.041666666666666664,
+    "noted": false,
+    "rolls": 2
+  },
+  {
+    "monsterName": "Reward Chest (The Gauntlet)#Regular",
+    "itemName": "Rune platebody",
+    "itemId": null,
+    "quantity": "1–2 (noted)",
+    "rarity": 0.041666666666666664,
+    "noted": false,
+    "rolls": 2
+  },
+  {
+    "monsterName": "Reward Chest (The Gauntlet)#Regular",
+    "itemName": "Rune platelegs",
+    "itemId": null,
+    "quantity": "1–2 (noted)",
+    "rarity": 0.041666666666666664,
+    "noted": false,
+    "rolls": 2
+  },
+  {
+    "monsterName": "Reward Chest (The Gauntlet)#Regular",
+    "itemName": "Rune plateskirt",
+    "itemId": null,
+    "quantity": "1–2 (noted)",
+    "rarity": 0.041666666666666664,
+    "noted": false,
+    "rolls": 2
+  },
+  {
+    "monsterName": "Reward Chest (The Gauntlet)#Regular",
+    "itemName": "Rune halberd",
+    "itemId": null,
+    "quantity": "1–2 (noted)",
+    "rarity": 0.041666666666666664,
+    "noted": false,
+    "rolls": 2
+  },
+  {
+    "monsterName": "Reward Chest (The Gauntlet)#Regular",
+    "itemName": "Rune pickaxe",
+    "itemId": null,
+    "quantity": "1–2 (noted)",
+    "rarity": 0.041666666666666664,
+    "noted": false,
+    "rolls": 2
+  },
+  {
+    "monsterName": "Reward Chest (The Gauntlet)#Regular",
+    "itemName": "Dragon halberd",
+    "itemId": null,
+    "quantity": "1 (noted)",
+    "rarity": 0.041666666666666664,
+    "noted": false,
+    "rolls": 2
+  },
+  {
+    "monsterName": "Reward Chest (The Gauntlet)#Regular",
+    "itemName": "Cosmic rune",
+    "itemId": null,
+    "quantity": "160–240",
+    "rarity": 0.041666666666666664,
+    "noted": false,
+    "rolls": 2
+  },
+  {
+    "monsterName": "Reward Chest (The Gauntlet)#Regular",
+    "itemName": "Nature rune",
+    "itemId": null,
+    "quantity": "100–140",
+    "rarity": 0.041666666666666664,
+    "noted": false,
+    "rolls": 2
+  },
+  {
+    "monsterName": "Reward Chest (The Gauntlet)#Regular",
+    "itemName": "Law rune",
+    "itemId": null,
+    "quantity": "80–140",
+    "rarity": 0.041666666666666664,
+    "noted": false,
+    "rolls": 2
+  },
+  {
+    "monsterName": "Reward Chest (The Gauntlet)#Regular",
+    "itemName": "Chaos rune",
+    "itemId": null,
+    "quantity": "180–300",
+    "rarity": 0.041666666666666664,
+    "noted": false,
+    "rolls": 2
+  },
+  {
+    "monsterName": "Reward Chest (The Gauntlet)#Regular",
+    "itemName": "Death rune",
+    "itemId": null,
+    "quantity": "100–160",
+    "rarity": 0.041666666666666664,
+    "noted": false,
+    "rolls": 2
+  },
+  {
+    "monsterName": "Reward Chest (The Gauntlet)#Regular",
+    "itemName": "Blood rune",
+    "itemId": null,
+    "quantity": "80–140",
+    "rarity": 0.041666666666666664,
+    "noted": false,
+    "rolls": 2
+  },
+  {
+    "monsterName": "Reward Chest (The Gauntlet)#Regular",
+    "itemName": "Mithril arrow",
+    "itemId": null,
+    "quantity": "800–1200",
+    "rarity": 0.041666666666666664,
+    "noted": false,
+    "rolls": 2
+  },
+  {
+    "monsterName": "Reward Chest (The Gauntlet)#Regular",
+    "itemName": "Adamant arrow",
+    "itemId": null,
+    "quantity": "400–600",
+    "rarity": 0.041666666666666664,
+    "noted": false,
+    "rolls": 2
+  },
+  {
+    "monsterName": "Reward Chest (The Gauntlet)#Regular",
+    "itemName": "Rune arrow",
+    "itemId": null,
+    "quantity": "200–300",
+    "rarity": 0.041666666666666664,
+    "noted": false,
+    "rolls": 2
+  },
+  {
+    "monsterName": "Reward Chest (The Gauntlet)#Regular",
+    "itemName": "Dragon arrow",
+    "itemId": null,
+    "quantity": "30–85",
+    "rarity": 0.041666666666666664,
+    "noted": false,
+    "rolls": 2
+  },
+  {
+    "monsterName": "Reward Chest (The Gauntlet)#Regular",
+    "itemName": "Uncut sapphire",
+    "itemId": null,
+    "quantity": "20–60 (noted)",
+    "rarity": 0.041666666666666664,
+    "noted": false,
+    "rolls": 2
+  },
+  {
+    "monsterName": "Reward Chest (The Gauntlet)#Regular",
+    "itemName": "Uncut emerald",
+    "itemId": null,
+    "quantity": "10–50 (noted)",
+    "rarity": 0.041666666666666664,
+    "noted": false,
+    "rolls": 2
+  },
+  {
+    "monsterName": "Reward Chest (The Gauntlet)#Regular",
+    "itemName": "Uncut ruby",
+    "itemId": null,
+    "quantity": "5–30 (noted)",
+    "rarity": 0.041666666666666664,
+    "noted": false,
+    "rolls": 2
+  },
+  {
+    "monsterName": "Reward Chest (The Gauntlet)#Regular",
+    "itemName": "Uncut diamond",
+    "itemId": null,
+    "quantity": "3–7 (noted)",
+    "rarity": 0.041666666666666664,
+    "noted": false,
+    "rolls": 2
+  },
+  {
+    "monsterName": "Reward Chest (The Gauntlet)#Regular",
     "itemName": "Coins",
     "itemId": null,
     "quantity": "20000–80000",
@@ -244107,7 +244134,7 @@
     "rolls": 2
   },
   {
-    "monsterName": "Reward Chest (The Gauntlet)",
+    "monsterName": "Reward Chest (The Gauntlet)#Regular",
     "itemName": "Clue scroll (elite)",
     "itemId": null,
     "quantity": "1",
@@ -244116,7 +244143,7 @@
     "rolls": 1
   },
   {
-    "monsterName": "Reward Chest (The Gauntlet)",
+    "monsterName": "Reward Chest (The Gauntlet)#Regular",
     "itemName": "Crystal weapon seed",
     "itemId": null,
     "quantity": "1",
@@ -244125,7 +244152,7 @@
     "rolls": 1
   },
   {
-    "monsterName": "Reward Chest (The Gauntlet)",
+    "monsterName": "Reward Chest (The Gauntlet)#Regular",
     "itemName": "Crystal armour seed",
     "itemId": null,
     "quantity": "1",
@@ -244134,7 +244161,7 @@
     "rolls": 1
   },
   {
-    "monsterName": "Reward Chest (The Gauntlet)",
+    "monsterName": "Reward Chest (The Gauntlet)#Regular",
     "itemName": "Enhanced crystal weapon seed",
     "itemId": null,
     "quantity": "1",
@@ -244143,7 +244170,7 @@
     "rolls": 1
   },
   {
-    "monsterName": "Reward Chest (The Gauntlet)",
+    "monsterName": "Reward Chest (The Gauntlet)#Regular",
     "itemName": "Youngllef",
     "itemId": null,
     "quantity": "1",
@@ -244152,7 +244179,7 @@
     "rolls": 1
   },
   {
-    "monsterName": "Reward Chest (The Gauntlet)#(Corrupted)",
+    "monsterName": "Reward Chest (The Gauntlet)#Corrupted",
     "itemName": "Crystal shard",
     "itemId": null,
     "quantity": "7–12",
@@ -244161,7 +244188,7 @@
     "rolls": 1
   },
   {
-    "monsterName": "Reward Chest (The Gauntlet)#(Corrupted)",
+    "monsterName": "Reward Chest (The Gauntlet)#Corrupted",
     "itemName": "Gauntlet cape",
     "itemId": null,
     "quantity": "1",
@@ -244170,214 +244197,7 @@
     "rolls": 1
   },
   {
-    "monsterName": "Reward Chest (The Gauntlet)#(Corrupted)",
-    "itemName": "Rune full helm",
-    "itemId": null,
-    "quantity": "3–5 (noted)",
-    "rarity": 0.041666666666666664,
-    "noted": false,
-    "rolls": 3
-  },
-  {
-    "monsterName": "Reward Chest (The Gauntlet)#(Corrupted)",
-    "itemName": "Rune chainbody",
-    "itemId": null,
-    "quantity": "2–3 (noted)",
-    "rarity": 0.041666666666666664,
-    "noted": false,
-    "rolls": 3
-  },
-  {
-    "monsterName": "Reward Chest (The Gauntlet)#(Corrupted)",
-    "itemName": "Rune platebody",
-    "itemId": null,
-    "quantity": "2 (noted)",
-    "rarity": 0.041666666666666664,
-    "noted": false,
-    "rolls": 3
-  },
-  {
-    "monsterName": "Reward Chest (The Gauntlet)#(Corrupted)",
-    "itemName": "Rune platelegs",
-    "itemId": null,
-    "quantity": "2–3 (noted)",
-    "rarity": 0.041666666666666664,
-    "noted": false,
-    "rolls": 3
-  },
-  {
-    "monsterName": "Reward Chest (The Gauntlet)#(Corrupted)",
-    "itemName": "Rune plateskirt",
-    "itemId": null,
-    "quantity": "2–3 (noted)",
-    "rarity": 0.041666666666666664,
-    "noted": false,
-    "rolls": 3
-  },
-  {
-    "monsterName": "Reward Chest (The Gauntlet)#(Corrupted)",
-    "itemName": "Rune halberd",
-    "itemId": null,
-    "quantity": "2–3 (noted)",
-    "rarity": 0.041666666666666664,
-    "noted": false,
-    "rolls": 3
-  },
-  {
-    "monsterName": "Reward Chest (The Gauntlet)#(Corrupted)",
-    "itemName": "Rune pickaxe",
-    "itemId": null,
-    "quantity": "2–3 (noted)",
-    "rarity": 0.041666666666666664,
-    "noted": false,
-    "rolls": 3
-  },
-  {
-    "monsterName": "Reward Chest (The Gauntlet)#(Corrupted)",
-    "itemName": "Dragon halberd",
-    "itemId": null,
-    "quantity": "1–2 (noted)",
-    "rarity": 0.020833333333333332,
-    "noted": false,
-    "rolls": 3
-  },
-  {
-    "monsterName": "Reward Chest (The Gauntlet)#(Corrupted)",
-    "itemName": "Cosmic rune",
-    "itemId": null,
-    "quantity": "175–250",
-    "rarity": 0.041666666666666664,
-    "noted": false,
-    "rolls": 3
-  },
-  {
-    "monsterName": "Reward Chest (The Gauntlet)#(Corrupted)",
-    "itemName": "Nature rune",
-    "itemId": null,
-    "quantity": "125–150",
-    "rarity": 0.041666666666666664,
-    "noted": false,
-    "rolls": 3
-  },
-  {
-    "monsterName": "Reward Chest (The Gauntlet)#(Corrupted)",
-    "itemName": "Law rune",
-    "itemId": null,
-    "quantity": "100–150",
-    "rarity": 0.041666666666666664,
-    "noted": false,
-    "rolls": 3
-  },
-  {
-    "monsterName": "Reward Chest (The Gauntlet)#(Corrupted)",
-    "itemName": "Chaos rune",
-    "itemId": null,
-    "quantity": "200–350",
-    "rarity": 0.041666666666666664,
-    "noted": false,
-    "rolls": 3
-  },
-  {
-    "monsterName": "Reward Chest (The Gauntlet)#(Corrupted)",
-    "itemName": "Death rune",
-    "itemId": null,
-    "quantity": "125–175",
-    "rarity": 0.041666666666666664,
-    "noted": false,
-    "rolls": 3
-  },
-  {
-    "monsterName": "Reward Chest (The Gauntlet)#(Corrupted)",
-    "itemName": "Blood rune",
-    "itemId": null,
-    "quantity": "100–150",
-    "rarity": 0.041666666666666664,
-    "noted": false,
-    "rolls": 3
-  },
-  {
-    "monsterName": "Reward Chest (The Gauntlet)#(Corrupted)",
-    "itemName": "Mithril arrow",
-    "itemId": null,
-    "quantity": "1000–1500",
-    "rarity": 0.041666666666666664,
-    "noted": false,
-    "rolls": 3
-  },
-  {
-    "monsterName": "Reward Chest (The Gauntlet)#(Corrupted)",
-    "itemName": "Adamant arrow",
-    "itemId": null,
-    "quantity": "500–750",
-    "rarity": 0.041666666666666664,
-    "noted": false,
-    "rolls": 3
-  },
-  {
-    "monsterName": "Reward Chest (The Gauntlet)#(Corrupted)",
-    "itemName": "Rune arrow",
-    "itemId": null,
-    "quantity": "250–450",
-    "rarity": 0.041666666666666664,
-    "noted": false,
-    "rolls": 3
-  },
-  {
-    "monsterName": "Reward Chest (The Gauntlet)#(Corrupted)",
-    "itemName": "Dragon arrow",
-    "itemId": null,
-    "quantity": "50–100",
-    "rarity": 0.041666666666666664,
-    "noted": false,
-    "rolls": 3
-  },
-  {
-    "monsterName": "Reward Chest (The Gauntlet)#(Corrupted)",
-    "itemName": "Uncut sapphire",
-    "itemId": null,
-    "quantity": "25–65 (noted)",
-    "rarity": 0.041666666666666664,
-    "noted": false,
-    "rolls": 3
-  },
-  {
-    "monsterName": "Reward Chest (The Gauntlet)#(Corrupted)",
-    "itemName": "Uncut emerald",
-    "itemId": null,
-    "quantity": "15–60 (noted)",
-    "rarity": 0.041666666666666664,
-    "noted": false,
-    "rolls": 3
-  },
-  {
-    "monsterName": "Reward Chest (The Gauntlet)#(Corrupted)",
-    "itemName": "Uncut ruby",
-    "itemId": null,
-    "quantity": "10–40 (noted)",
-    "rarity": 0.041666666666666664,
-    "noted": false,
-    "rolls": 3
-  },
-  {
-    "monsterName": "Reward Chest (The Gauntlet)#(Corrupted)",
-    "itemName": "Uncut diamond",
-    "itemId": null,
-    "quantity": "5–15 (noted)",
-    "rarity": 0.041666666666666664,
-    "noted": false,
-    "rolls": 3
-  },
-  {
-    "monsterName": "Reward Chest (The Gauntlet)#(Corrupted)",
-    "itemName": "Coins",
-    "itemId": null,
-    "quantity": "75000–150000",
-    "rarity": 0.0625,
-    "noted": false,
-    "rolls": 3
-  },
-  {
-    "monsterName": "Reward Chest (The Gauntlet)#(Corrupted)",
+    "monsterName": "Reward Chest (The Gauntlet)#Corrupted",
     "itemName": "Battlestaff",
     "itemId": null,
     "quantity": "8–12 (noted)",
@@ -244386,7 +244206,214 @@
     "rolls": 3
   },
   {
-    "monsterName": "Reward Chest (The Gauntlet)#(Corrupted)",
+    "monsterName": "Reward Chest (The Gauntlet)#Corrupted",
+    "itemName": "Rune full helm",
+    "itemId": null,
+    "quantity": "3–5 (noted)",
+    "rarity": 0.041666666666666664,
+    "noted": false,
+    "rolls": 3
+  },
+  {
+    "monsterName": "Reward Chest (The Gauntlet)#Corrupted",
+    "itemName": "Rune chainbody",
+    "itemId": null,
+    "quantity": "2–3 (noted)",
+    "rarity": 0.041666666666666664,
+    "noted": false,
+    "rolls": 3
+  },
+  {
+    "monsterName": "Reward Chest (The Gauntlet)#Corrupted",
+    "itemName": "Rune platebody",
+    "itemId": null,
+    "quantity": "2 (noted)",
+    "rarity": 0.041666666666666664,
+    "noted": false,
+    "rolls": 3
+  },
+  {
+    "monsterName": "Reward Chest (The Gauntlet)#Corrupted",
+    "itemName": "Rune platelegs",
+    "itemId": null,
+    "quantity": "2–3 (noted)",
+    "rarity": 0.041666666666666664,
+    "noted": false,
+    "rolls": 3
+  },
+  {
+    "monsterName": "Reward Chest (The Gauntlet)#Corrupted",
+    "itemName": "Rune plateskirt",
+    "itemId": null,
+    "quantity": "2–3 (noted)",
+    "rarity": 0.041666666666666664,
+    "noted": false,
+    "rolls": 3
+  },
+  {
+    "monsterName": "Reward Chest (The Gauntlet)#Corrupted",
+    "itemName": "Rune halberd",
+    "itemId": null,
+    "quantity": "2–3 (noted)",
+    "rarity": 0.041666666666666664,
+    "noted": false,
+    "rolls": 3
+  },
+  {
+    "monsterName": "Reward Chest (The Gauntlet)#Corrupted",
+    "itemName": "Rune pickaxe",
+    "itemId": null,
+    "quantity": "2–3 (noted)",
+    "rarity": 0.041666666666666664,
+    "noted": false,
+    "rolls": 3
+  },
+  {
+    "monsterName": "Reward Chest (The Gauntlet)#Corrupted",
+    "itemName": "Dragon halberd",
+    "itemId": null,
+    "quantity": "1–2 (noted)",
+    "rarity": 0.020833333333333332,
+    "noted": false,
+    "rolls": 3
+  },
+  {
+    "monsterName": "Reward Chest (The Gauntlet)#Corrupted",
+    "itemName": "Cosmic rune",
+    "itemId": null,
+    "quantity": "175–250",
+    "rarity": 0.041666666666666664,
+    "noted": false,
+    "rolls": 3
+  },
+  {
+    "monsterName": "Reward Chest (The Gauntlet)#Corrupted",
+    "itemName": "Nature rune",
+    "itemId": null,
+    "quantity": "125–150",
+    "rarity": 0.041666666666666664,
+    "noted": false,
+    "rolls": 3
+  },
+  {
+    "monsterName": "Reward Chest (The Gauntlet)#Corrupted",
+    "itemName": "Law rune",
+    "itemId": null,
+    "quantity": "100–150",
+    "rarity": 0.041666666666666664,
+    "noted": false,
+    "rolls": 3
+  },
+  {
+    "monsterName": "Reward Chest (The Gauntlet)#Corrupted",
+    "itemName": "Chaos rune",
+    "itemId": null,
+    "quantity": "200–350",
+    "rarity": 0.041666666666666664,
+    "noted": false,
+    "rolls": 3
+  },
+  {
+    "monsterName": "Reward Chest (The Gauntlet)#Corrupted",
+    "itemName": "Death rune",
+    "itemId": null,
+    "quantity": "125–175",
+    "rarity": 0.041666666666666664,
+    "noted": false,
+    "rolls": 3
+  },
+  {
+    "monsterName": "Reward Chest (The Gauntlet)#Corrupted",
+    "itemName": "Blood rune",
+    "itemId": null,
+    "quantity": "100–150",
+    "rarity": 0.041666666666666664,
+    "noted": false,
+    "rolls": 3
+  },
+  {
+    "monsterName": "Reward Chest (The Gauntlet)#Corrupted",
+    "itemName": "Mithril arrow",
+    "itemId": null,
+    "quantity": "1000–1500",
+    "rarity": 0.041666666666666664,
+    "noted": false,
+    "rolls": 3
+  },
+  {
+    "monsterName": "Reward Chest (The Gauntlet)#Corrupted",
+    "itemName": "Adamant arrow",
+    "itemId": null,
+    "quantity": "500–750",
+    "rarity": 0.041666666666666664,
+    "noted": false,
+    "rolls": 3
+  },
+  {
+    "monsterName": "Reward Chest (The Gauntlet)#Corrupted",
+    "itemName": "Rune arrow",
+    "itemId": null,
+    "quantity": "250–450",
+    "rarity": 0.041666666666666664,
+    "noted": false,
+    "rolls": 3
+  },
+  {
+    "monsterName": "Reward Chest (The Gauntlet)#Corrupted",
+    "itemName": "Dragon arrow",
+    "itemId": null,
+    "quantity": "50–100",
+    "rarity": 0.041666666666666664,
+    "noted": false,
+    "rolls": 3
+  },
+  {
+    "monsterName": "Reward Chest (The Gauntlet)#Corrupted",
+    "itemName": "Uncut sapphire",
+    "itemId": null,
+    "quantity": "25–65 (noted)",
+    "rarity": 0.041666666666666664,
+    "noted": false,
+    "rolls": 3
+  },
+  {
+    "monsterName": "Reward Chest (The Gauntlet)#Corrupted",
+    "itemName": "Uncut emerald",
+    "itemId": null,
+    "quantity": "15–60 (noted)",
+    "rarity": 0.041666666666666664,
+    "noted": false,
+    "rolls": 3
+  },
+  {
+    "monsterName": "Reward Chest (The Gauntlet)#Corrupted",
+    "itemName": "Uncut ruby",
+    "itemId": null,
+    "quantity": "10–40 (noted)",
+    "rarity": 0.041666666666666664,
+    "noted": false,
+    "rolls": 3
+  },
+  {
+    "monsterName": "Reward Chest (The Gauntlet)#Corrupted",
+    "itemName": "Uncut diamond",
+    "itemId": null,
+    "quantity": "5–15 (noted)",
+    "rarity": 0.041666666666666664,
+    "noted": false,
+    "rolls": 3
+  },
+  {
+    "monsterName": "Reward Chest (The Gauntlet)#Corrupted",
+    "itemName": "Coins",
+    "itemId": null,
+    "quantity": "75000–150000",
+    "rarity": 0.0625,
+    "noted": false,
+    "rolls": 3
+  },
+  {
+    "monsterName": "Reward Chest (The Gauntlet)#Corrupted",
     "itemName": "Clue scroll (elite)",
     "itemId": null,
     "quantity": "1",
@@ -244395,7 +244422,7 @@
     "rolls": 1
   },
   {
-    "monsterName": "Reward Chest (The Gauntlet)#(Corrupted)",
+    "monsterName": "Reward Chest (The Gauntlet)#Corrupted",
     "itemName": "Crystal weapon seed",
     "itemId": null,
     "quantity": "1",
@@ -244404,7 +244431,7 @@
     "rolls": 1
   },
   {
-    "monsterName": "Reward Chest (The Gauntlet)#(Corrupted)",
+    "monsterName": "Reward Chest (The Gauntlet)#Corrupted",
     "itemName": "Crystal armour seed",
     "itemId": null,
     "quantity": "1",
@@ -244413,7 +244440,7 @@
     "rolls": 1
   },
   {
-    "monsterName": "Reward Chest (The Gauntlet)#(Corrupted)",
+    "monsterName": "Reward Chest (The Gauntlet)#Corrupted",
     "itemName": "Enhanced crystal weapon seed",
     "itemId": null,
     "quantity": "1",
@@ -244422,7 +244449,7 @@
     "rolls": 1
   },
   {
-    "monsterName": "Reward Chest (The Gauntlet)#(Corrupted)",
+    "monsterName": "Reward Chest (The Gauntlet)#Corrupted",
     "itemName": "Youngllef",
     "itemId": null,
     "quantity": "1",
@@ -247708,6 +247735,15 @@
   },
   {
     "monsterName": "Soft clay rocks",
+    "itemName": "Soft clay",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 1.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Soft clay rocks",
     "itemName": "Uncut sapphire",
     "itemId": null,
     "quantity": "1",
@@ -247744,10 +247780,10 @@
   },
   {
     "monsterName": "Soft clay rocks",
-    "itemName": "Soft clay",
+    "itemName": "Crystal shard",
     "itemId": null,
     "quantity": "1",
-    "rarity": 1.0,
+    "rarity": 0.015384615384615385,
     "noted": false,
     "rolls": 1
   },
@@ -247756,7 +247792,7 @@
     "itemName": "Clue geode (beginner)",
     "itemId": null,
     "quantity": "1",
-    "rarity": 0.0,
+    "rarity": 0.001589825119236884,
     "noted": false,
     "rolls": 1
   },
@@ -247793,15 +247829,6 @@
     "itemId": null,
     "quantity": "1",
     "rarity": 0.0,
-    "noted": false,
-    "rolls": 1
-  },
-  {
-    "monsterName": "Soft clay rocks",
-    "itemName": "Crystal shard",
-    "itemId": null,
-    "quantity": "1",
-    "rarity": 0.015384615384615385,
     "noted": false,
     "rolls": 1
   },
@@ -257193,6 +257220,24 @@
     "rolls": 1
   },
   {
+    "monsterName": "Fishing spot (small net, bait)#Small net",
+    "itemName": "Loop half of key (moon key)",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Fishing spot (small net, bait)#Small net",
+    "itemName": "Heron",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
     "monsterName": "Fishing spot (small net, bait)#Bait",
     "itemName": "Raw herring",
     "itemId": null,
@@ -257256,8 +257301,17 @@
     "rolls": 1
   },
   {
-    "monsterName": "Fishing spot (small net, bait)",
+    "monsterName": "Fishing spot (small net, bait)#Bait",
     "itemName": "Loop half of key (moon key)",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Fishing spot (small net, bait)#Bait",
+    "itemName": "Heron",
     "itemId": null,
     "quantity": "1",
     "rarity": 0.0,
@@ -258372,11 +258426,137 @@
     "rolls": 1
   },
   {
+    "monsterName": "Rod Fishing spot (lure, bait)#Fly fishing",
+    "itemName": "Clue bottle (beginner)",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Rod Fishing spot (lure, bait)#Fly fishing",
+    "itemName": "Clue bottle (easy)",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Rod Fishing spot (lure, bait)#Fly fishing",
+    "itemName": "Clue bottle (medium)",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Rod Fishing spot (lure, bait)#Fly fishing",
+    "itemName": "Clue bottle (hard)",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Rod Fishing spot (lure, bait)#Fly fishing",
+    "itemName": "Clue bottle (elite)",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Rod Fishing spot (lure, bait)#Fly fishing",
+    "itemName": "Loop half of key (moon key)",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Rod Fishing spot (lure, bait)#Fly fishing",
+    "itemName": "Heron",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
     "monsterName": "Rod Fishing spot (lure, bait)#Bait",
     "itemName": "Raw pike",
     "itemId": null,
     "quantity": "1",
     "rarity": 1.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Rod Fishing spot (lure, bait)#Bait",
+    "itemName": "Clue bottle (beginner)",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Rod Fishing spot (lure, bait)#Bait",
+    "itemName": "Clue bottle (easy)",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Rod Fishing spot (lure, bait)#Bait",
+    "itemName": "Clue bottle (medium)",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Rod Fishing spot (lure, bait)#Bait",
+    "itemName": "Clue bottle (hard)",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Rod Fishing spot (lure, bait)#Bait",
+    "itemName": "Clue bottle (elite)",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Rod Fishing spot (lure, bait)#Bait",
+    "itemName": "Loop half of key (moon key)",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Rod Fishing spot (lure, bait)#Bait",
+    "itemName": "Heron",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.0,
     "noted": false,
     "rolls": 1
   },
@@ -258391,16 +258571,61 @@
   },
   {
     "monsterName": "Rod Fishing spot (lure, bait)#Stripy feathers",
-    "itemName": "Loop half of key (moon key)",
+    "itemName": "Clue bottle (beginner)",
     "itemId": null,
     "quantity": "1",
-    "rarity": 0.0013333333333333333,
+    "rarity": 0.0,
     "noted": false,
     "rolls": 1
   },
   {
-    "monsterName": "Rod Fishing spot (lure, bait)#Fly fishing",
+    "monsterName": "Rod Fishing spot (lure, bait)#Stripy feathers",
+    "itemName": "Clue bottle (easy)",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Rod Fishing spot (lure, bait)#Stripy feathers",
+    "itemName": "Clue bottle (medium)",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Rod Fishing spot (lure, bait)#Stripy feathers",
+    "itemName": "Clue bottle (hard)",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Rod Fishing spot (lure, bait)#Stripy feathers",
+    "itemName": "Clue bottle (elite)",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Rod Fishing spot (lure, bait)#Stripy feathers",
     "itemName": "Loop half of key (moon key)",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.0010893246187363835,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Rod Fishing spot (lure, bait)#Stripy feathers",
+    "itemName": "Heron",
     "itemId": null,
     "quantity": "1",
     "rarity": 0.0,
@@ -258413,6 +258638,69 @@
     "itemId": null,
     "quantity": "1",
     "rarity": 1.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Fishing spot (cage, harpoon)#Cage",
+    "itemName": "Clue bottle (beginner)",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Fishing spot (cage, harpoon)#Cage",
+    "itemName": "Clue bottle (easy)",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Fishing spot (cage, harpoon)#Cage",
+    "itemName": "Clue bottle (medium)",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Fishing spot (cage, harpoon)#Cage",
+    "itemName": "Clue bottle (hard)",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Fishing spot (cage, harpoon)#Cage",
+    "itemName": "Clue bottle (elite)",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Fishing spot (cage, harpoon)#Cage",
+    "itemName": "Loop half of key (moon key)",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.0012919896640826874,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Fishing spot (cage, harpoon)#Cage",
+    "itemName": "Heron",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.0,
     "noted": false,
     "rolls": 1
   },
@@ -258444,7 +258732,7 @@
     "rolls": 1
   },
   {
-    "monsterName": "Fishing spot (cage, harpoon)",
+    "monsterName": "Fishing spot (cage, harpoon)#Harpoon",
     "itemName": "Clue bottle (beginner)",
     "itemId": null,
     "quantity": "1",
@@ -258453,7 +258741,7 @@
     "rolls": 1
   },
   {
-    "monsterName": "Fishing spot (cage, harpoon)",
+    "monsterName": "Fishing spot (cage, harpoon)#Harpoon",
     "itemName": "Clue bottle (easy)",
     "itemId": null,
     "quantity": "1",
@@ -258462,7 +258750,7 @@
     "rolls": 1
   },
   {
-    "monsterName": "Fishing spot (cage, harpoon)",
+    "monsterName": "Fishing spot (cage, harpoon)#Harpoon",
     "itemName": "Clue bottle (medium)",
     "itemId": null,
     "quantity": "1",
@@ -258471,7 +258759,7 @@
     "rolls": 1
   },
   {
-    "monsterName": "Fishing spot (cage, harpoon)",
+    "monsterName": "Fishing spot (cage, harpoon)#Harpoon",
     "itemName": "Clue bottle (hard)",
     "itemId": null,
     "quantity": "1",
@@ -258480,7 +258768,7 @@
     "rolls": 1
   },
   {
-    "monsterName": "Fishing spot (cage, harpoon)",
+    "monsterName": "Fishing spot (cage, harpoon)#Harpoon",
     "itemName": "Clue bottle (elite)",
     "itemId": null,
     "quantity": "1",
@@ -258489,7 +258777,7 @@
     "rolls": 1
   },
   {
-    "monsterName": "Fishing spot (cage, harpoon)",
+    "monsterName": "Fishing spot (cage, harpoon)#Harpoon",
     "itemName": "Loop half of key (moon key)",
     "itemId": null,
     "quantity": "1",
@@ -258498,7 +258786,7 @@
     "rolls": 1
   },
   {
-    "monsterName": "Fishing spot (cage, harpoon)",
+    "monsterName": "Fishing spot (cage, harpoon)#Harpoon",
     "itemName": "Heron",
     "itemId": null,
     "quantity": "1",
@@ -258633,6 +258921,15 @@
     "rolls": 1
   },
   {
+    "monsterName": "Fishing spot (big net, harpoon)#Big net",
+    "itemName": "Loop half of key (moon key)",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
     "monsterName": "Fishing spot (big net, harpoon)#Harpoon",
     "itemName": "Raw shark",
     "itemId": null,
@@ -258700,7 +258997,7 @@
     "itemName": "Loop half of key (moon key)",
     "itemId": null,
     "quantity": "1",
-    "rarity": 0.0017241379310344827,
+    "rarity": 0.0018248175182481751,
     "noted": false,
     "rolls": 1
   },
@@ -260731,6 +261028,15 @@
   },
   {
     "monsterName": "Crashed Star",
+    "itemName": "Stardust",
+    "itemId": null,
+    "quantity": "1, 2",
+    "rarity": 1.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Crashed Star",
     "itemName": "Uncut sapphire",
     "itemId": null,
     "quantity": "1",
@@ -260767,16 +261073,16 @@
   },
   {
     "monsterName": "Crashed Star",
-    "itemName": "Stardust",
+    "itemName": "Clue geode (beginner)",
     "itemId": null,
     "quantity": "1",
-    "rarity": 1.0,
+    "rarity": 0.0015082956259426848,
     "noted": false,
     "rolls": 1
   },
   {
-    "monsterName": "Crashed Star",
-    "itemName": "Clue geode (beginner)",
+    "monsterName": "Crashed Star#Varlamore",
+    "itemName": "Loop half of key (moon key)",
     "itemId": null,
     "quantity": "1",
     "rarity": 0.0,
@@ -260822,15 +261128,6 @@
   {
     "monsterName": "Crashed Star",
     "itemName": "Rock golem",
-    "itemId": null,
-    "quantity": "1",
-    "rarity": 0.0,
-    "noted": false,
-    "rolls": 1
-  },
-  {
-    "monsterName": "Crashed Star",
-    "itemName": "Loop half of key (moon key)",
     "itemId": null,
     "quantity": "1",
     "rarity": 0.0,
@@ -264133,6 +264430,24 @@
   },
   {
     "monsterName": "Barronite rocks",
+    "itemName": "Barronite shards",
+    "itemId": null,
+    "quantity": "4–6",
+    "rarity": 0.76,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Barronite rocks",
+    "itemName": "Barronite deposit",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.24,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Barronite rocks",
     "itemName": "Uncut sapphire",
     "itemId": null,
     "quantity": "1",
@@ -264169,28 +264484,10 @@
   },
   {
     "monsterName": "Barronite rocks",
-    "itemName": "Barronite shards",
-    "itemId": null,
-    "quantity": "4–6",
-    "rarity": 0.76,
-    "noted": false,
-    "rolls": 1
-  },
-  {
-    "monsterName": "Barronite rocks",
-    "itemName": "Barronite deposit",
-    "itemId": null,
-    "quantity": "1",
-    "rarity": 0.24,
-    "noted": false,
-    "rolls": 1
-  },
-  {
-    "monsterName": "Barronite rocks",
     "itemName": "Clue geode (beginner)",
     "itemId": null,
     "quantity": "1",
-    "rarity": 0.0,
+    "rarity": 0.001098901098901099,
     "noted": false,
     "rolls": 1
   },
@@ -291169,15 +291466,6 @@
   },
   {
     "monsterName": "Fishing spot (The Stranglewood)",
-    "itemName": "Clue bottle",
-    "itemId": null,
-    "quantity": "1",
-    "rarity": 0.011111111111111112,
-    "noted": false,
-    "rolls": 1
-  },
-  {
-    "monsterName": "Fishing spot (The Stranglewood)",
     "itemName": "Clue bottle (beginner)",
     "itemId": null,
     "quantity": "1",
@@ -301753,6 +302041,24 @@
   },
   {
     "monsterName": "Calcified rocks",
+    "itemName": "Blessed bone shards",
+    "itemId": null,
+    "quantity": "1–3",
+    "rarity": 0.9866666666666667,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Calcified rocks",
+    "itemName": "Calcified deposit",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.013333333333333334,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Calcified rocks",
     "itemName": "Uncut sapphire",
     "itemId": null,
     "quantity": "1",
@@ -301789,25 +302095,25 @@
   },
   {
     "monsterName": "Calcified rocks",
-    "itemName": "Blessed bone shards",
-    "itemId": null,
-    "quantity": "1–3",
-    "rarity": 0.9866666666666667,
-    "noted": false,
-    "rolls": 1
-  },
-  {
-    "monsterName": "Calcified rocks",
-    "itemName": "Calcified deposit",
+    "itemName": "Token (Varlamore)",
     "itemId": null,
     "quantity": "1",
-    "rarity": 0.013333333333333334,
+    "rarity": 0.0,
     "noted": false,
     "rolls": 1
   },
   {
     "monsterName": "Calcified rocks",
     "itemName": "Clue geode (beginner)",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.001358695652173913,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Calcified rocks",
+    "itemName": "Loop half of key (moon key)",
     "itemId": null,
     "quantity": "1",
     "rarity": 0.0,
@@ -301852,25 +302158,7 @@
   },
   {
     "monsterName": "Calcified rocks",
-    "itemName": "Loop half of key (moon key)",
-    "itemId": null,
-    "quantity": "1",
-    "rarity": 0.0,
-    "noted": false,
-    "rolls": 1
-  },
-  {
-    "monsterName": "Calcified rocks",
     "itemName": "Rock golem",
-    "itemId": null,
-    "quantity": "1",
-    "rarity": 0.0,
-    "noted": false,
-    "rolls": 1
-  },
-  {
-    "monsterName": "Calcified rocks",
-    "itemName": "Token (Varlamore)",
     "itemId": null,
     "quantity": "1",
     "rarity": 0.0,
@@ -303143,15 +303431,6 @@
     "itemId": null,
     "quantity": "1",
     "rarity": 0.1,
-    "noted": false,
-    "rolls": 1
-  },
-  {
-    "monsterName": "Fishing spot (Civitas illa Fortis)",
-    "itemName": "Clue bottle",
-    "itemId": null,
-    "quantity": "1",
-    "rarity": 0.0033333333333333335,
     "noted": false,
     "rolls": 1
   },
@@ -322317,42 +322596,6 @@
     "rolls": 1
   },
   {
-    "monsterName": "Famished shark",
-    "itemName": "Raw seal meat",
-    "itemId": null,
-    "quantity": "1",
-    "rarity": 0.05555555555555555,
-    "noted": false,
-    "rolls": 1
-  },
-  {
-    "monsterName": "Famished shark",
-    "itemName": "Famished shark fin",
-    "itemId": null,
-    "quantity": "1",
-    "rarity": 0.3333333333333333,
-    "noted": false,
-    "rolls": 1
-  },
-  {
-    "monsterName": "Crandor shark",
-    "itemName": "Raw seal meat",
-    "itemId": null,
-    "quantity": "1",
-    "rarity": 0.05555555555555555,
-    "noted": false,
-    "rolls": 1
-  },
-  {
-    "monsterName": "Karamjan tiger shark",
-    "itemName": "Raw seal meat",
-    "itemId": null,
-    "quantity": "1",
-    "rarity": 0.05555555555555555,
-    "noted": false,
-    "rolls": 1
-  },
-  {
     "monsterName": "Pygmy kraken",
     "itemName": "Inky paint",
     "itemId": null,
@@ -323451,6 +323694,15 @@
     "rolls": 1
   },
   {
+    "monsterName": "Plundered salvage",
+    "itemName": "Soup",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
     "monsterName": "Small salvage",
     "itemName": "Boat bottle (empty)",
     "itemId": null,
@@ -323649,6 +323901,15 @@
     "rolls": 1
   },
   {
+    "monsterName": "Small salvage",
+    "itemName": "Soup",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
     "monsterName": "Rosewood tree",
     "itemName": "Rosewood logs",
     "itemId": null,
@@ -323671,7 +323932,7 @@
     "itemName": "Loop half of key (moon key)",
     "itemId": null,
     "quantity": "1",
-    "rarity": 0.0,
+    "rarity": 0.002074688796680498,
     "noted": false,
     "rolls": 1
   },
@@ -323680,7 +323941,7 @@
     "itemName": "Ent seed",
     "itemId": null,
     "quantity": "1",
-    "rarity": 0.0,
+    "rarity": 0.0025,
     "noted": false,
     "rolls": 1
   },
@@ -323732,15 +323993,6 @@
   {
     "monsterName": "Pirate shipwreck",
     "itemName": "Soup",
-    "itemId": null,
-    "quantity": "1",
-    "rarity": 0.0,
-    "noted": false,
-    "rolls": 1
-  },
-  {
-    "monsterName": "Shark (Sailing)",
-    "itemName": "Raw seal meat",
     "itemId": null,
     "quantity": "1",
     "rarity": 0.0,
@@ -325819,7 +326071,7 @@
   },
   {
     "monsterName": "Raw jumbo squid",
-    "itemName": "Fish offcuts",
+    "itemName": "Fine fish offcuts",
     "itemId": null,
     "quantity": "1",
     "rarity": 1.0,
@@ -326052,6 +326304,15 @@
     "rolls": 1
   },
   {
+    "monsterName": "Fishy salvage",
+    "itemName": "Soup",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
     "monsterName": "Barracuda salvage",
     "itemName": "Boat bottle (empty)",
     "itemId": null,
@@ -326250,6 +326511,15 @@
     "rolls": 1
   },
   {
+    "monsterName": "Barracuda salvage",
+    "itemName": "Soup",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
     "monsterName": "Large salvage",
     "itemName": "Sailors' amulet (inert)",
     "itemId": null,
@@ -326443,6 +326713,15 @@
     "itemName": "Adamant cannonball",
     "itemId": null,
     "quantity": "1–7",
+    "rarity": 0.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Large salvage",
+    "itemName": "Soup",
+    "itemId": null,
+    "quantity": "1",
     "rarity": 0.0,
     "noted": false,
     "rolls": 1
@@ -326686,6 +326965,15 @@
     "itemName": "Adamantite nails",
     "itemId": null,
     "quantity": "1–3",
+    "rarity": 0.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Martial salvage",
+    "itemName": "Soup",
+    "itemId": null,
+    "quantity": "1",
     "rarity": 0.0,
     "noted": false,
     "rolls": 1
@@ -327179,6 +327467,15 @@
   {
     "monsterName": "Opulent salvage",
     "itemName": "Dragon spear",
+    "itemId": null,
+    "quantity": "1",
+    "rarity": 0.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Opulent salvage",
+    "itemName": "Soup",
     "itemId": null,
     "quantity": "1",
     "rarity": 0.0,
@@ -327838,7 +328135,7 @@
     "itemName": "Clue geode (beginner)",
     "itemId": null,
     "quantity": "1",
-    "rarity": 0.0,
+    "rarity": 0.0011086474501108647,
     "noted": false,
     "rolls": 1
   },
@@ -328063,7 +328360,7 @@
     "itemName": "Loop half of key (moon key)",
     "itemId": null,
     "quantity": "1",
-    "rarity": 0.0,
+    "rarity": 0.0010351966873706005,
     "noted": false,
     "rolls": 1
   },
@@ -328072,7 +328369,7 @@
     "itemName": "Ent seed",
     "itemId": null,
     "quantity": "1",
-    "rarity": 0.0,
+    "rarity": 0.0025,
     "noted": false,
     "rolls": 1
   },
@@ -328135,7 +328432,7 @@
     "itemName": "Loop half of key (moon key)",
     "itemId": null,
     "quantity": "1",
-    "rarity": 0.0022988505747126436,
+    "rarity": 0.002074688796680498,
     "noted": false,
     "rolls": 1
   },
@@ -333112,6 +333409,15 @@
     "itemName": "Rune cannonball",
     "itemId": null,
     "quantity": "2–5",
+    "rarity": 0.0,
+    "noted": false,
+    "rolls": 1
+  },
+  {
+    "monsterName": "Fremennik salvage",
+    "itemName": "Soup",
+    "itemId": null,
+    "quantity": "1",
     "rarity": 0.0,
     "noted": false,
     "rolls": 1

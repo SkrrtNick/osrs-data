@@ -81,24 +81,6 @@
   "1434": {
     "attack": 60
   },
-  "2412": {
-    "magic": 60
-  },
-  "2413": {
-    "magic": 60
-  },
-  "2414": {
-    "magic": 60
-  },
-  "2415": {
-    "magic": 60
-  },
-  "2416": {
-    "magic": 60
-  },
-  "2417": {
-    "magic": 60
-  },
   "2487": {
     "ranged": 50
   },
@@ -183,13 +165,6 @@
   },
   "4156": {
     "defence": 20
-  },
-  "4158": {
-    "attack": 50,
-    "slayer": 55
-  },
-  "4160": {
-    "ranged": 50
   },
   "4170": {
     "magic": 50,
@@ -390,62 +365,6 @@
     "magic": 40,
     "defence": 20
   },
-  "7459": {
-    "defence": 13
-  },
-  "7460": {
-    "defence": 34
-  },
-  "7462": {
-    "defence": 41
-  },
-  "8839": {
-    "attack": 42,
-    "strength": 42,
-    "defence": 42,
-    "ranged": 42,
-    "magic": 42,
-    "hitpoints": 42,
-    "prayer": 22
-  },
-  "8840": {
-    "attack": 42,
-    "strength": 42,
-    "defence": 42,
-    "ranged": 42,
-    "magic": 42,
-    "hitpoints": 42,
-    "prayer": 22
-  },
-  "8841": {
-    "attack": 42,
-    "strength": 42,
-    "defence": 42,
-    "ranged": 42,
-    "magic": 42,
-    "hitpoints": 42,
-    "prayer": 22
-  },
-  "8842": {
-    "attack": 42,
-    "strength": 42,
-    "defence": 42,
-    "ranged": 42,
-    "magic": 42,
-    "hitpoints": 42,
-    "prayer": 22
-  },
-  "8848": {
-    "attack": 20
-  },
-  "8849": {
-    "attack": 30,
-    "defence": 30
-  },
-  "8850": {
-    "attack": 40,
-    "defence": 40
-  },
   "9142": {
     "ranged": 36
   },
@@ -563,18 +482,8 @@
   "10468": {
     "prayer": 20
   },
-  "10548": {
-    "defence": 45
-  },
-  "10551": {
-    "defence": 40
-  },
   "10828": {
     "defence": 55
-  },
-  "10887": {
-    "attack": 60,
-    "strength": 40
   },
   "11037": {
     "attack": 40
@@ -588,41 +497,11 @@
   "11235": {
     "ranged": 60
   },
-  "11283": {
-    "defence": 75
-  },
   "11284": {
     "defence": 75
   },
   "11335": {
     "defence": 60
-  },
-  "11663": {
-    "attack": 42,
-    "strength": 42,
-    "defence": 42,
-    "ranged": 42,
-    "magic": 42,
-    "hitpoints": 42,
-    "prayer": 22
-  },
-  "11664": {
-    "attack": 42,
-    "strength": 42,
-    "defence": 42,
-    "ranged": 42,
-    "magic": 42,
-    "hitpoints": 42,
-    "prayer": 22
-  },
-  "11665": {
-    "attack": 42,
-    "strength": 42,
-    "defence": 42,
-    "ranged": 42,
-    "magic": 42,
-    "hitpoints": 42,
-    "prayer": 22
   },
   "11785": {
     "ranged": 70
@@ -673,26 +552,17 @@
   "11840": {
     "defence": 60
   },
-  "11865": {
-    "defence": 10
-  },
   "11875": {
     "ranged": 61
   },
   "11889": {
     "attack": 70
   },
-  "11899": {
-    "ranged": 30
-  },
   "11902": {
     "attack": 50,
     "slayer": 55
   },
   "11905": {
-    "magic": 75
-  },
-  "11907": {
     "magic": 75
   },
   "11908": {
@@ -713,9 +583,6 @@
   },
   "12002": {
     "magic": 70
-  },
-  "12006": {
-    "attack": 75
   },
   "12422": {
     "magic": 65
@@ -746,15 +613,6 @@
   "12596": {
     "ranged": 40
   },
-  "12788": {
-    "ranged": 50
-  },
-  "12808": {
-    "attack": 75
-  },
-  "12809": {
-    "attack": 75
-  },
   "12817": {
     "defence": 75,
     "prayer": 75
@@ -777,52 +635,12 @@
     "defence": 70,
     "prayer": 60
   },
-  "12899": {
-    "magic": 78
-  },
   "12900": {
     "magic": 78
   },
   "12902": {
     "attack": 75,
     "magic": 75
-  },
-  "12904": {
-    "attack": 75,
-    "magic": 75
-  },
-  "12926": {
-    "ranged": 75
-  },
-  "12931": {
-    "defence": 75
-  },
-  "12954": {
-    "defence": 60
-  },
-  "13072": {
-    "attack": 42,
-    "strength": 42,
-    "defence": 50,
-    "ranged": 42,
-    "magic": 42,
-    "hitpoints": 42,
-    "prayer": 22
-  },
-  "13073": {
-    "attack": 42,
-    "strength": 42,
-    "defence": 50,
-    "ranged": 42,
-    "magic": 42,
-    "hitpoints": 42,
-    "prayer": 22
-  },
-  "13197": {
-    "defence": 75
-  },
-  "13199": {
-    "defence": 75
   },
   "13235": {
     "magic": 75,
@@ -880,27 +698,6 @@
   "19553": {
     "hitpoints": 75
   },
-  "19675": {
-    "attack": 75
-  },
-  "19710": {
-    "hitpoints": 75
-  },
-  "20366": {
-    "hitpoints": 75
-  },
-  "20368": {
-    "attack": 75
-  },
-  "20370": {
-    "attack": 75
-  },
-  "20372": {
-    "attack": 75
-  },
-  "20374": {
-    "attack": 75
-  },
   "20517": {
     "magic": 40
   },
@@ -909,18 +706,6 @@
   },
   "20595": {
     "magic": 40
-  },
-  "20655": {
-    "hitpoints": 75
-  },
-  "20657": {
-    "hitpoints": 75
-  },
-  "20714": {
-    "magic": 50
-  },
-  "20720": {
-    "firemaking": 50
   },
   "20727": {
     "attack": 65,
@@ -992,10 +777,6 @@
   "21123": {
     "crafting": 38
   },
-  "21255": {
-    "magic": 75,
-    "slayer": 55
-  },
   "21298": {
     "defence": 60
   },
@@ -1007,10 +788,6 @@
   },
   "21316": {
     "ranged": 61
-  },
-  "21633": {
-    "defence": 75,
-    "magic": 70
   },
   "21634": {
     "defence": 75,
@@ -1030,19 +807,6 @@
   "21742": {
     "attack": 50,
     "strength": 50
-  },
-  "21752": {
-    "strength": 50,
-    "defence": 50
-  },
-  "21791": {
-    "magic": 75
-  },
-  "21793": {
-    "magic": 75
-  },
-  "21795": {
-    "magic": 75
   },
   "21892": {
     "defence": 60
@@ -1086,32 +850,15 @@
   "21950": {
     "ranged": 64
   },
-  "22002": {
-    "defence": 75,
-    "ranged": 70
-  },
   "22003": {
     "defence": 75,
     "ranged": 70
   },
-  "22109": {
-    "ranged": 70,
-    "defence": 35
-  },
   "22111": {
     "prayer": 70
   },
-  "22249": {
-    "hitpoints": 75
-  },
-  "22288": {
-    "magic": 75
-  },
   "22290": {
     "magic": 75
-  },
-  "22292": {
-    "magic": 78
   },
   "22294": {
     "magic": 78
@@ -1120,19 +867,8 @@
     "attack": 75,
     "magic": 75
   },
-  "22322": {
-    "attack": 70,
-    "defence": 70
-  },
-  "22323": {
-    "magic": 82
-  },
   "22324": {
     "attack": 80
-  },
-  "22325": {
-    "attack": 80,
-    "strength": 90
   },
   "22326": {
     "defence": 75
@@ -1145,22 +881,6 @@
   },
   "22368": {
     "crafting": 62
-  },
-  "22370": {
-    "magic": 30,
-    "attack": 30
-  },
-  "22398": {
-    "attack": 40
-  },
-  "22545": {
-    "attack": 60
-  },
-  "22550": {
-    "ranged": 60
-  },
-  "22555": {
-    "magic": 60
   },
   "22731": {
     "attack": 60
@@ -1192,10 +912,6 @@
   "22978": {
     "attack": 75
   },
-  "22981": {
-    "attack": 80,
-    "defence": 80
-  },
   "23242": {
     "defence": 65
   },
@@ -1212,49 +928,12 @@
   "23345": {
     "prayer": 65
   },
-  "23444": {
-    "hitpoints": 75
-  },
-  "23971": {
-    "defence": 70,
-    "agility": 50
-  },
-  "23975": {
-    "defence": 70,
-    "agility": 50
-  },
-  "23979": {
-    "defence": 70,
-    "agility": 50
-  },
-  "23995": {
-    "attack": 80
-  },
   "23997": {
     "attack": 80
-  },
-  "24123": {
-    "ranged": 70,
-    "agility": 50
-  },
-  "24125": {
-    "attack": 70,
-    "agility": 50
-  },
-  "24127": {
-    "defence": 70,
-    "agility": 50
   },
   "24144": {
     "attack": 75,
     "magic": 75
-  },
-  "24225": {
-    "attack": 50,
-    "strength": 50
-  },
-  "24271": {
-    "defence": 70
   },
   "24417": {
     "attack": 80
@@ -1274,39 +953,6 @@
   "24422": {
     "magic": 72,
     "hitpoints": 50
-  },
-  "24423": {
-    "magic": 82,
-    "hitpoints": 50
-  },
-  "24424": {
-    "magic": 82,
-    "hitpoints": 50
-  },
-  "24425": {
-    "magic": 82,
-    "hitpoints": 50
-  },
-  "24551": {
-    "attack": 80
-  },
-  "24664": {
-    "magic": 75,
-    "defence": 65
-  },
-  "24666": {
-    "magic": 75,
-    "defence": 65
-  },
-  "24668": {
-    "magic": 75,
-    "defence": 65
-  },
-  "25246": {
-    "hitpoints": 75
-  },
-  "25248": {
-    "hitpoints": 75
   },
   "25389": {
     "magic": 50,
@@ -1348,72 +994,9 @@
     "magic": 60,
     "defence": 60
   },
-  "25574": {
-    "magic": 50
-  },
   "25862": {
     "ranged": 80,
     "agility": 70
-  },
-  "25865": {
-    "ranged": 80,
-    "agility": 70
-  },
-  "25867": {
-    "ranged": 80,
-    "agility": 70
-  },
-  "25870": {
-    "attack": 80
-  },
-  "25872": {
-    "attack": 80
-  },
-  "25874": {
-    "attack": 80
-  },
-  "25876": {
-    "attack": 80
-  },
-  "25878": {
-    "attack": 80
-  },
-  "25880": {
-    "attack": 80
-  },
-  "25882": {
-    "attack": 80
-  },
-  "25884": {
-    "ranged": 80,
-    "agility": 70
-  },
-  "25886": {
-    "ranged": 80,
-    "agility": 70
-  },
-  "25888": {
-    "ranged": 80,
-    "agility": 70
-  },
-  "25890": {
-    "ranged": 80,
-    "agility": 70
-  },
-  "25892": {
-    "ranged": 80,
-    "agility": 70
-  },
-  "25894": {
-    "ranged": 80,
-    "agility": 70
-  },
-  "25896": {
-    "ranged": 80,
-    "agility": 70
-  },
-  "25981": {
-    "attack": 80
   },
   "25985": {
     "magic": 80,
@@ -1454,126 +1037,8 @@
   "26386": {
     "defence": 80
   },
-  "26482": {
-    "attack": 70
-  },
-  "26484": {
-    "attack": 75
-  },
-  "26731": {
-    "magic": 70,
-    "defence": 1
-  },
-  "26733": {
-    "magic": 70,
-    "defence": 40
-  },
-  "26735": {
-    "magic": 70,
-    "defence": 70
-  },
-  "26737": {
-    "ranged": 70,
-    "defence": 1
-  },
-  "26739": {
-    "ranged": 70,
-    "defence": 40
-  },
-  "26741": {
-    "ranged": 70,
-    "defence": 70
-  },
-  "26743": {
-    "strength": 70,
-    "defence": 1
-  },
-  "26745": {
-    "strength": 70,
-    "defence": 40
-  },
-  "26747": {
-    "strength": 70,
-    "defence": 70
-  },
-  "26749": {
-    "ranged": 70,
-    "magic": 70,
-    "strength": 70,
-    "defence": 1
-  },
-  "26751": {
-    "ranged": 70,
-    "magic": 70,
-    "strength": 70,
-    "defence": 40
-  },
-  "26753": {
-    "ranged": 70,
-    "magic": 70,
-    "strength": 70,
-    "defence": 70
-  },
-  "26755": {
-    "ranged": 70,
-    "magic": 70,
-    "strength": 70,
-    "defence": 1
-  },
-  "26757": {
-    "ranged": 70,
-    "magic": 70,
-    "strength": 70,
-    "defence": 40
-  },
-  "26759": {
-    "ranged": 70,
-    "magic": 70,
-    "strength": 70,
-    "defence": 70
-  },
-  "26761": {
-    "hitpoints": 75
-  },
-  "26762": {
-    "hitpoints": 75
-  },
   "26788": {
     "crafting": 42
-  },
-  "27021": {
-    "attack": 60
-  },
-  "27100": {
-    "attack": 75,
-    "strength": 75
-  },
-  "27110": {
-    "ranged": 1,
-    "magic": 1,
-    "strength": 1,
-    "defence": 1
-  },
-  "27111": {
-    "ranged": 1,
-    "magic": 1,
-    "strength": 1,
-    "defence": 34
-  },
-  "27112": {
-    "ranged": 1,
-    "magic": 1,
-    "strength": 1,
-    "defence": 41
-  },
-  "27115": {
-    "magic": 40
-  },
-  "27117": {
-    "magic": 40
-  },
-  "27119": {
-    "magic": 40
   },
   "27226": {
     "ranged": 80,
@@ -1599,218 +1064,17 @@
     "ranged": 80,
     "defence": 80
   },
-  "27246": {
-    "attack": 82
-  },
-  "27251": {
-    "magic": 80,
-    "defence": 80,
-    "prayer": 80
-  },
-  "27253": {
-    "magic": 80,
-    "defence": 80,
-    "prayer": 80
-  },
-  "27275": {
-    "magic": 85
-  },
   "27277": {
     "magic": 85
-  },
-  "27287": {
-    "attack": 80
-  },
-  "27291": {
-    "attack": 80
-  },
-  "27374": {
-    "ranged": 70,
-    "defence": 35
-  },
-  "27610": {
-    "ranged": 80
   },
   "27612": {
     "ranged": 80
   },
-  "27655": {
-    "ranged": 70
-  },
-  "27660": {
-    "attack": 70
-  },
-  "27665": {
-    "magic": 70
-  },
-  "27679": {
-    "magic": 70
-  },
   "27690": {
     "attack": 75
   },
-  "27697": {
-    "defence": 70,
-    "agility": 50
-  },
-  "27701": {
-    "defence": 70,
-    "agility": 50
-  },
-  "27705": {
-    "defence": 70,
-    "agility": 50
-  },
-  "27709": {
-    "defence": 70,
-    "agility": 50
-  },
-  "27713": {
-    "defence": 70,
-    "agility": 50
-  },
-  "27717": {
-    "defence": 70,
-    "agility": 50
-  },
-  "27721": {
-    "defence": 70,
-    "agility": 50
-  },
-  "27725": {
-    "defence": 70,
-    "agility": 50
-  },
-  "27729": {
-    "defence": 70,
-    "agility": 50
-  },
-  "27733": {
-    "defence": 70,
-    "agility": 50
-  },
-  "27737": {
-    "defence": 70,
-    "agility": 50
-  },
-  "27741": {
-    "defence": 70,
-    "agility": 50
-  },
-  "27745": {
-    "defence": 70,
-    "agility": 50
-  },
-  "27749": {
-    "defence": 70,
-    "agility": 50
-  },
-  "27753": {
-    "defence": 70,
-    "agility": 50
-  },
-  "27757": {
-    "defence": 70,
-    "agility": 50
-  },
-  "27761": {
-    "defence": 70,
-    "agility": 50
-  },
-  "27765": {
-    "defence": 70,
-    "agility": 50
-  },
-  "27769": {
-    "defence": 70,
-    "agility": 50
-  },
-  "27773": {
-    "defence": 70,
-    "agility": 50
-  },
-  "27777": {
-    "defence": 70,
-    "agility": 50
-  },
-  "27788": {
-    "magic": 60
-  },
-  "27853": {
-    "ranged": 60
-  },
-  "27855": {
-    "attack": 60,
-    "strength": 40
-  },
-  "27857": {
-    "attack": 60
-  },
-  "27859": {
-    "attack": 60
-  },
-  "27861": {
-    "attack": 70
-  },
   "27869": {
     "attack": 75
-  },
-  "28019": {
-    "attack": 60
-  },
-  "28025": {
-    "attack": 60
-  },
-  "28027": {
-    "attack": 60
-  },
-  "28029": {
-    "attack": 60
-  },
-  "28031": {
-    "attack": 60
-  },
-  "28033": {
-    "attack": 60
-  },
-  "28035": {
-    "strength": 60
-  },
-  "28039": {
-    "attack": 60
-  },
-  "28041": {
-    "attack": 60
-  },
-  "28051": {
-    "attack": 60
-  },
-  "28053": {
-    "ranged": 64
-  },
-  "28057": {
-    "defence": 60
-  },
-  "28063": {
-    "defence": 60
-  },
-  "28067": {
-    "defence": 40
-  },
-  "28069": {
-    "defence": 40
-  },
-  "28070": {
-    "defence": 55
-  },
-  "28254": {
-    "defence": 80
-  },
-  "28256": {
-    "defence": 80
-  },
-  "28258": {
-    "defence": 80
   },
   "28338": {
     "attack": 80,
@@ -1828,45 +1092,16 @@
   "28540": {
     "ranged": 70
   },
-  "28543": {
-    "attack": 60,
-    "strength": 70
-  },
-  "28547": {
-    "magic": 75
-  },
   "28549": {
     "magic": 75
   },
   "28583": {
     "magic": 62
   },
-  "28585": {
-    "magic": 62
-  },
-  "28682": {
-    "attack": 75,
-    "defence": 75
-  },
-  "28688": {
-    "ranged": 75
-  },
-  "28773": {
-    "ranged": 60
-  },
-  "28792": {
-    "attack": 50
-  },
-  "28796": {
-    "magic": 50
-  },
   "28810": {
     "attack": 65
   },
   "28919": {
-    "ranged": 75
-  },
-  "28922": {
     "ranged": 75
   },
   "28933": {
@@ -1880,27 +1115,6 @@
   "28939": {
     "defence": 40,
     "prayer": 60
-  },
-  "28945": {
-    "defence": 75
-  },
-  "28947": {
-    "ranged": 75
-  },
-  "28949": {
-    "ranged": 75
-  },
-  "28951": {
-    "ranged": 75
-  },
-  "28953": {
-    "ranged": 75
-  },
-  "28955": {
-    "ranged": 75
-  },
-  "28957": {
-    "ranged": 75
   },
   "28988": {
     "attack": 70,
@@ -1951,42 +1165,6 @@
     "defence": 50,
     "strength": 75
   },
-  "29031": {
-    "defence": 50,
-    "ranged": 75
-  },
-  "29033": {
-    "defence": 50,
-    "ranged": 75
-  },
-  "29035": {
-    "defence": 50,
-    "ranged": 75
-  },
-  "29037": {
-    "defence": 50,
-    "magic": 75
-  },
-  "29039": {
-    "defence": 50,
-    "magic": 75
-  },
-  "29041": {
-    "defence": 50,
-    "magic": 75
-  },
-  "29043": {
-    "defence": 50,
-    "strength": 75
-  },
-  "29045": {
-    "defence": 50,
-    "strength": 75
-  },
-  "29047": {
-    "defence": 50,
-    "strength": 75
-  },
   "29084": {
     "attack": 55
   },
@@ -1994,27 +1172,8 @@
     "ranged": 55,
     "strength": 30
   },
-  "29560": {
-    "defence": 20
-  },
-  "29562": {
-    "defence": 20
-  },
-  "29564": {
-    "defence": 20
-  },
   "29577": {
     "attack": 60
-  },
-  "29589": {
-    "attack": 77
-  },
-  "29591": {
-    "ranged": 77
-  },
-  "29594": {
-    "magic": 77,
-    "attack": 50
   },
   "29599": {
     "ranged": 50
@@ -2022,31 +1181,6 @@
   "29602": {
     "magic": 50,
     "hitpoints": 20
-  },
-  "29605": {
-    "attack": 75
-  },
-  "29607": {
-    "attack": 75
-  },
-  "29609": {
-    "magic": 82,
-    "hitpoints": 50
-  },
-  "29611": {
-    "ranged": 60
-  },
-  "29613": {
-    "magic": 75
-  },
-  "29615": {
-    "magic": 75
-  },
-  "29617": {
-    "magic": 75
-  },
-  "29777": {
-    "firemaking": 50
   },
   "29796": {
     "attack": 80
@@ -2106,9 +1240,6 @@
   "29889": {
     "attack": 55
   },
-  "30064": {
-    "magic": 50
-  },
   "30070": {
     "magic": 65
   },
@@ -2122,88 +1253,12 @@
   "30082": {
     "ranged": 70
   },
-  "30305": {
-    "attack": 75
-  },
   "30321": {
     "defence": 50,
     "strength": 50
   },
-  "30434": {
-    "ranged": 80
-  },
-  "30436": {
-    "ranged": 80
-  },
-  "30445": {
-    "magic": 70,
-    "defence": 70
-  },
-  "30447": {
-    "magic": 70,
-    "defence": 70
-  },
-  "30449": {
-    "magic": 70,
-    "defence": 70
-  },
-  "30519": {
-    "magic": 70,
-    "defence": 70
-  },
-  "30521": {
-    "magic": 70,
-    "defence": 70
-  },
-  "30523": {
-    "magic": 70,
-    "defence": 70
-  },
-  "30525": {
-    "magic": 70,
-    "defence": 70
-  },
-  "30527": {
-    "magic": 70,
-    "defence": 70
-  },
-  "30529": {
-    "magic": 70,
-    "defence": 70
-  },
-  "30531": {
-    "magic": 70,
-    "defence": 70
-  },
-  "30533": {
-    "magic": 70,
-    "defence": 70
-  },
-  "30535": {
-    "magic": 70,
-    "defence": 70
-  },
-  "30537": {
-    "magic": 70,
-    "defence": 70
-  },
-  "30539": {
-    "magic": 70,
-    "defence": 70
-  },
-  "30541": {
-    "magic": 70,
-    "defence": 70
-  },
-  "30568": {
-    "magic": 70,
-    "attack": 70
-  },
   "30634": {
     "magic": 60
-  },
-  "30696": {
-    "ranged": 64
   },
   "30750": {
     "defence": 78
@@ -2213,21 +1268,6 @@
   },
   "30756": {
     "defence": 78
-  },
-  "30777": {
-    "defence": 78
-  },
-  "30779": {
-    "defence": 78
-  },
-  "30781": {
-    "defence": 78
-  },
-  "30891": {
-    "attack": 80
-  },
-  "30955": {
-    "attack": 60
   },
   "30957": {
     "attack": 55
@@ -2241,53 +1281,8 @@
     "strength": 80,
     "magic": 80
   },
-  "31091": {
-    "ranged": 80,
-    "defence": 80,
-    "strength": 80,
-    "magic": 80
-  },
-  "31092": {
-    "ranged": 80,
-    "defence": 80,
-    "strength": 80,
-    "magic": 80
-  },
-  "31093": {
-    "ranged": 80,
-    "defence": 80,
-    "strength": 80,
-    "magic": 80
-  },
-  "31094": {
-    "ranged": 80,
-    "defence": 80,
-    "strength": 80,
-    "magic": 80
-  },
-  "31095": {
-    "ranged": 80,
-    "defence": 80,
-    "strength": 80,
-    "magic": 80
-  },
-  "31096": {
-    "ranged": 80,
-    "defence": 80,
-    "strength": 80,
-    "magic": 80
-  },
-  "31097": {
-    "ranged": 80,
-    "defence": 80,
-    "strength": 80,
-    "magic": 80
-  },
   "31106": {
     "hitpoints": 90
-  },
-  "31113": {
-    "magic": 83
   },
   "31115": {
     "magic": 83
@@ -2295,41 +1290,8 @@
   "31248": {
     "attack": 65
   },
-  "31575": {
-    "ranged": 45
-  },
-  "31579": {
-    "ranged": 55
-  },
-  "31583": {
-    "ranged": 65
-  },
   "32879": {
     "ranged": 60
-  },
-  "33021": {
-    "ranged": 80,
-    "agility": 70
-  },
-  "33023": {
-    "defence": 70,
-    "agility": 50
-  },
-  "33027": {
-    "defence": 70,
-    "agility": 50
-  },
-  "33031": {
-    "defence": 70,
-    "agility": 50
-  },
-  "33035": {
-    "attack": 75,
-    "magic": 75
-  },
-  "33036": {
-    "attack": 75,
-    "magic": 75
   },
   "33038": {
     "attack": 60
@@ -2337,25 +1299,13 @@
   "33041": {
     "attack": 60
   },
-  "33314": {
-    "magic": 78
-  },
   "33316": {
-    "magic": 78
-  },
-  "33318": {
     "magic": 78
   },
   "33320": {
     "magic": 78
   },
-  "33322": {
-    "magic": 75
-  },
   "33323": {
-    "magic": 75
-  },
-  "33326": {
     "magic": 75
   },
   "33328": {

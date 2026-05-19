@@ -1,33 +1,33 @@
 {
   "version": 1,
-  "scrapedAt": "2026-04-26T07:22:37Z",
+  "scrapedAt": "2026-05-18T11:29:24Z",
   "files": {
     "items.json": {
-      "hash": "sha256:99ab2a5dda0ed0c2c6236f059b944479a0489cdd6cd2322e0c7dbf982fd82701",
-      "entries": 15436
+      "hash": "sha256:e0e59843a5db411fc38bfd1c32ca8e29eebf8ecff555cfc04e5c3904574ca938",
+      "entries": 15457
     },
     "monsters.json": {
-      "hash": "sha256:6c5ad7a9dc7773bff074537cfd0b0a70512056a21a431b3717a47b43a0070849",
+      "hash": "sha256:5512ff10359deebb6d74a101883a59c4be8495b510c350d851988a21bd455b1e",
       "entries": 4079
     },
     "drops.json": {
-      "hash": "sha256:7b9d1897c65178a17e4b6b5f95bd78e439e0cc54d22e159f12e4e0f9b6f97efa",
-      "entries": 38640
+      "hash": "sha256:12b1e4c1a525f71e90b745a2470d0494461c74d1bc04dc588747cc8818e200bd",
+      "entries": 38674
     },
     "quests.json": {
-      "hash": "sha256:eb81f85d0685ade601917cd8bd68600334c19106f5966d8e027380d44bfe7332",
+      "hash": "sha256:8196eeb0fd5059da75ff2bd555a494bc716ffd3e69c5ed7dfaf8340520cec19f",
       "entries": 215
     },
     "recipes.json": {
-      "hash": "sha256:81f3f794a22eb40191f82a5f8341d11e374278891719c25a587943909ca4451f",
-      "entries": 4862
+      "hash": "sha256:4f6c2a66373e31d4d52e9773ccac2ee6f9642f6b5c19b293dfe7e17b29b4c187",
+      "entries": 4875
     },
     "shops.json": {
-      "hash": "sha256:104ed0191494861e4cad170ac50945ce914d315b60aabc48845d74cc8f06db0b",
+      "hash": "sha256:2c18cfeb59fe5b2c6e4fffb502de9b3b4b3578e1d927ad83bbe3db95a5213aa9",
       "entries": 503
     },
     "spells.json": {
-      "hash": "sha256:287ad23c7a932caa722213452dfeea81af49500453edc7bd12fd8386ab044f84",
+      "hash": "sha256:64555dc272615d5112fd7a51dee7fae195ba7a98567a480e0989c0a315269875",
       "entries": 201
     },
     "varbits.json": {
